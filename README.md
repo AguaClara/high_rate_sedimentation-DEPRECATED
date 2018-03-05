@@ -11,6 +11,7 @@
 
 ## Objectives
 1. Build on the work of the fall 2017 team to determine the cause of floc blanket degredation.
-2. Explore the effects of varried sedimentation tank geometry on effluent turbidity at high upflow velocities
+2. Explore the effects of varied sedimentation tank geometry on effluent turbidity at high upflow velocities
 
 ##Important Documents
+Test
