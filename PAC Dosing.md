@@ -26,4 +26,5 @@ print('The RPM needed for this coagulent dosage is' ,RPM)
 print('The run time is ', RunTime)
 
 print('Mehrin is soo awesome and thinks that Mike is really dope! Please be nice to her! :)')
+print('Mike, I staged changes and committed this file. Please just push this out to GitHub!')
 ```
