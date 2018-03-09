@@ -132,21 +132,8 @@ Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<
 Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then setting the influent turbidity to 100 NTU. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3). The first experiment is conducted at a coagulant dosage of 1.4 mg/L and a corresponding coagulant pump RMP of 20. That initial coagulant dose was then increased incrementally, then tested under the same conditions as above.
 
 ## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
+Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket. 
 
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
 ![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
 Figure 1: Captions are very important for figures. Captions go below figures.
 
@@ -183,10 +170,11 @@ Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation perf
 
 ## Experimental Methods
 ### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+1. Make sure the set up is throughly cleaned out and the stocks are replenished. Open the valves for the water supply as well as the wastewater tube. Fill the recirculator and tube settler with water by turning on the water pump, but keep the effluent turbidimeter closed. To speed up the process of filling up the apparatus with water, increase the RPM of the water pump.
+2. Once the apparatus is filled, pause the water pump, close the valve to the wastewater, and use a push pin to replace the influent turbidimeter outflow tube on the connection between the flocculator and influent turbidimeter.
+3. Turn on the water pump to the respective RPM for your experiment. Be sure to put the outflow tube of the influent turbidimeter in a container to collect the water that will be flowing through the influent turbidimeter.
+4. Turn on ProCoDA by going to process operations and select ON, make sure the clay pump stabilizes and does not constantly stay at 100 RPM. The clay pump must be set on EXT and going clockwise. Also, make sure that the ”1 rpm pump” and ”on off switch” are both OFF. See ProCoDA section below on how to turn those off.
+5. Wait until the the influent turbidimeter stabilizes to 100 NTU.
 
 ### Experiment
 Step 1.
