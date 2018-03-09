@@ -1,22 +1,46 @@
-# AguaClara Research Report & Manual Template
-#### Natalie Mottl, William Pennock, Janak Shah, and Jillian Whiting
-#### February 20, 2018
-
-# Template Description
-This template will lay out all possible sections that could be used for a research report and manual. All research reports and manuals should strive to comply with this template, but every team will use different parts. In order to use this template, copy this file from the AguaClara team resources repository to your team's repository, and rename it for your team in a format similar to  "[Team Name] [Semester]". An example would be "Filter and Treatment Train Flow Control Spring 2017." For additional information on all the possibilities in markdown files, refer to the AguaClara Interactive Tutorial and the AguaClara Tutorial training pages. After you complete that step, please delete this description and everything above this.
-
 # High Rate Sedimentation, Spring 2018
 #### Mike Zarecor, Sneha Sharma, Justin Conneely
 #### March 9th, 2018
 
 ## Abstract
-Briefly summarize your previous work, goals and objectives, what you have accomplished, and future work. (100 words max)
+Past High Rate Sedimentation teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The 2018 spring team has conducted an experiment to test if increasing the coagulant dosage solves this problem and leads to stable floc blankets. The results show that ...
 
 ## Introduction
-Explain how the completion of your challenge will affect AguaClara and the mission of providing safe drinking water (or sustainable wastewater treatment!). If this is a continuing team, how will your contribution build upon previous research? What needs to be further discovered or defined? If this is a new team, what prompted the inclusion of this team?
+Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. The particles settle into a "floc" - a fluidized bed of suspended solids colliding in a bottom zone of the tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
+
+AguaClara's sedimentation tank design includes inclined parallel plates called plate settlers. The purpose of these plates is to catch small particles and return them to the floc blanket developing in the base of the tank. In the AguaClara lab, a sedimentation tank and its respective plate settlers are simulated by tubing. The tube that simulates a pathway of fluid in the tank is referred to as  the "recirculator" by the High Rate Sedimentation (HRS) team.
+
+The slanted tube that simulates a plate settler is designated  as the "tube settler." See Figure 1 for a visual representation of this concept. The plate settlers increase the amount of horizontal area for the flocs to settle out. Due to their sticky nature, these flocs aggregate; growing in size as they slide down the plate settler and back into the basin.
+
+![SedimentationTank](https://www.overleaf.com/docs/11173977ftrfnxyhrpyv/atts/59342342)
+Figure 1: The recirculator and tube settler simulate the sedimentation tank basin and plate settlers respectively. Since the behavior of a section of fluid is characteristic of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical form of experimentation that is small scale, easy to manipulate, and representative of the respective tank design.
+
+AguaClara designed a vertical sedimentation tank, which has the water flow from the bottom of the tank to the top. The flow velocity that maintains the floc blanket is known as overflow rate or upflow velocity. Flow rate (Q), upflow velocity (V), and tank surface area (A) are related to the continuity equation:
+
+$$ Q = V * A $$
+
+The AguaClara HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower with maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflows of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs.
 
 ## Literature Review and Previous Work
-Discuss what is already known about your research area based on both external work and that of past AguaClara Teams. Connect your objectives with what is already known and explain what additional contribution you intend to make. Make sure to add APA formatted in-text citations. If you mention the author(s) in your sentence, you can simply give the year of publication.[(Logan et. al. 1987)](http://www.jstor.org/stable/pdf/25043431.pdf?acceptTC=true)
+Swetland (2014) Found that as flocs formed, they would sediment due to their higher density compared to water. The flocs must settle faster than the upflow velocity. As the flocs concentrated and fell down to the bottom of the tank, a floc blanket formed.
+
+These findings defined the High Rate Sedimentation teams's understanding of a floc blanket. This contributed directly to many of the past designs the team has used, and spurred interest in the effects of having a floc blanket.
+
+Hurst (2010) stated that the presence of the floc blanket would enhance the removal of turbidity causing particles. These experiments found that upflow velocities of 1.0 to 1.3 m/s produced the best performance. Past teams have tried to  
+
+Balwan (2016), a researcher from the International Journal of Innovative
+Research in Advanced Engineering (IJIRAE), explored the effect of the length
+of tube settler on effluent turbidity. As indicated in his report, increasing the
+length of tube settlers increased the percentage of turbidity removed (defined as
+percentage change between influent and effluent turbidity). With tube settlers in
+45 degrees inclination angle and 60 cm length, turbidity removal was measured
+to be 80 percent. However, his experiments only had three length variables
+(40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown.
+
+Culp et al. (1968) used tubes to figure out the optimal slope of the tube
+settlers. Under laboratory conditions, a 60 degree angle with respect to the
+horizontal provided continuous sludge removal while showing effective sedimentation
+performance.
 
 
 ## Methods

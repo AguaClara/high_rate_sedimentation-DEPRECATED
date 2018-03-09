@@ -24,7 +24,4 @@ RunTime = ((V_resivor * Frac_resivor) / Q_resivor).to(u.hour)
 print('The RPM needed for this coagulent dosage is' ,RPM)
 
 print('The run time is ', RunTime)
-
-print('Mehrin is soo awesome and thinks that Mike is really dope! Please be nice to her! :)')
-
 ```
