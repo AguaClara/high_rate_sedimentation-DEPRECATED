@@ -3,7 +3,7 @@
 #### March 9th, 2018
 
 ## Abstract
-Past High Rate Sedimentation teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The 2018 spring team has conducted an experiment to test if increasing the coagulant dosage solves this problem and leads to stable floc blankets. The results show that this is an effective method for stabilizing the floc blanket.
+Past High Rate Sedimentation teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The 2018 spring team has conducted an experiment to test if increasing the coagulant dosage solves this problem and leads to stable floc blankets. The results show that ...
 
 ## Introduction
 Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. The particles settle into a "floc" - a fluidized bed of suspended solids colliding in a bottom zone of the tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
@@ -22,17 +22,26 @@ $$ Q = V * A $$
 The AguaClara HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower with maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflows of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs.
 
 ## Literature Review and Previous Work
+Swetland (2014) Found that as flocs formed, they would sediment due to their higher density compared to water. The flocs must settle faster than the upflow velocity. As the flocs concentrated and fell down to the bottom of the tank, a floc blanket formed.
+
+These findings defined the High Rate Sedimentation teams's understanding of a floc blanket. This contributed directly to many of the past designs the team has used, and spurred interest in the effects of having a floc blanket.
+
+Hurst (2010) stated that the presence of the floc blanket would enhance the removal of turbidity causing particles. These experiments found that upflow velocities of 1.0 to 1.3 m/s produced the best performance. Past teams have tried to  
+
+Balwan (2016), a researcher from the International Journal of Innovative
+Research in Advanced Engineering (IJIRAE), explored the effect of the length
+of tube settler on effluent turbidity. As indicated in his report, increasing the
+length of tube settlers increased the percentage of turbidity removed (defined as
+percentage change between influent and effluent turbidity). With tube settlers in
+45 degrees inclination angle and 60 cm length, turbidity removal was measured
+to be 80 percent. However, his experiments only had three length variables
+(40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown.
 
 Culp et al. (1968) used tubes to figure out the optimal slope of the tube
-settlers. Under laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This information was used by the Fall 2017 team when designing the tube settler currently being used by the Spring 2018 team.
+settlers. Under laboratory conditions, a 60 degree angle with respect to the
+horizontal provided continuous sludge removal while showing effective sedimentation
+performance.
 
- Hurst (2010) stated that the presence of the floc blanket would enhance the removal of turbidity causing particles. These experiments found that upflow velocities of 1.0 to 1.3 m/s produced the best performance. Past teams have tried to  implement his findings at higher upflow velocities, but have been unable to develop stable floc blankets.
-
-Swetland (2014) Found that as flocs formed, they would sediment due to their higher density compared to water. The flocs must settle faster than the upflow velocity. As the flocs concentrated and fell down to the bottom of the tank, a floc blanket formed. These findings defined the High Rate Sedimentation teams's understanding of a floc  formation, which is a critical step of the AguaClara sedimentation process.
-
-Balwan (2016) explored the effect of the length of tube settler on effluent turbidity. As indicated in his report, increasing the length of tube settlers increased the percentage of turbidity removed (defined as percentage change between influent and effluent turbidity). With tube settlers in 45 degrees inclination angle and 60 cm length, turbidity removal was measured to be 80 percent. However, his experiments only had three length variables (40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown.
-
-The Fall 2017 High Rate Sedimentation team experimented with varied sedimentation tank geometries in an attempt to find a configuration that allowed for stable floc blankets. They were unsuccessful; however, they found that they could not reestablish floc blankets mid experiment, and that headloss increased as the experiment progressed. This led to their floc accumulation hypothesis. This hypothesis suggests that coagulent sticks to the inside of the flocculator tubing, reducing the effective dosage of coagulent. The 2018 spring team began by testing this idea.
 
 ## Methods
 ### Experimental Apparatus
@@ -94,35 +103,13 @@ be established with a low bend, then further investigation is required on whethe
 characteristic of the trapezoidal apparatus are necessary for performance, or just keep essential
 flocs low and recirculating.
 
-<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.16%20PM.png" height250 width=400>
-
-Figure 13: The HRS Fall 2017 team compiled the
-materials necessary for all particle team apparatuses.
-This includes compression fitting, push-to-connects,
-PVC tubing, tubing, and valves for floc hopper
-drainage.
-
 <img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.29%20PM.png" height250 width=400>
 
-Figure 14: The standard design includes a 50 cm recirculation zone, a 36.47 cm tube settler, an a 40 cm long floc weir. The inner diameter of the PVC tubing is 1 inch rather than 3/4 inches like previous
+Figure 13: The standard design includes a 50 cm recirculation zone, a 36.47 cm tube settler, an a 40 cm long floc weir. The inner diameter of the PVC tubing is 1 inch rather than 3/4 inches like previous
 semesters.
 
 Compared to previous semesters, the size of the apparatus has been reduced a considerable amount.
-It is important to note that the team’s goal is not necessarily to reduce turbidity more than what
-the trapezoidal was able to achieve, but rather to investigate possible alternatives to sedimentation
-tank design in order to avoid the complex geometry that the trapezoidal design implicates.
-
-Construction Process: The team obtains 5 PVC tubes with 1 in inner diameter and a 60<sup>o</sup> bend
-from the horizontal. From there, the team implements the following:
-
-1. Cut the tubes to the necessary length (50 cm recirculator and 36.47 cm tube settler)
-2. Cut floc weirs from 1/2 inch tubing
-3. Weld weir to tube settler
-4. Layer of glue as a failsafe sealant
-5. Install fittings on all the apparatus.
-
-Since the tubing size increased from 3/4 inch to 1 inch, the flow rate of influent water had to be
-altered in order to achieve the 3 mm/s upflow velocity that is unique to high rate sedimentation. The following equation is used in order to help the team determine these values:
+It is important to note that the team’s goal is not necessarily to reduce turbidity more than what the trapezoidal was able to achieve, but rather to investigate possible alternatives to sedimentation tank design in order to avoid the complex geometry that the trapezoidal design implicates. Since the tubing size increased from 3/4 inch to 1 inch, the flow rate of influent water had to be altered in order to achieve the 3 mm/s upflow velocity that is unique to high rate sedimentation. The following equation is used in order to help the team determine these values:
 
 $$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
 
@@ -132,21 +119,8 @@ Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<
 Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then setting the influent turbidity to 100 NTU. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3). The first experiment is conducted at a coagulant dosage of 1.4 mg/L and a corresponding coagulant pump RMP of 20. That initial coagulant dose was then increased incrementally, then tested under the same conditions as above.
 
 ## Results and Analysis
-Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
-In other words, there should not be two distinct paragraphs, but instead one paragraph containing one result and the interpretation and analysis of this result. Here are some guiding questions for results and analysis:
+Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket. 
 
-When describing your results, present your data, using the guidelines below:
-* What happened? What did you find?
-* Show your experimental data in a professional way.
-```python
-from aide_design.play import*
-x = np.array([1,2,3,4,5])
-y = np.array([1,2,3,4,5])
-plt.figure('ax',(10,8))
-plt.plot(x,y,'*')
-plt.savefig('/Users/jillianwhiting/github/Jillian-Whiting/Images/linear')
-plt.show()
-```
 ![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
 Figure 1: Captions are very important for figures. Captions go below figures.
 
@@ -165,28 +139,24 @@ Make sure that you defend your conclusions with facts and results.
 Describe your plan of action for the next several weeks of research. Detail the next steps for this team. How can AguaClara use what you discovered for future projects? Your suggestions for challenges for future teams are most welcome. Should research in this area continue?
 
 ## Bibliography
-
-Balwan, K. (2016). Study of the effect of length and inclination of tube settler on the effluent quality. Journal (International Journal of Innovative Research and Advanced Engineering).
-
-Culp, G., Hansen, S., & Richardson, G. (1968). High-rate sedimentation in water treatment works. Journal (High-Rate Sedimentaion in Water Treatment Works).
-
-Hurst, M. (2010). Evaluation Of Parameters Affecting Steady-State Floc Blanket Performance. Thesis (Cornell University).
-
-Galantino, C., Oritz, A., & Zarecor, M. (2017). High Rate Sedimentation Fall 2017 Report.
-
-Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation performance model for laminar flow hydraulic flocculation with polyaluminum chloride and aluminum sulfate coagulants. Journal (Journal of Environmental Engineering).
+Logan, B. E., Hermanowicz, S. W., & Parker,A. S. (1987). A Fundamental Model for Trickling Filter Process Design. Journal (Water Pollution Control Federation), 59(12), 1029–1042.
 
 # Manual
+The goal of this section is to provide all of the guidance that would be necessary for a future team to pick up your work where you left off. Please try to be thorough and put yourselves in the shoes of a newcomer to the project. Below are some recommended sections, but the manual will likely take a slightly different form for each team.
 
 ## Fabrication Details
-*The 2018 Spring Team has not done any fabricating yet, but we will soon, so we didn't want to remove this section*
+Include any information related to the fabrication of equipment, experimental apparatuses, or technologies. Include the purpose of each step and the fabrication methods used. Reference appropriate safety precautions.
+
+## Special Components
+If your subteam uses a particular part that is unique and you could foresee a future subteam needing to order it or learn more about it, please include basic information like the vendor where it was purchased, catalog/item number, and a link to any documentation.
 
 ## Experimental Methods
 ### Set-up
-Step 1.
-* Put tasks in a sequential order.
-* It is okay to have sub-lists.
-  - Like this.
+1. Make sure the set up is throughly cleaned out and the stocks are replenished. Open the valves for the water supply as well as the wastewater tube. Fill the recirculator and tube settler with water by turning on the water pump, but keep the effluent turbidimeter closed. To speed up the process of filling up the apparatus with water, increase the RPM of the water pump.
+2. Once the apparatus is filled, pause the water pump, close the valve to the wastewater, and use a push pin to replace the influent turbidimeter outflow tube on the connection between the flocculator and influent turbidimeter.
+3. Turn on the water pump to the respective RPM for your experiment. Be sure to put the outflow tube of the influent turbidimeter in a container to collect the water that will be flowing through the influent turbidimeter.
+4. Turn on ProCoDA by going to process operations and select ON, make sure the clay pump stabilizes and does not constantly stay at 100 RPM. The clay pump must be set on EXT and going clockwise. Also, make sure that the ”1 rpm pump” and ”on off switch” are both OFF. See ProCoDA section below on how to turn those off.
+5. Wait until the the influent turbidimeter stabilizes to 100 NTU.
 
 ### Experiment
 Step 1.
@@ -212,42 +182,25 @@ Here, you should list the set points used in your method file and explain their 
 ## Python Code
 
 ### Variables
-$C_{labstock}$: Coagulent concentration in lab stock container
-
-$C_{sys}$: Desired coagulent concentration in system
-
-$C_{resivor}$: Coagulent concentration in the C_resivor
-
-$Q_{sys}$: Flowrate of the system
-
-$K_{dilution}$: des
+$g$: gravity
+$\sigma$: dispersion
+$a$: amplitude
+$h$: water depth
+$H$: distance from wave crest to trough (2$a$)
+$T$: wave period
+$\lambda$: wavelength
+$k$: wavenumber
+$c_p$: celerity (wave phase speed)
+$P$: pressure
+$F$: force
+$u$, $w$: x-velocity, z-velocity components
 
 ```python
-from aide_design.play import*
-
-#inputs
-C_sys = 1.4*(u.mg/u.L)
-C_labstock = 70.9*(u.g/u.L)
-Q_sys = 1.48*(u.mL/u.s)
-K_dilution = .8*(u.mL/u.L)
-V_resivor = 5*(u.L)
-Frac_resivor = .76
-Q_per_rpm = .001828 *(u.mL/u.s)
-
-#Calculations
-M_flow_coag = (Q_sys * C_sys).to(u.mg/u.s)
-C_resivor = (C_labstock * K_dilution).to(u.gram/u.L)
-Q_resivor = (M_flow_coag / C_resivor).to(u.mL/u.s)
-V_lab = ((V_resivor * C_resivor) / C_labstock).to(u.L)
-
-#Outputs
-RPM = Q_resivor / Q_per_rpm
-RunTime = ((V_resivor * Frac_resivor) / Q_resivor).to(u.hour)
-
-print('The RPM needed for this coagulent dosage is' ,RPM)
-
-print('The run time is ', RunTime)
+# Comment
 ```
+
+# Add/Delete/Change this Template as you see Fit
+When using this template keep in mind that this serves three purposes. The first is to provide your team feedback on your progress, assumptions, and conclusions. The second is to keep your team focused on what you are learning and doing for AguaClara. Another is to educate future teams on what you've learned and done. This document should be comprehensive, consistent, and well-written. With that in mind, add, subtract, or move sections. Reach out to the RAs and graders for help with figuring out what should or shouldn't include. Focus on how wonderful a reference you are making through this and work hard on communicating amongst yourselves and with future teammates. (Delete this section before submitting)
 
 ```python
 # To convert the document from markdown to pdf
