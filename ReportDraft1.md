@@ -49,59 +49,54 @@ Figure 11: The HRS lab bench setup consists of a flocculator developed by the Hi
 
 ###The Standard Design
 
-This section contains the theories, steps, and progress the Fall 2017 team follows in order to fabricate the five reactors that all particle removal teams are to use for their experiments (flouride removal, high G flocculation, etc.). For more information on the work that these teams are involved in, see AguaClara’s Github page.
+This section contains the theories, steps, and progress the Fall 2017 team followed in order to fabricate the five reactors that all particle removal teams are to use for their experiments (flouride removal, high G flocculation, etc.). For more information on the work that these teams are involved in, see AguaClara’s Github page.
 
-Design: The geometry of the apparatus is based on the concept of ”capture velocity.” Capture velocity is the slowest moving particle that an area can capture and is a property of the sedimentation tank. In other words, the greater a particle’s terminal settling velocity, the less distance it must travel and the more likely it is to be captured. Terminal settling velocity is reached when the frictional force (viscous shear) of the fluid, combined with the buoyant force, balances with the gravity. The larger the diameter of a particle, the greater its terminal velocity. This relationship may be shown through Stoke’s Theorum as seen in the following formula:
+Design: The geometry of the apparatus is based on the concept of ”capture velocity.” Capture velocity is the slowest moving particle that an area can capture and is a property of the sedimentation tank. In other words, the greater a particle’s terminal settling velocity, the less distance it must travel and the more likely it is to be captured. Terminal settling velocity is reached when the frictional force (viscous shear) of the fluid, combined with the buoyant force, balances with the gravity. The larger the diameter of a particle, the greater its terminal velocity. This relationship may be shown through Stoke’s Theorem as seen in the following formula:
 
 $$ V_t = \frac{d^2g}{18v} ∗ \frac{ρ_{floc} − ρ_{H_2O}}{ρ_{H_2O}} ... (2)$$
 
-Where d is the diameter of the pipe, g the gravity force, v is viscosity and ρ the densities of the
-water and the floc.
+Where d is the diameter of the pipe, g the gravity force, v is viscosity and ρ represents the different densities of the water and the floc.
 
 On the other hand, capture velocity depends on the dimensions of the apparatus being used, as
 one can see in the following formula:
 
 $$ V_c = \frac{SV_αsinα}{Lsinαcosα+S} ... (3)$$
 
-where α is the angle of the tube settler, Vα is the upflow velocity, L is the length of the tube settler
+Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler
 (after the floc weir), and S is the diameter of the tubing. If a floc has a terminal settling velocity
 that is too low, it will not be captured and instead will escape with the effluent.
 
-A floc blanket has the potential to climb up to the weir, so it is the distance after the floc weir
-that is used as the active length of the tube settler in the capture velocity calculation. In the case
-of the standard design, with an effective length of 27.08 cm, the resulting capture velocity is .462
-mm/s. In order to be consistent with previous research teams, the tube settler is at a 60o bend in
-relation to the x-axis in the Fall 2017 model. Also, the inner diameter is set to 1 inch rather than
-3/4 inches.
+A floc blanket has the potential to climb up to the weir, so the distance after the floc weir is used as the active length of the tube settler in the capture velocity calculation. In the case of the standard design, with an effective length of 27.08 cm, the resulting capture velocity is .462 mm/s. In order to be consistent with previous research teams, the tube settler is at a 60<sup>o</sup> bend in relation to the x-axis in the Fall 2017 model. Also, the inner diameter is set to 1 inch rather than 3/4 inches.
+
+<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.45%20PM.png" height250 width=400>
 
 Figure 12: A diagram of the active tube settler length L, the inner diameter of the apparatus S, and the angle α.
 
 Materials: In the Fall 2017 model, the floc weir is welded onto the tube settler rather than the
-recirculator and compression fittings enclose the apparatus. The reason for an intermittent floc
-weir on the tube settler is due to the findings of the Summer 2017 team. If a floc blanket could
+recirculator and the apparatus is enclosed by compression fittings. The reason for an intermittent floc weir on the tube settler is due to the findings of the Summer 2017 team. If a floc blanket could
 be established with a low bend, then further investigation is required on whether multiple bends
 characteristic of the trapezoidal apparatus are necessary for performance, or just keep essential
 flocs low and recirculating.
 
+<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.16%20PM.png" height250 width=400>
+
 Figure 13: The HRS Fall 2017 team compiled the
-materials necessary for all particle team apparati.
+materials necessary for all particle team apparatuses.
 This includes compression fitting, push-to-connects,
 PVC tubing, tubing, and valves for floc hopper
 drainage.
 
-Figure 14: The standard design includes
-a 50 cm recirculation zone, a 36.47 cm
-tube settler, an a 40 cm long floc weir.
-The inner diameter of the PVC tubing is
-1 inch rather than 3/4 inches like previous
-semesters
+<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.29%20PM.png" height250 width=400>
+
+Figure 14: The standard design includes a 50 cm recirculation zone, a 36.47 cm tube settler, an a 40 cm long floc weir. The inner diameter of the PVC tubing is 1 inch rather than 3/4 inches like previous
+semesters.
 
 Compared to previous semesters, the size of the apparatus has been reduced a considerable amount.
 It is important to note that the team’s goal is not necessarily to reduce turbidity more than what
 the trapezoidal was able to achieve, but rather to investigate possible alternatives to sedimentation
 tank design in order to avoid the complex geometry that the trapezoidal design implicates.
 
-Construction Process: The team obtains 5 PVC tubes with 1 in inner diameter and a 60o bend
+Construction Process: The team obtains 5 PVC tubes with 1 in inner diameter and a 60<sup>o</sup> bend
 from the horizontal. From there, the team implements the following:
 
 1. Cut the tubes to the necessary length (50 cm recirculator and 36.47 cm tube settler)
@@ -115,7 +110,7 @@ altered in order to achieve the 3 mm/s upflow velocity that is unique to high ra
 
 $$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
 
-where Qf loc is the volumetric flow of water through the system and Dpipe is the inner diameter of the PVC pipe.
+Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<sub>pipe</sub> is the inner diameter of the PVC pipe.
 
 ### Procedure
 Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
