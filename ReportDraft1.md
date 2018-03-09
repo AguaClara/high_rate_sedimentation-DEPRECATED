@@ -33,8 +33,9 @@ Once the influent passes through the turbidimeter, it moves through the floccula
 
 All particle removal teams are currently utilizing the HRS standard apparatus design and a flocculator designed by the High G Flocculation Fall 2017 team. The flocculator’s purpose is to mimic the flocculation process in an actual AguaClara plant with a sufficient collision potential (G). The High G flocculation team provides information on the following table with the flocculator’s dimensions and the resulting values for an upflow velocity of 3 mm/s.
 
-| V.Sed | Sed Tank Upflow Velocity | 3 mm/s |
+| Parameter | Meaning | Value |
 | ----- | ------------------------ | ----- |
+| V.Sed | Sed Tank Upflow Velocity | 3 mm/s |
 | D.Sed | Sed Tank Inner Diameter  | 1 in  |
 |Q.Sed, Q.Reactor| Flow rate (from V.Sed) |1.52 mL/s|
 |D.Floctube|Floctube Inner Diameter| 0.17 in |
@@ -47,7 +48,7 @@ All particle removal teams are currently utilizing the HRS standard apparatus de
 
 Figure 11: The HRS lab bench setup consists of a flocculator developed by the High G Flocculation Fall 2017 team. The above are the parameters and resulting values of the current flocculator design.
 
-###The Standard Design
+### The Standard Design
 
 This section contains the theories, steps, and progress the Fall 2017 team followed in order to fabricate the five reactors that all particle removal teams are to use for their experiments (flouride removal, high G flocculation, etc.). For more information on the work that these teams are involved in, see AguaClara’s Github page.
 
@@ -113,7 +114,7 @@ $$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
 Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<sub>pipe</sub> is the inner diameter of the PVC pipe.
 
 ### Procedure
-Discuss your experimental procedure. How did you run your experiment? What were you testing? What were the values of relevant parameters?
+Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then setting the influent turbidity to 100 NTU. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3). The first experiment is conducted at a coagulant dosage of 1.4 mg/L and a corresponding coagulant pump RMP of 20. That initial coagulant dose was than increased incrementally, then tested under the same conditions as above.
 
 ## Results and Analysis
 Present an observation (results), then explain what happened (analysis).  Each paragraph should focus on one aspect of your results. In that same paragraph, you should interpret that result.  
