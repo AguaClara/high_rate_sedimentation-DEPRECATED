@@ -23,7 +23,8 @@ Discuss what is already known about your research area based on both external wo
 ### Experimental Apparatus
 The overall lab bench set up of the HRS team is composed of several parts (Figure 10). They are the pumps, the stocks, the flocculator, and the turbidimeters.
 
-![LabBench](https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Lab%20Bench%20Setup.png)
+<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Lab%20Bench%20Setup.png" height250 width=400>
+
 Figure 10: The HRS lab bench setup is composed of the turbidimeters, stocks, pumps, and flocculator.
 
 This allows the team to simulate non-potable water and its treatment through high rate sedimentation while keeping track of performance via NTU. The influent and effluent turbidimeters are what tell the team how well the system is performing at any given time. In order to run experiments, tap water is contaminated with clay from the Clay stock. This contaminated water is known as the influent and is kept at a constant NTU of 100 through ProCoDA by utilizing PID control. For more on Clay dosing, see Manual.
@@ -31,6 +32,18 @@ This allows the team to simulate non-potable water and its treatment through hig
 Once the influent passes through the turbidimeter, it moves toward the flocculator. Upon entering the flocculator, the untreated water is dosed with Poly-Aluminum-Chloride (PAC), which is the coagulant Aguaclara utilizes. The Coagulant pump is manually set up to control how much of the Coagulant stock enters the system. When a dose is chosen (generally between .5-3.2 mg/L PAC), the team uses a MathCAD doc to determine the stock concentration and required RPM of the pump. For more on Coagulant dosing, see Manual. The treated water then passes through the coiled tube that is the flocculator, forming flocs. The end of the flocculator then enters the bottom of the recirculator where upflow begins. The effluent that exits through the top of the tube settler then flows through the effluent turbidimeter. This is where the turbidity of the effluent is determined; the goal is to reach an NTU of 0.3 or lower. After the effluent turbidimeter, the wastewater flows out towards the wastewater drainage.
 
 This Fall semester, all particle removal teams are utilizing the HRS standard apparatus design and a flocculator designed by the High G Flocculation Fall 2017 team. The flocculator’s purpose is to mimic the flocculation process in an actual AguaClara plant with a sufficient collision potential (G). The High G flocculation team provides information on the following table with the flocculator’s dimensions and the resulting values for an upflow velocity of 3 mm/s.
+
+| V.Sed | Sed Tank Upflow Velocity | 3 mm/s |
+| ----- | ------------------------ | ----- |
+| D.Sed | Sed Tank Inner Diameter  | 1 in  |
+|Q.Sed, Q.Reactor| Flow rate (from V.Sed) |1.52 mL/s|
+|D.Floctube|Floctube Inner Diameter| 0.17 in |
+|R.c|Radius of Curvature of Floc Coils|5 gm|
+| Gtheta | G*theta | 20,000 |
+|  G  |  Shear   |  175.5 Hz  |
+|Theta |Residence Time | 1.899 min or 113.9 s|
+| L.Flocc| Length of Flocculator Tubing|11.821 m|
+|Epsilon.Flocc |Energy Dissipation Rate| 30.814 mW/kg|
 
 Figure 11: The HRS lab bench setup consists of a flocculator developed by the High G Flocculation Fall 2017 team. The following are the parameters and resulting values of the current flocculator design.
 
