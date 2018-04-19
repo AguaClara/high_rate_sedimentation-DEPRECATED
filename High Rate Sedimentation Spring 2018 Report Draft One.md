@@ -119,7 +119,9 @@ Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<
 Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then setting the influent turbidity to 100 NTU. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3). The first experiment is conducted at a coagulant dosage of 1.4 mg/L and a corresponding coagulant pump RMP of 20. That initial coagulant dose was then increased incrementally, then tested under the same conditions as above.
 
 ## Results and Analysis
-Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket. 
+Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket.
+
+![Figure15]()
 
 ![linear](https://github.com/jillianwhiting/Jillian-Whiting/blob/master/Images/linear.png?raw=true)
 Figure 1: Captions are very important for figures. Captions go below figures.
