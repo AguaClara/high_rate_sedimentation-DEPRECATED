@@ -66,7 +66,7 @@ Delete the "AguaClara" from "AguaClara HRS team"
 
 This last paragraph really shows the importance of HRS. Major key
 
-Only thing missing is your specific research focus (like what are you doing with the sedimentation to get it to be high rate i.e. changing the geometry/angle of plate settlers)
+**Only thing missing is your specific research focus (like what are you doing with the sedimentation to get it to be high rate i.e. changing the geometry/angle of plate settlers)**
 </div>
 
 ## Literature Review and Previous Work
@@ -187,8 +187,7 @@ On the other hand, capture velocity depends on the dimensions of the apparatus b
 
 $$ V_c = \frac{SV_αsinα}{Lsinαcosα+S} ... (3)$$
 
-Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler
-(after the floc weir), and S is the diameter of the tubing. If a floc has a terminal settling velocity
+Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler (after the floc weir), and S is the diameter of the tubing. If a floc has a terminal settling velocity
 that is too low, it will not be captured and instead will escape with the effluent.
 
 <div class="alert alert-block alert-danger">
@@ -265,7 +264,7 @@ Too many unnecessary words
 
 Watch change in tenses from third to first person. Have to pick one or the other, until now you picked third.
 
-Also does this data confirm that you are right or just that you are not wrong? I am not convinced by what you have written here that you have proven that a decrease in the effective coagulant concentration is linked with floc blanket duration because other options are not ruled out.
+**Also does this data confirm that you are right or just that you are not wrong? I am not convinced by what you have written here that you have proven that a decrease in the effective coagulant concentration is linked with floc blanket duration because other options are not ruled out.**
 </div>
 
 ## Future Work
@@ -344,7 +343,7 @@ In order to properly begin an experiment, the ProCoDA method file must be turned
 Figure 6: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
 
 <div class="alert alert-block alert-danger">
-None of the figures in the manual section are visible.
+**None of the figures in the manual section are visible.**
 </div>
 
 ### Set Points
