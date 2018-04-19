@@ -18,7 +18,7 @@ What is the point of the last sentence? If not significant, consider removing.
 </div>
 
 ## Introduction
-Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. The particles settle into a "floc" - a fluidized bed of suspended solids colliding in a bottom zone of the tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
+Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. The particles settle into a "floc blanket" - a fluidized bed of suspended solids colliding in a bottom zone of the tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
 
 <div class="alert alert-block alert-danger">
 Check definition of floc in the third sentence. Aren't you describing a floc blanket there?
