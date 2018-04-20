@@ -18,7 +18,7 @@ What is the point of the last sentence? If not significant, consider removing.
 </div>
 
 ## Introduction
-Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. The particles settle into a "floc blanket" - a fluidized bed of suspended solids colliding in a bottom zone of the tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
+Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. In a sedimentation tank, water flows upward as flocs settle downward. The particles settle into a "floc blanket" - a fluidized bed of suspended solids colliding in a bottom zone of the sedimentation tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
 
 <div class="alert alert-block alert-danger">
 Check definition of floc in the third sentence. Aren't you describing a floc blanket there?
@@ -28,7 +28,9 @@ Clarify that it is the sedimentation tank not just a tank.
 In the last sentence, you mention "water to continue up the plate settler." Students not exposed to sedimentation would not know that the flow is upwards in a sed tank. Consider mentioning that the water is flowing upwards as flocs settle downward to explain this phenomena.
 </div>
 
-AguaClara's sedimentation tank design includes inclined parallel plates called plate settlers. The purpose of these plates is to provide a settling surface for small particles and return them to the floc blanket developing in the base of the tank. Plate settlers work by changing the direction of flow from vertical to an angle. This change reduces the y direction velocity, allowing for more particles to settle before leaving the sedimentation tank.  In the AguaClara lab, a sedimentation tank and its respective plate settlers are simulated by plastic piping. The tube that simulates a pathway of fluid in the tank is referred to as the "recirculator" by the High Rate Sedimentation (HRS) team.
+AguaClara's sedimentation tank design includes inclined parallel plates called plate settlers. The purpose of these plates is to provide a settling surface for small particles and return them to the floc blanket developing in the base of the tank. Plate settlers work by changing the direction of flow from vertical to an angle. This change reduces the y direction velocity, allowing for more particles to settle before leaving the sedimentation tank. The defining paramater of a plate settler is capture velocity. Capture velocity is the minimum velocity a particle must be settling at in order to be captured by the plate settler.
+
+In the AguaClara lab, a sedimentation tank and its respective plate settlers are simulated by plastic piping, and is called a tube settler. The tube that simulates a pathway of fluid in the tank is referred to as the "recirculator" by the HRS team. See figure 1 for a visual representation of these designs.
 
 <div class="alert alert-block alert-danger">
 When you say "the purpose of these plates is to catch small particles and return them to the floc blanket," the purpose of plate settlers may be misrepresented to people not exposed to sed tanks. The theory behind plate settlers (fluids etc) is also really difficult to understand without 4540. So maybe try to explain how plate settlers work in different terms. I take most objection to the word catch because it evokes an idea of intercepting particles against a surface, when my understanding is that the flow near the plat settlers slows down and that decrease allows the particles in the flow to approach their settling velocity and settle out the water. This is may be something to look further into (correct me if I am wrong).
@@ -38,7 +40,7 @@ Are the plate settlers simulated by tubing or by clear pvc pipes?
 Consider defining the acronym HRS in the abstract and then using it throughout.
 </div>
 
-The slanted tube that simulates a plate settler is designated  as the "tube settler." See Figure 1 for a visual representation of this concept. The plate settlers increase the amount of horizontal area for the flocs to settle out. Due to their sticky nature, these flocs aggregate; growing in size as they slide down the plate settler and back into the basin.
+
 
 <div class="alert alert-block alert-danger">
 A better representation of how plate settlers work here!!!
@@ -48,8 +50,10 @@ Why include the word aggregate if you are only going to define the term. Cut out
 Also the name definitions "Recirculators" and "tube settlers" are hard to visualize without a diagram. Maybe label these things on the diagram below?
 </div>
 
-![SedimentationTank](https://www.overleaf.com/docs/11173977ftrfnxyhrpyv/atts/59342342)
-Figure 1: The recirculator and tube settler simulate the sedimentation tank basin and plate settlers respectively. Since the behavior of a section of fluid is characteristic of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical form of experimentation that is small scale, easy to manipulate, and representative of the respective tank design.
+![SedimentationTank](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Figure%201.JPG)
+Figure 1: Comparison of sedimentation tank in an AguaClara plant vs. in an AguaClara lab.
+
+The recirculator and tube settler simulate the sedimentation tank basin and plate settlers respectively. Since the behavior of a section of fluid is characteristic of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical form of experimentation that is small scale, easy to manipulate, and representative of the respective tank design.
 
 <div class="alert alert-block alert-danger">
 I am having mixed feelings about this figure caption. It provides excellent insight into the assumptions of the experimental Apparatus (like crazy and important insight). Why is it in a figure caption and not in the body of the text?
@@ -59,7 +63,7 @@ AguaClara designed a vertical sedimentation tank, which has the water flow from 
 
 $$ Q = V * A $$
 
-The AguaClara HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower with maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflows of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs.
+The HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower with maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflows of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs.
 
 <div class="alert alert-block alert-danger">
 Delete the "AguaClara" from "AguaClara HRS team"
@@ -68,6 +72,7 @@ This last paragraph really shows the importance of HRS. Major key
 
 **Only thing missing is your specific research focus (like what are you doing with the sedimentation to get it to be high rate i.e. changing the geometry/angle of plate settlers)**
 </div>
+Response to comment: "high rate sedimentation" refers to the rate at which water flows in the plant (upflow velocity), not the rate of the sedimentation process itself.
 
 ## Literature Review and Previous Work
 Past researchers have studied sedimentation and floc blankets. Their research provides valuable information for the Spring 2018. Culp et al. (1968) used tubes to figure out the optimal slope of the tube settlers. Under laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This information was used by the Fall 2017 team when designing the tube settler currently being used by the Spring 2018 team.
@@ -234,35 +239,49 @@ $$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
 Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<sub>pipe</sub> is the inner diameter of the PVC pipe.
 
 ### Procedure
+####Experiment 1
 Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then stabilizing the influent turbidity at 100 NTU by dosing clay using the PID control in ProCoDA. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3); this value was chosen as the team's experimental parameter. The first experiment is conducted at a coagulant dosage of 1.4 mg/L, as that was the minimum effective dose of coagulant in treatment plants. The corresponding coagulant pump RPM is 20. That initial coagulant dose was then increased incrementally, then tested under the same conditions as above.
 
 <div class="alert alert-block alert-danger">
 Where did you get the coagulant dosing from? How do you make 100 NTU water? Need to justify all values in experimental set-up.
 </div>
 
+####Experiment 2
+Using the same general experimental set-up as the first experiment, the team designed a 930 mm tube settler to decrease the capture velocity of the sedimentation tank from 0.36 mm/s to 0.15 mm/s. After running a test with this set-up, the team also changed the flocculator to a 3/16 inch design provided by High G Flocculation to replace 1/8 inch tubing flocculator.
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/long%20tube%20settler.png" height250 width=400>
+
+Figure 5: Sedimentation tank with the 930 mm tube settler.
+
 ## Results and Analysis
-<<<<<<< HEAD
-Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket.
+###Experiment 1
+The floc blanket serves as a filter, decreasing the effluent turbidity of water flowing through the sedimentation tank. Therefore, a decrease in effluent turbidity is directly correlated to the presence of a floc blanket.
 
-![Figure15]()
-=======
-It is believed that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
+It was believed that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
 
-Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket. Based on the results obtained from the first four trials of the experiment, it is expected that increasing the coagulant dose will continue to increase the life of the floc blanket until a threshold value is reached.
+Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in figure 5. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
 
 <div class="alert alert-block alert-danger">
 Are there any other variables that could explain why the effluent turbidity may decrease with increased coagulant dosing? How can you accurately relate reduced effluent to greater longevity of the floc blanket? Also what does the word "longevity" imply? Is it the right word in this situation?
 </div>
->>>>>>> 11fc7ffc1bdde83fae89b8c9b06b5691b50a4f89
 
-![Figure15](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Experiment%201.JPG)
+![Figure5](/Images/HRSupdatedgraph.png)
 
-Figure 5: The effluent turbidity over 24 hours at varied coagulant doses. This confirms that increasing the coagulant dose decreases the rate of floc blanket decay.
+Figure 6: The effluent turbidity over 24 hours at varied coagulant doses.
+
+###Experiment 2
+After collecting and analyzing the data from Experiment 1, it was hypothesized that the degradation of the floc blanket was a result of smaller flocs escaping, rather than a result of flocs accumulating on the tubing walls. Therefore, the tube settler was lengthened and a flocculator with a larger diameter was used to decrease the capture velocity and ensure that the smaller flocs were settled out.
+
+As is shown in Figure 6, the results illustrated that increasing the length of the tube settler and the diameter of the flocculator did decrease the effluent turbidity. However, this decrease was not significant and the floc blanket still degraded.
+
+![Figure6](/Images/Experiment2Graph.png)
+Figure 7: The effluent turbidity recorded using tube settlers of varying lengths and flocculators of varying diameters.
+
+Thus, the hypothesis for the second experiment was not supported by the results. Further studies must be conducted to determine the cause of floc blanket decay.
 
 ## Conclusions
-Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. This reinforces the hypothesis that floc blanket degradation was occurring due to coagulant sticking to the walls of the flocculator, which decreased the effective coagulant concentration and floc blanket duration. Though the team is still unable to conclude that this is the cause of floc blanket degradation, it provides a basis for continued research.
+Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. After this dose there is no effect on effluent turbidity, and all doses still resulted in floc blanket decay.
 
-Despite the increased duration of floc blankets caused by higher coagulant doses, the floc blankets are still not stable. The cause of this is still largely unknown, and the team is working to determine find a solution. The current experiments being run to test if increasing tube settler length or flocculator diameter increase the capture velocity and potentially floc blanket stability.
+Experiment two demonstrated that decreased particle size due to floc accumulation in the flocculator is not fully responsible for floc blanket decay. The bigger flocculator should have resulted in larger particles, while the longer tube settler allows for the capture of smaller particles. Neither of these changes resulted in a stable floc blanket, but the duration of effective particle removal was slightly increased. This may be a partial solution to the floc blanket decay problem, but more research will need to be done to verify these results.
 
 <div class="alert alert-block alert-danger">
 Too many unnecessary words
@@ -285,9 +304,9 @@ Balwan, K. (2016). Study of the effect of length and inclination of tube settler
 
 Culp, G., Hansen, S., & Richardson, G. (1968). High-rate sedimentation in water treatment works. Journal (High-Rate Sedimentaion in Water Treatment Works).
 
-Hurst, M. (2010). Evaluation Of Parameters Affecting Steady-State Floc Blanket Performance. Thesis (Cornell University).
-
 Galantino, C., Oritz, A., & Zarecor, M. (2017). High Rate Sedimentation Fall 2017 Report.
+
+Hurst, M. (2010). Evaluation Of Parameters Affecting Steady-State Floc Blanket Performance. Thesis (Cornell University).
 
 Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation performance model for laminar flow hydraulic flocculation with polyaluminum chloride and aluminum sulfate coagulants. Journal (Journal of Environmental Engineering).
 
@@ -309,7 +328,10 @@ Organize alphabetically
 ### Cleaning Procedure
 1. Clean turbidimeters by removing the top, detaching the glass vial, emptying to the sink, then refilling with water.
 
-2. Clean flocculator and sedimentation tank by attaching the long cleaning tube to the push to connect at the start of the flocculator and the sink. Then detach the tube at the bottom of the sedimentation tank and attach it to the top of the tank. Then turn the sink on slowly and run for 30 seconds.
+2. Clean flocculator and sedimentation tank by attaching the long cleaning tube to the push to connect at the start of the flocculator and the sink. Then detach the tube at the bottom of the sedimentation tank and attach it to the top of the tank. Then turn the sink on slowly and run for 30 seconds. A picture of the cleaning tube is shown in figure 8.
+
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/20180420_171602.jpg" width=600>
+Figure 8: Cleaning tube.
 
 3. Rinse coagulent reservoir with DI water.
 
@@ -345,7 +367,7 @@ In order to properly begin an experiment, the ProCoDA method file must be turned
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/On%20State.png" width=600>
 
-Figure 6: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
+Figure 9: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
 
 <div class="alert alert-block alert-danger">
 **None of the figures in the manual section are visible.**
@@ -358,7 +380,7 @@ The following is a list of all the Set Points in the method file and their value
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Set%20Points.png" width=600>
 
-Figure 7: This is the overall order of the Set Points for the HRS method file.
+Figure 10: This is the overall order of the Set Points for the HRS method file.
 
 
 * OFF - no units, value of 0, constant
@@ -370,14 +392,14 @@ Figure 7: This is the overall order of the Set Points for the HRS method file.
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Output%20Settings.png" width=600>
 
-Figure 8: This is the output settings for the PID state. This process runs in the background and only needs to be set up at the beginning of a semester's work. Note that PID controls the clay pump and whether it is turned on or not at any given time.
+Figure 11: This is the output settings for the PID state. This process runs in the background and only needs to be set up at the beginning of a semester's work. Note that PID controls the clay pump and whether it is turned on or not at any given time.
 
 * Influent Turbidimeter ID - no units, value of 1, constant. Value is due to the step in which the turbidimeter is installed and acknowledged in the data recording process. Effluent Turbidimeter ID is 2 since it takes in data later down the line.
 * Influent Turbidity - no units, value of 0, variable. See Figure below
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Influent%20Set%20Point.png" width=600>
 
-Figure 9: This displays the influent turbidity Set Point and the selected sensors to establish the relationship.
+Figure 12: This displays the influent turbidity Set Point and the selected sensors to establish the relationship.
 
 * Effluent Turbidimeter ID - no units, value of 1, constant.
 * Effluent Turbidity - no units, value of 2
@@ -385,14 +407,14 @@ Figure 9: This displays the influent turbidity Set Point and the selected sensor
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Pump%20Control.png" width=600>
 
-Figure 10: This shows the relationship between the PumpControl(Clay) variable and other predefined set points.
+Figure 13: This shows the relationship between the PumpControl(Clay) variable and other predefined set points.
 
 ## Python Code
 ### Variables
 
-$C_{sys}$: Concentration of coagulent in system
+$C_{sys}$: Concentration of coagulant in system
 
-$C_{labstock}$: Concentration of coagulent in lab stock
+$C_{labstock}$: Concentration of coagulant in lab stock
 
 $Q_{sys}$: Flowrate of system
 
@@ -404,15 +426,15 @@ $Frac_{resivor}$: Fraction of usable reservoir
 
 $Q_{per rpm}$: Flow rate per pump rpm
 
-$M_{flowcoag}$: Mass flowrate of coagulent
+$M_{flowcoag}$: Mass flowrate of coagulant
 
-$C_{reservoir}$: Concentration of coagulent in reservoir
+$C_{reservoir}$: Concentration of coagulant in reservoir
 
 $Q_{reservoir}$: Flow rate out of reservoir
 
 $RPM$: number of pump RPMs for desired flowrate
 
-$RunTime$: Amount of time the experiment can run without refilling the coagulent reservoir
+$RunTime$: Amount of time the experiment can run without refilling the coagulant reservoir
 
 ### Python Code
 
@@ -450,3 +472,5 @@ pandoc Name_of_this_file.md -o TeamName_Research_Report.pdf
 <div class="alert alert-block alert-danger">
 Code is well organized but I don't know what the run time is for. Explain in your report or in the manual!
 </div>
+
+Comment response: I think this variable was explained fairly clearly in the variables section. - Mike
