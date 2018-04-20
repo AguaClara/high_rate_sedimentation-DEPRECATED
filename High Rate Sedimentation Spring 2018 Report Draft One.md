@@ -104,7 +104,7 @@ Again you see a switch from "Semester Year Team" format to "2018 spring team." U
 
 ## Methods
 ### Experimental Apparatus
-The overall lab bench set up of the HRS team is composed of several parts (Figure 10). These parts include the pumps, the stocks, the flocculator, and the turbidimeters.
+The overall lab bench set up of the HRS team is composed of several parts (Figure 2). These parts include the pumps, the stocks, the flocculator, and the turbidimeters.
 
 <div class="alert alert-block alert-danger">
 Check Figure Number
@@ -114,7 +114,7 @@ Check Figure Number
 
 Figure 2: The HRS lab bench setup is composed of the turbidimeters, stocks, pumps, and a flocculator.
 
-This system allows the team to simulate non-potable water and its treatment through high rate sedimentation while keeping track of performance via NTU. The influent and effluent turbidimeters are what tell the team how well the system is performing at any given time. In order to run experiments, tap water is contaminated with clay from the Clay stock. This contaminated water is known as the influent and is kept at a constant NTU of 100 through ProCoDA by utilizing PID control. For more on Clay dosing, see the Manual.
+This system allows the team to simulate non-potable water and its treatment through high rate sedimentation while keeping track of performance via NTU. The influent and effluent turbidimeters record system performance at any given time. In order to run experiments, tap water is contaminated with clay from the clay stock. This contaminated water is called the influent. It is kept at a constant turbidity of 100 NTU through ProCoDA's PID control. For more on clay dosing, see the Manual.
 
 <div class="alert alert-block alert-danger">
 Consider "The influent and effluent turbidimeters record system performance at any given time."
@@ -128,7 +128,7 @@ Cut unnecessary words out of "This contaminated water is known as the influent a
 Capitalization issue on "Clay dosing" (Clay is not typically a proper noun unless you're talking about American Idol alum Clay Aiken)
 </div>
 
-Once the influent passes through the turbidimeter, it moves through the flocculator. Upon entering the flocculator, the untreated water is dosed with Poly-Aluminum-Chloride (PAC), which is the coagulant Aguaclara utilizes. The Coagulant pump is manually set up to control how much of the Coagulant stock enters the system. When a dose is chosen, the team uses a python doc (converted from the team's old MathCAD files) to determine the stock concentration and required RPM of the pump. For more on Coagulant dosing, see the Manual. The treated water then passes through the coiled tube that is the flocculator, which allows for the formation of flocs. The end of the flocculator then enters the bottom of the recirculator where upflow begins. The effluent that exits through the top of the tube settler then flows through the effluent turbidimeter. This is where the turbidity of the effluent is determined; the goal is to reach an NTU of 0.3 or lower. After the effluent turbidimeter, the wastewater flows out towards the wastewater drainage.
+Once the influent passes through the turbidimeter, it moves through the flocculator. Upon entering the flocculator, the untreated water is dosed with the coagulant Poly-Aluminum-Chloride (PACl). The coagulant pump is manually set up to control how much of the Coagulant stock enters the system. When a dose is chosen, the team uses a python markdown file to determine the stock concentration. Additionally, the markdown file is used to determine number of rotations per minute (RPM) required for the pump to achieve the desired concentration of coagulant inside of the system. For more on coagulant dosing, see the Manual. The treated water then passes through the coiled tube that is the flocculator, which allows for the formation of flocs. After passing through the flocculator, the flow then enters the bottom of the recirculator where upflow begins. The effluent that exits through the top of the tube settler then flows through the effluent turbidimeter. This is where the turbidity of the effluent is determined; the goal is to reach an NTU of 0.3 or lower. After flowing through the effluent turbidimeter, the wastewater flows out of the system and is discarded.
 
 <div class="alert alert-block alert-danger">
 Is "Poly-Aluminum-Chloride (PAC)" the conventional name? (Hint: the acronym has a hidden l to denoate chloride)
@@ -150,7 +150,7 @@ Does the end of the flocculator enter the bottom of the recirculator or does the
 The last to sentences paint a murky picture. Where is this waste you speak of? Where did it come from? Where is it located?
 </div>
 
-All particle removal teams are currently utilizing the HRS standard apparatus design and a flocculator designed by the High G Flocculation Fall 2017 team. The flocculator’s purpose is to mimic the flocculation process in an actual AguaClara plant with a sufficient collision potential (G). The High G flocculation team provides information on the following table with the flocculator’s dimensions and the resulting values for an upflow velocity of 3 mm/s.
+Most particle removal teams are currently utilizing the HRS standard apparatus design and a flocculator designed by the High G Flocculation Fall 2017 team. The flocculator’s purpose is to mimic the flocculation process in an actual AguaClara plant with a sufficient collision potential (G). The High G flocculation team has provided information, listen in  the following table, on the flocculator’s dimensions that allow the team to reach an upflow velocity of 3 mm/s.
 
 <div class="alert alert-block alert-danger">
 Are all particle removal teams using this apparatus design? Would be a false claim if even a single particle removal team was not using it.
@@ -187,8 +187,7 @@ On the other hand, capture velocity depends on the dimensions of the apparatus b
 
 $$ V_c = \frac{SV_αsinα}{Lsinαcosα+S} ... (3)$$
 
-Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler (after the floc weir), and S is the diameter of the tubing. If a floc has a terminal settling velocity
-that is too low, it will not be captured and instead will escape with the effluent.
+Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity, L is the length of the tube settler (after the floc weir), and S is the diameter of the tubing. If a floc has a terminal settling velocity that is too low, it will not be captured and instead will escape with the effluent.
 
 <div class="alert alert-block alert-danger">
 Weird separation above (maybe pressed enter accidentally?)
@@ -206,11 +205,9 @@ Why did you decide to use a 1" diameter pipe rather than 3/4"?
 
 Figure 3: A diagram of the active tube settler length L, the inner diameter of the apparatus S, and the angle α.
 
-Materials: In the Fall 2017 model, the floc weir is welded onto the tube settler rather than the
-recirculator and the apparatus is enclosed by compression fittings. The reason for an intermittent floc weir on the tube settler is due to the findings of the Summer 2017 team. If a floc blanket could
-be established with a low bend, then further investigation is required on whether multiple bends
-characteristic of the trapezoidal apparatus are necessary for performance, or just keep essential
-flocs low and recirculating.
+###Materials
+
+In the Fall 2017 model, the floc weir—a floc drainage pipe that keeps the floc blanket at a stable height—is welded onto the tube settler rather than the recirculator and the apparatus is enclosed by compression fittings. The reason for an intermittent floc weir on the tube settler is due to the findings of the Summer 2017 team. If a floc blanket could be established with a low bend, then further investigation is required on whether multiple bends characteristic of the trapezoidal apparatus are necessary for performance, or just keep essential  flocs low and recirculating.
 
 <div class="alert alert-block alert-danger">
 Maybe make "Materials" a heading?
@@ -224,7 +221,7 @@ Figure 4: The standard design includes a 50 cm recirculation zone, a 36.47 cm tu
 semesters.
 
 Compared to previous semesters, the size of the apparatus has been reduced a considerable amount.
-It is important to note that the team’s goal is not necessarily to reduce turbidity more than what the trapezoidal was able to achieve, but rather to investigate possible alternatives to sedimentation tank design in order to avoid the complex geometry that the trapezoidal design implicates. Since the tubing size increased from 3/4 inch to 1 inch, the flow rate of influent water had to be altered in order to achieve the 3 mm/s upflow velocity that is unique to high rate sedimentation. The following equation is used in order to help the team determine these values:
+It is important to note that the team’s goal is not necessarily to reduce turbidity more than what the trapezoidal design with multiple in-line tube settlers was able to achieve, but rather to investigate possible alternatives to sedimentation tank design in order to avoid the complex geometry that the trapezoidal design implicates. Since the tubing size increased from 3/4 inch to 1 inch, the flow rate of influent water had to be altered in order to achieve the 3 mm/s upflow velocity that is unique to high rate sedimentation. The following equation is used in order to help the team determine these values:
 
 <div class="alert alert-block alert-danger">
 You mention a "trapezoidal", what does that mean? Who did that and why?
@@ -237,7 +234,7 @@ $$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
 Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<sub>pipe</sub> is the inner diameter of the PVC pipe.
 
 ### Procedure
-Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then setting the influent turbidity to 100 NTU. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3). The first experiment is conducted at a coagulant dosage of 1.4 mg/L and a corresponding coagulant pump RMP of 20. That initial coagulant dose was then increased incrementally, then tested under the same conditions as above.
+Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then stabilizing the influent turbidity at 100 NTU by dosing clay using the PID control in ProCoDA. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3). The first experiment is conducted at a coagulant dosage of 1.4 mg/L and a corresponding coagulant pump RMP of 20. That initial coagulant dose was then increased incrementally, then tested under the same conditions as above.
 
 <div class="alert alert-block alert-danger">
 Where did you get the coagulant dosing from? How do you make 100 NTU water? Need to justify all values in experimental set-up.
@@ -254,7 +251,7 @@ It is believed that the floc blanket eventually degrades as a result of the coag
 Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in Figure 15. These results support the hypothesis that increasing coagulant dose would increase the longevity of the floc blanket. Based on the results obtained from the first four trials of the experiment, it is expected that increasing the coagulant dose will continue to increase the life of the floc blanket until a threshold value is reached.
 
 <div class="alert alert-block alert-danger">
-Are there any other variables that could explain why the effluent turbidity may decrease with increased coagulant dosing? How can you accurately relate reduced effluent to greaterlongevity of the floc blanket? Also what does the word "longevity" imply? Is it the right word in this situation?
+Are there any other variables that could explain why the effluent turbidity may decrease with increased coagulant dosing? How can you accurately relate reduced effluent to greater longevity of the floc blanket? Also what does the word "longevity" imply? Is it the right word in this situation?
 </div>
 >>>>>>> 11fc7ffc1bdde83fae89b8c9b06b5691b50a4f89
 
@@ -263,14 +260,16 @@ Are there any other variables that could explain why the effluent turbidity may 
 Figure 5: The effluent turbidity over 24 hours at varied coagulant doses. This confirms that increasing the coagulant dose decreases the rate of floc blanket decay.
 
 ## Conclusions
-Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation. This confirms our hypothesis that this aforementioned floc blanket degradation was occurring due to coagulant sticking to the walls of the flocculator, which in turn decreased the effective coagulant concentration and floc blanket duration.
+Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. This reinforces the hypothesis that floc blanket degradation was occurring due to coagulant sticking to the walls of the flocculator, which decreased the effective coagulant concentration and floc blanket duration. Though the team is still unable to conclude that this is the cause of floc blanket degradation, it provides a basis for continued research.
+
+Despite the increased duration of floc blankets caused by higher coagulant doses, the floc blankets are still not stable. The cause of this is still largely unknown, and the team is working to determine find a solution. The current experiments being run to test if increasing tube settler length or flocculator diameter increase the capture velocity and potentially floc blanket stability.
 
 <div class="alert alert-block alert-danger">
 Too many unnecessary words
 
 Watch change in tenses from third to first person. Have to pick one or the other, until now you picked third.
 
-**Also does this data confirm that you are right or just that you are not wrong? I am not convinced by what you have written here that you have proven that a decrease in the effective coagulant concentration is linked with floc blanket duration because other options are not ruled out.**
+Also does this data confirm that you are right or just that you are not wrong? I am not convinced by what you have written here that you have proven that a decrease in the effective coagulant concentration is linked with floc blanket duration because other options are not ruled out.
 </div>
 
 ## Future Work
@@ -345,7 +344,7 @@ In order to properly begin an experiment, the ProCoDA method file must be turned
 
 
 <img src="https://writelatex.s3.amazonaws.com/xwbtgtsrxrxy/uploads/3515/18132096/1.PNG?X-Amz-Expires=14400&X-Amz-Date=20180309T225843Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJF667VKUK4OW3LCA/20180309/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=7ec40a369ef8347b616cae821821b3aff120b22142e29f88638e8be500e4323c" width=600>
-
+ 
 Figure 6: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
 
 <div class="alert alert-block alert-danger">
