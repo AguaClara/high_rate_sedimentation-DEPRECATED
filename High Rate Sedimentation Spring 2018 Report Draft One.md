@@ -321,7 +321,7 @@ Good place for a photo because I don't know what the long cleaning tube looks li
 
 The following is taken directly from the Calibrating PID Control on the AguaClara Confluence website:
 
-To establish constants for PID control in ProCoDA, follow the procedure shown at this link. The steps will be summarized below
+To establish constants for PID control in ProCoDA, follow the procedure shown at this [link](https://confluence.cornell.edu/display/AGUACLARA/Calibrating+PID+Control). The steps will be summarized below
 
 <div class="alert alert-block alert-danger">
 What is this link you speak of?
@@ -343,8 +343,8 @@ In order to properly begin an experiment, the ProCoDA method file must be turned
 * OFF – Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
 
 
-<img src="https://writelatex.s3.amazonaws.com/xwbtgtsrxrxy/uploads/3515/18132096/1.PNG?X-Amz-Expires=14400&X-Amz-Date=20180309T225843Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJF667VKUK4OW3LCA/20180309/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=7ec40a369ef8347b616cae821821b3aff120b22142e29f88638e8be500e4323c" width=600>
- 
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/On%20State.png" width=600>
+
 Figure 6: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
 
 <div class="alert alert-block alert-danger">
@@ -356,7 +356,7 @@ Here, you should list the set points used in your method file and explain their 
 
 The following is a list of all the Set Points in the method file and their values. Exact location of these points in the method file can be seen in the figure below.
 
-<img src="https://writelatex.s3.amazonaws.com/xwbtgtsrxrxy/uploads/3545/18132331/1.PNG?X-Amz-Expires=14400&X-Amz-Date=20180309T230328Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJF667VKUK4OW3LCA/20180309/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=9d1a8a9cc2766757b559bc7d44d31b6dd45cf967c318af45f3e689752c21dca3" width=600>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Set%20Points.png" width=600>
 
 Figure 7: This is the overall order of the Set Points for the HRS method file.
 
@@ -368,14 +368,14 @@ Figure 7: This is the overall order of the Set Points for the HRS method file.
 * i - no units, value of 2.3, constant. Value determined through method mentioned in "PID Control" section of report and trial and error.
 * D - no units, value of 0, constant
 
-<img src="https://writelatex.s3.amazonaws.com/xwbtgtsrxrxy/uploads/3556/18132401/1.PNG?X-Amz-Expires=14400&X-Amz-Date=20180309T230958Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJF667VKUK4OW3LCA/20180309/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=4cfffd6c222b0f17284243c2296dd53dcb2481edeeaf5be55aa0a41480c89752" width=600>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Output%20Settings.png" width=600>
 
 Figure 8: This is the output settings for the PID state. This process runs in the background and only needs to be set up at the beginning of a semester's work. Note that PID controls the clay pump and whether it is turned on or not at any given time.
 
 * Influent Turbidimeter ID - no units, value of 1, constant. Value is due to the step in which the turbidimeter is installed and acknowledged in the data recording process. Effluent Turbidimeter ID is 2 since it takes in data later down the line.
 * Influent Turbidity - no units, value of 0, variable. See Figure below
 
-<img src="https://writelatex.s3.amazonaws.com/xwbtgtsrxrxy/uploads/3547/18132348/1.PNG?X-Amz-Expires=14400&X-Amz-Date=20180309T232849Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJF667VKUK4OW3LCA/20180309/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=1873f77fbba467a6a7c77a1e4acba3fff7fffafc39e2cd6b35fe9acc6a0a5a59" width=600>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Influent%20Set%20Point.png" width=600>
 
 Figure 9: This displays the influent turbidity Set Point and the selected sensors to establish the relationship.
 
@@ -383,7 +383,7 @@ Figure 9: This displays the influent turbidity Set Point and the selected sensor
 * Effluent Turbidity - no units, value of 2
 * PumpControl(Clay) - no units, value of 0, variable
 
-<img src="https://writelatex.s3.amazonaws.com/xwbtgtsrxrxy/uploads/3548/18132354/1.PNG?X-Amz-Expires=14400&X-Amz-Date=20180309T232816Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJF667VKUK4OW3LCA/20180309/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=d89273cfa2a007e1fef18612d5f9374d5421eea175a51b38212c6593a4a19afa" width=600>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Pump%20Control.png" width=600>
 
 Figure 10: This shows the relationship between the PumpControl(Clay) variable and other predefined set points.
 
