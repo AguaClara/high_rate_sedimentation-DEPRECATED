@@ -273,10 +273,10 @@ Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation perf
 
 2. Clean flocculator and sedimentation tank by attaching the long cleaning tube to the push to connect at the start of the flocculator and the sink. Then detach the tube at the bottom of the sedimentation tank and attach it to the top of the tank. Then turn the sink on slowly and run for 30 seconds. A picture of the cleaning tube is shown in figure 8.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/20180420_171602.jpg" width=600>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleaning%20tube.jpg" width=600>
 Figure 8: Cleaning tube.
 
-3. Rinse coagulent reservoir with DI water.
+3. Rinse coagulant reservoir with DI water.
 
 <div class="alert alert-block alert-danger">
 Can't see photo
