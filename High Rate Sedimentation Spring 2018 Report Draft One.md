@@ -256,9 +256,8 @@ Increasing the PAC dose led to a lower effluent turbidity, as is illustrated in 
 <div class="alert alert-block alert-danger">
 Are there any other variables that could explain why the effluent turbidity may decrease with increased coagulant dosing? How can you accurately relate reduced effluent to greater longevity of the floc blanket? Also what does the word "longevity" imply? Is it the right word in this situation?
 </div>
->>>>>>> 11fc7ffc1bdde83fae89b8c9b06b5691b50a4f89
 
-![Figure15](/Users/snehasharma/github/high_rate_sedimentation/Images/HRSupdatedgraph.png)
+![Figure5](/Users/snehasharma/github/high_rate_sedimentation/Images/HRSupdatedgraph.png)
 
 Figure 5: The effluent turbidity over 24 hours at varied coagulant doses. This confirms that increasing the coagulant dose decreases the rate of floc blanket decay.
 
