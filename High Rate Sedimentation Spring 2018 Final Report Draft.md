@@ -178,7 +178,7 @@ Cannot see figure 5.
 
 ####Experiment 3
 
-For experiment three, trials are run at an upflow velocity of 3 mm/s, coagulant dose of 4.2 mg/L, and influent turbidity of 100 NTU. The apparatus used is the 930 mm tube settler and the 3/16 inch diameter flocculator. For these trials, approximately five to eight hours into testing, the flocculator was flushed with a syringe with the goal of removing built up coagulant from the walls. Experimental data is recorded for approximately another twelve to fifteen hours after flushing. The same data points as the above two experiments are recorded.
+For experiment 3, trials are run at an upflow velocity of 3 mm/s, coagulant dose of 4.2 mg/L, and influent turbidity of 100 NTU. The apparatus used is the 930 mm tube settler and the 3/16 inch diameter flocculator. For these trials, approximately five to eight hours into testing, the flocculator was flushed with a syringe with the goal of removing built up coagulant from the walls. Experimental data is recorded for approximately another twelve to fifteen hours after flushing. The same data points as the above two experiments are recorded.
 
 ## Results and Analysis
 ###Experiment 1
@@ -222,9 +222,11 @@ This is a good basis for results and analysis but there could be a little more i
 </div>
 
 ## Conclusions
-Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. After this dose there is no effect on effluent turbidity, and all doses still resulted in floc blanket decay.
+Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. After this dose there is no effect on effluent turbidity, and all doses still resulted in floc blanket decay. While this is clear from the data, the root cause of this result remains unclear; experiment 2 was conducted to try to narrow down the cause. We believe that increasing the capture velocity via increasing the tube settler length and flocculator diameter would show whether or not decreased floc size is the root cause of floc blanket decay.
 
-Experiment two demonstrated that decreased particle size due to floc accumulation in the flocculator is not fully responsible for floc blanket decay. The bigger flocculator should have resulted in larger particles, while the longer tube settler allows for the capture of smaller particles. Neither of these changes resulted in a stable floc blanket, but the duration of effective particle removal was slightly increased. This may be a partial solution to the floc blanket decay problem, but more research will need to be done to verify these results.
+Through these tests, experiment 2 demonstrated that decreased particle size due to coagulant accumulation in the flocculator is not fully responsible for floc blanket decay. The bigger flocculator should have resulted in larger flocs, while the longer tube settler should have allowed for the capture of smaller particles. Neither of these changes resulted in a stable floc blanket, but the duration of effective particle removal was slightly increased. This may be a partial solution to the floc blanket decay problem, but does not provide information on the complete picture.
+
+Experiment 3 was conducted to determine whether or not the flocculator specifically was causing floc blanket decay. The results of this experiment showed that flushing the flocculator several hours after coagulant begins dosing again does not have an appreciable impact on floc blanket stability. Despite these experiments, the root cause of floc blanket decay is not known. More potential causes to be tested are listed in the future work section.
 
 <div class="alert alert-block alert-danger">
 Either use numbers OR words for numbers like "2" or "two" throughout report. Keep consistent.
