@@ -256,7 +256,7 @@ Figure 5: Sedimentation tank with the 930 mm tube settler.
 ###Experiment 1
 The floc blanket serves as a filter, decreasing the effluent turbidity of water flowing through the sedimentation tank. Therefore, a decrease in effluent turbidity is directly correlated to the presence of a floc blanket.
 
-It was believed that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
+Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc blanket degrades as a result of the coagulant adhering to the walls of the flocculator tubing. Thus, it was predicted that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
 
 Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in figure 5. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
 
@@ -264,9 +264,6 @@ Increasing the PAC dose led to a lower effluent turbidity, but only until a dose
 Are there any other variables that could explain why the effluent turbidity may decrease with increased coagulant dosing? How can you accurately relate reduced effluent to greater longevity of the floc blanket? Also what does the word "longevity" imply? Is it the right word in this situation?
 </div>
 
-<<<<<<< HEAD
-![Figure5](/Users/snehasharma/github/high_rate_sedimentation/Images/HRSupdatedgraph.png)
-=======
 ![Figure5](/Images/HRSupdatedgraph.png)
 
 Figure 6: The effluent turbidity over 24 hours at varied coagulant doses.
@@ -275,12 +272,25 @@ Figure 6: The effluent turbidity over 24 hours at varied coagulant doses.
 After collecting and analyzing the data from Experiment 1, it was hypothesized that the degradation of the floc blanket was a result of smaller flocs escaping, rather than a result of flocs accumulating on the tubing walls. Therefore, the tube settler was lengthened and a flocculator with a larger diameter was used to decrease the capture velocity and ensure that the smaller flocs were settled out.
 
 As is shown in Figure 6, the results illustrated that increasing the length of the tube settler and the diameter of the flocculator did decrease the effluent turbidity. However, this decrease was not significant and the floc blanket still degraded.
->>>>>>> 61e32614e44b5e05aefb41794392ab03fcd9d3c0
 
 ![Figure6](/Images/Experiment2Graph.png)
 Figure 7: The effluent turbidity recorded using tube settlers of varying lengths and flocculators of varying diameters.
 
-Thus, the hypothesis for the second experiment was not supported by the results. Further studies must be conducted to determine the cause of floc blanket decay.
+Thus, the hypothesis for the second experiment was not supported by the results.
+
+###Experiment 3
+
+A third experiment was conducted to determine if the flocculator is the cause of floc blanket decay. The experiment was run at 3 mm/s upflow velocity, 4.2 mg/L PACL, using a 3/16 inch diameter flocculator and a 930 mm tube settler. The flocculator was flushed using a syringe approximately 5 hours after dosing coagulant.
+
+[Figure needed, analysis of results needed]
+
+###Experiment 4
+
+In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours after initially dosing clay; when the data was plotted, the HRS team found that the stability of the floc blanket had increased. The objective of Experiment 4 was to test the effects of dosing coagulant 5 hours after dosing clay.
+
+[Figure needed, analysis of results needed]
+
+Further studies must be conducted to determine the cause of floc blanket decay.
 
 ## Conclusions
 Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. After this dose there is no effect on effluent turbidity, and all doses still resulted in floc blanket decay.
