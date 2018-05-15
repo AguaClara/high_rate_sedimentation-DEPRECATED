@@ -3,7 +3,7 @@
 #### March 9th, 2018
 
 ## Abstract
-Past High Rate Sedimentation (HRS) teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The Spring 2018 team conducted experiments that found increasing coagulant dosage did not prevent floc blanket thinning. The team also found that increasing tube settler length and reducing flocculator shear had minimal effects on floc blanket thinning.
+Past High Rate Sedimentation (HRS) teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The Spring 2018 team conducted experiments that found increasing coagulant dosage did not prevent floc blanket thinning, that increasing tube settler length and reducing flocculator shear had minimal effects on floc blanket thinning. Cleaning the flocculator during trials did result in less floc blanket decay.
 
 ## Introduction
 Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. In a sedimentation tank, water flows upward as flocs settle downward. The particles settle into a "floc blanket" - a fluidized bed of suspended solids colliding in a bottom zone of the sedimentation tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
@@ -50,16 +50,15 @@ Revise for spelling/grammar
 Past researchers have studied sedimentation and floc blankets. Their research provides valuable information for the Spring 2018. Culp et al. (1968) used tubes to figure out the optimal slope of the tube settlers. Under laboratory conditions, a 60 degree angle with respect to the horizontal provided continuous sludge removal while showing effective sedimentation performance. This information was used by the Fall 2017 team when designing the tube settler currently being used by the Spring 2018 team.
 
 Hurst (2010) stated that the presence of the floc blanket would enhance the removal of particles. These experiments found that upflow velocities of 1.0 to 1.3 m/s produced the best performance. Past high rate teams have been successful in establishing floc blankets at higher upflow velocities than Hurst’s optimal range, but unable to create stable floc blankets.
-
 Swetland (2014) Found that as flocs formed, they would settle due to their higher density compared to water. In order for particle removal to occur flocs must settle faster than the capture velocity. As the flocs concentrated and fell down to the bottom of the tank, a floc blanket formed. These findings defined the High Rate Sedimentation teams's understanding of a floc formation, which is a critical step of the AguaClara sedimentation process.
 
-Balwan (2016) explored the effect of the length of tube settler on effluent turbidity. As indicated in his report, increasing the length of tube settlers increased the percentage of turbidity removed (defined as percentage change between influent and effluent turbidity). With tube settlers in 45 degrees inclination angle and 60 cm length, turbidity removal was measured to be 80 percent. However, his experiments only had three length variables (40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown.
+Balwan (2016) explored the effect of the length of the tube settler on effluent turbidity. As indicated in his report, increasing the length of tube settlers increased the percentage of turbidity removed (defined as percentage change between influent and effluent turbidity). With tube settlers in 45 degrees inclination angle and 60 cm length, turbidity removal was measured to be 80 percent. However, his experiments only had three length variables (40cm, 50cm, 60cm) and the effluent of longer tube settlers were unknown.
 
 <div class="alert alert-block alert-danger">
 change to "the effect of the length of the tube settler..."
 </div>
 
-The Fall 2017 High Rate Sedimentation team experimented with varied sedimentation tank geometries in an attempt to find a configuration that allowed for stable floc blankets. They were unsuccessful; however, they found that they could not reestablish floc blankets mid experiment, and that headloss increased as the experiment progressed. This led to their floc accumulation hypothesis. This hypothesis suggests that coagulant and flocs sticks to the inside of the flocculator tubing, reducing the effective dosage of coagulant and reducing the effective diameter of the tubing. The Spring 2018  team began by testing this idea.
+The Fall 2017 High Rate Sedimentation team experimented with varied sedimentation tank geometries in an attempt to find a configuration that allowed for stable floc blankets. They were unsuccessful; however, they found that they could not reestablish floc blankets mid experiment, and that headloss increased as the experiment progressed. This led to their floc accumulation hypothesis. This hypothesis suggests that coagulant and flocs sticks to the inside of the flocculator tubing, reducing the effective dosage of coagulant and reducing the effective diameter of the tubing. The Spring 2018 team began by testing this idea.
 
 ## Methods
 ### Experimental Apparatus
@@ -180,6 +179,10 @@ Cannot see figure 5.
 
 For experiment 3, trials are run at an upflow velocity of 3 mm/s, coagulant dose of 4.2 mg/L, and influent turbidity of 100 NTU. The apparatus used is the 930 mm tube settler and the 3/16 inch diameter flocculator. For these trials, approximately five to eight hours into testing, the flocculator was flushed with a syringe with the goal of removing built up coagulant from the walls. Experimental data is recorded for approximately another twelve to fifteen hours after flushing. The same data points as the above two experiments are recorded.
 
+####Experiment 4
+
+In experiment 4, the same general parameters are held as previous trials. For this experiment, clay was dosed without coagulant for several hours, then we began dosing coagulant. This is being tested because during a mistrial of experiment 3, we noticed that our floc blanket was more stable after dosing pure clay without coagulant for a period of time.
+
 ## Results and Analysis
 ###Experiment 1
 The floc blanket serves as a filter, decreasing the effluent turbidity of water flowing through the sedimentation tank. Therefore, a decrease in effluent turbidity is directly correlated to the presence of a floc blanket.
@@ -228,6 +231,8 @@ Through these tests, experiment 2 demonstrated that decreased particle size due 
 
 Experiment 3 was conducted to determine whether or not the flocculator specifically was causing floc blanket decay. The results of this experiment showed that flushing the flocculator several hours after coagulant begins dosing again does not have an appreciable impact on floc blanket stability. Despite these experiments, the root cause of floc blanket decay is not known. More potential causes to be tested are listed in the future work section.
 
+Similarly, only one trial was able to be conducted underneath experiment 4. Because of this, we do not feel comfortable making any assertions about what the results may say about the issue at hand.
+
 <div class="alert alert-block alert-danger">
 Either use numbers OR words for numbers like "2" or "two" throughout report. Keep consistent.
 
@@ -239,7 +244,7 @@ I would like the conclusion to be more clear and add a bit mre context to these 
 </div>
 
 ## Future Work
-Currently the Spring 2018 team does not have a solution for floc blanket degradation. Future work should focus on discovering what mechanisms cause the degradation, as well as methods to prevent or minimize it. There are currently three specific causes that the team intends to test. They are: 1. experimental apparatus becoming dirty and inaccurate, 2. particle interactions within the floc blanket being unstable, and 3. the floc weir draining too many particles.
+Currently the Spring 2018 team does not have a solution for floc blanket degradation. Future work should focus on discovering what mechanisms cause the degradation, as well as methods to prevent or minimize it. There are currently two specific areas of particular interest They are particle interactions within the floc blanket being unstable, and the floc weir draining too many particles. There could also be experiments conducted at lower upflow velocities to determine if there is a threshold above which floc blanket decay occurs.
 
 <div class="alert alert-block alert-danger">
 Make the list a real list or take away the numbers.
