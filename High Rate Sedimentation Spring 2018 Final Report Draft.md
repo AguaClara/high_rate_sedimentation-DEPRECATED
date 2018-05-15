@@ -6,13 +6,13 @@
 Past High Rate Sedimentation (HRS) teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The Spring 2018 team conducted experiments that found increasing coagulant dosage did not prevent floc blanket thinning. The team also found that increasing tube settler length and reducing flocculator shear had minimal effects on floc blanket thinning.
 
 ## Introduction
-Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. In a sedimentation tank, water flows upward as flocs settle downward. The particles settle into a "floc blanket" - a fluidized bed of suspended solids colliding in a bottom zone of the sedimentation tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier floc that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
+Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, clay, and other particles are removed from the water via gravitational settling. In a sedimentation tank, water flows upward as flocs settle downward. The particles settle into a "floc blanket" - a fluidized bed of suspended solids colliding in a bottom zone of the sedimentation tank. The particles are initially light and small, but as coagulant dosage persists and particles continue to collide,  the particles clump together into heavier flocs that will settle into the basin of the recirculator. This process permits clearer water to continue up the plate settler, resulting in a lower effluent NTU (Nephelometric Turbidity Unit, a measure of clarity).
 
 <div class="alert alert-block alert-danger">
-Is it floc or flocs?
+Is it floc or flocs? Response: flocs
 </div>
 
-AguaClara's sedimentation tank design includes inclined parallel plates called plate settlers. The purpose of these plates is to provide a settling surface for small particles and return them to the floc blanket developing in the base of the tank. Plate settlers work by changing the direction of flow from vertical to an angle. This change reduces the y direction velocity, allowing for more particles to settle before leaving the sedimentation tank. The defining paramater of a plate settler is capture velocity. Capture velocity is the minimum velocity a particle must be settling at in order to be captured by the plate settler.
+AguaClara's sedimentation tank design includes inclined parallel plates called plate settlers. The purpose of these plates is to provide a settling surface for small particles and return them to the floc blanket developing in the base of the tank. Plate settlers work by changing the direction of flow from vertical to an angle. This change reduces the vertical direction velocity, allowing for more particles to settle before leaving the sedimentation tank. The defining parameter of a plate settler is capture velocity. Capture velocity is the minimum velocity a particle must be settling at in order to be captured by the plate settler.
 
 <div class="alert alert-block alert-danger">
 "y direction" is colloquial. Use vertical dirction instead
@@ -33,7 +33,7 @@ AguaClara designed a vertical sedimentation tank, which has the water flow from 
 
 $$ Q = V * A $$
 
-The HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower with maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflows of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs.
+The HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower while maintaining high upflow velocity. In order to do this, the Spring 2018 HRS Team varied different components of the sedimentation process, such as the diameter of the flocculator, the length of the tube settler, and coagulant dosage, in order to determine which component enables floc blanket decay. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflows of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs.
 
 <div class="alert alert-block alert-danger">
 Only thing missing is your specific research focus (like what are you doing with the sedimentation to get it to be high rate i.e. changing the geometry/angle of plate settlers)
@@ -184,7 +184,7 @@ For experiment 3, trials are run at an upflow velocity of 3 mm/s, coagulant dose
 ###Experiment 1
 The floc blanket serves as a filter, decreasing the effluent turbidity of water flowing through the sedimentation tank. Therefore, a decrease in effluent turbidity is directly correlated to the presence of a floc blanket.
 
-It was believed that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
+Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the flocculator tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
 
 <div class="alert alert-block alert-danger">
 Try to avoid passive voice phrases like "it was believed" Can change it to active by saying who believed it.
@@ -192,7 +192,7 @@ Try to avoid passive voice phrases like "it was believed" Can change it to activ
 Is the tubing you are talking about here the sed tank or the flocculator?
 </div>
 
-Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in figure 6. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
+Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in Figure 6. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
 
 <div class="alert alert-block alert-danger">
 Capitalize figure 6
@@ -211,7 +211,20 @@ As is shown in Figure 7, the results illustrated that increasing the length of t
 
 Figure 7: The effluent turbidity recorded using tube settlers of varying lengths and flocculators of varying diameters.
 
-Thus, the hypothesis for the second experiment was not supported by the results. Further studies must be conducted to determine the cause of floc blanket decay.
+Thus, the hypothesis for the second experiment was not supported by the results.
+
+###Experiment 3
+
+A third experiment was conducted to determine if the flocculator is the cause of floc blanket decay. The experiment was run at 3 mm/s upflow velocity, 4.2 mg/L PACL, using a 3/16 inch diameter flocculator and a 930 mm tube settler. The flocculator was flushed using a syringe approximately 5 hours after dosing coagulant.
+
+[Figure needed, analysis of results needed]
+###Experiment 4
+
+In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours after initially dosing clay; when the data was plotted, the HRS team found that the stability of the floc blanket had increased. The objective of Experiment 4 was to test the effects of dosing coagulant 5 hours after dosing clay.
+
+[Figure needed, analysis of results needed]
+
+Further studies must be conducted to determine the cause of floc blanket decay.
 
 <div class="alert alert-block alert-danger">
 Any other thoughts on why these hypotheses were wrong and what the actual problem is?
