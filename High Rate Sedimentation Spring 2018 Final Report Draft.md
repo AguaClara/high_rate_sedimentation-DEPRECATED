@@ -124,7 +124,7 @@ In experiment 4, the same general parameters are held as previous trials. For th
 ###Experiment 1
 The floc blanket serves as a filter, decreasing the effluent turbidity of water flowing through the sedimentation tank. Therefore, a decrease in effluent turbidity is directly correlated to the presence of a floc blanket.
 
-Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the flocculator tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
+Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the flocculator tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. This was tested by varying the coagulant dose with respect to time over a period of 24 hours.
 
 Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in Figure 6. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after the experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
 
@@ -151,11 +151,11 @@ Since Experiment 2 illustrated that the sedimentation tank itself was not causin
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment3.png" width=600>
 
-Figure 8: Effluent turbidity after flushing the flocculato
+Figure 8: Effluent turbidity after flushing the flocculator
 
 In the HRS Team's sedimentation tank design, the floc blanket develops gradually from the bottom of the tank to the top. As is evidenced by Figure 8 above, there is a spike in turbidity at approximately 5.5 hours. This is likely due to the overflow of flocs being pushed out of the recirculator.
 
-Furthermore, the two trials of the experiment vary
+Furthermore, the two trials of the experiment vary [...]
 
 Aside from these anomalies, the general trend of the figure suggests that flushing the flocculator results in a much more gradual floc blanket decay. As can be seen in Figure 7 of Experiment 2, the effluent turbidity increased by approximately 15 NTU as the floc blanket began to decay. However, in Figure 8 of Experiment 3, the effluent turbidity increased by only about 2.5 NTU.
 
@@ -167,7 +167,11 @@ In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment4(1).png" width=600>
 
+Figure 9:
+
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment4(2).png" width=600>
+
+Figure 10:
 [Figure needed, analysis of results needed]
 
 Further studies need to be conducted to determine the cause of floc blanket decay.
@@ -179,7 +183,7 @@ Through these tests, experiment 2 demonstrated that decreased particle size due 
 
 Experiment 3 was conducted to determine whether or not the flocculator specifically was causing floc blanket decay. The results of this experiment showed that flushing the flocculator several hours after coagulant begins dosing does have an  impact on floc blanket stability, but does not allow them to be stable indefinitely.
 
-Similarly, only one trial was able to be conducted underneath experiment 4. Because of this, we do not feel comfortable making any assertions about what the results may say about the issue at hand. However, dosing clay prior to beginning the experiment appeared to have a negligible impact.
+Experiment 4 showed that dosing clay prior to beginning to dose coagulant did not stop floc blanket decay from occurring
 
 Despite all of these experiments, the root cause of floc blanket decay is still not known. More potential causes to be tested can be found in the future work section.
 
@@ -215,7 +219,7 @@ Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation perf
 2. Clean flocculator and sedimentation tank by attaching the long cleaning tube to the push to connect at the start of the flocculator and the sink. Then detach the tube at the bottom of the sedimentation tank and attach it to the top of the tank. Then turn the sink on slowly and run for 30 seconds. A picture of the cleaning tube is shown in figure 8.
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleaning%20tube.jpg" width=600>
-Figure 8: Cleaning tube.
+Figure 11: Cleaning tube.
 
 3. Rinse coagulant reservoir with DI water.
 
@@ -243,7 +247,7 @@ In order to properly begin an experiment, the ProCoDA method file must be turned
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/On%20State.png" width=600>
 
-Figure 9: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
+Figure 12: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
 
 ### Set Points
 Here, you should list the set points used in your method file and explain their use as well as how each was calculated.
@@ -252,7 +256,7 @@ The following is a list of all the Set Points in the method file and their value
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Set%20Points.png" width=600>
 
-Figure 10: This is the overall order of the Set Points for the HRS method file.
+Figure 13: This is the overall order of the Set Points for the HRS method file.
 
 
 * OFF - no units, value of 0, constant
@@ -264,14 +268,14 @@ Figure 10: This is the overall order of the Set Points for the HRS method file.
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Output%20Settings.png" width=600>
 
-Figure 11: This is the output settings for the PID state. This process runs in the background and only needs to be set up at the beginning of a semester's work. Note that PID controls the clay pump and whether it is turned on or not at any given time.
+Figure 14: This is the output settings for the PID state. This process runs in the background and only needs to be set up at the beginning of a semester's work. Note that PID controls the clay pump and whether it is turned on or not at any given time.
 
 * Influent Turbidimeter ID - no units, value of 1, constant. Value is due to the step in which the turbidimeter is installed and acknowledged in the data recording process. Effluent Turbidimeter ID is 2 since it takes in data later down the line.
 * Influent Turbidity - no units, value of 0, variable. See Figure below
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Influent%20Set%20Point.png" width=600>
 
-Figure 12: This displays the influent turbidity Set Point and the selected sensors to establish the relationship.
+Figure 15: This displays the influent turbidity Set Point and the selected sensors to establish the relationship.
 
 * Effluent Turbidimeter ID - no units, value of 1, constant.
 * Effluent Turbidity - no units, value of 2
@@ -279,7 +283,7 @@ Figure 12: This displays the influent turbidity Set Point and the selected senso
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Pump%20Control.png" width=600>
 
-Figure 13: This shows the relationship between the PumpControl(Clay) variable and other predefined set points.
+Figure 16: This shows the relationship between the PumpControl(Clay) variable and other predefined set points.
 
 ## Python Code
 ### Variables
