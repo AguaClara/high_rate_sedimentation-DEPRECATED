@@ -1,6 +1,6 @@
 # High Rate Sedimentation, Spring 2018
 #### Mike Zarecor, Sneha Sharma, Justin Conneely
-#### March 9th, 2018
+#### May 18th, 2018
 
 ## Abstract
 Past High Rate Sedimentation (HRS) teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The Spring 2018 team conducted experiments that found increasing coagulant dosage did not prevent floc blanket thinning, that increasing tube settler length and reducing flocculator shear had minimal effects on floc blanket thinning. Cleaning the flocculator during trials did result in less floc blanket decay.
@@ -189,62 +189,62 @@ The floc blanket serves as a filter, decreasing the effluent turbidity of water 
 
 Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the flocculator tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. The hypothesis was tested by varying the coagulant dose with respect to time over a period of 24 hours.
 
-<div class="alert alert-block alert-danger">
-Try to avoid passive voice phrases like "it was believed" Can change it to active by saying who believed it.
-
-Is the tubing you are talking about here the sed tank or the flocculator?
-</div>
-
-Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in Figure 6. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
-
-<div class="alert alert-block alert-danger">
-Capitalize figure 6
-</div>
+Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in Figure 6. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after the experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
 
 ![Figure5](/Images/HRSupdatedgraph.png)
 
 Figure 6: The effluent turbidity over 24 hours at varied coagulant doses.
 
-###Experiment 2
-After collecting and analyzing the data from Experiment 1, it was hypothesized that the degradation of the floc blanket was a result of smaller flocs escaping, rather than a result of flocs accumulating on the tubing walls. Therefore, the tube settler was lengthened and a flocculator with a larger diameter was used to decrease the capture velocity and ensure that the smaller flocs were settled out.
+The Spring 2018 High G Flocculation Team found that the main factor contributing to their floc blanket decay is the accumulation of flocs on the flocculator tubing walls. However, it must be noted that their experiments were conducted at an upflow velocity of 1 mm/s, whereas the HRS team is working toward developing a stable floc blanket at 3 mm/s. Therefore, the cause of the High G Team's floc blanket degradation differs from the HRS Team's.
 
-As is shown in Figure 7, the results illustrated that increasing the length of the tube settler and the diameter of the flocculator did decrease the effluent turbidity. However, this decrease was not significant and the floc blanket still degraded.
+###Experiment 2
+After collecting and analyzing the data from Experiment 1, it was hypothesized that the degradation of the floc blanket is a result of smaller flocs escaping, rather than a result of flocs accumulating on the tubing walls. Therefore, the tube settler was lengthened and a flocculator with a larger diameter was used to decrease the capture velocity and to ensure that the smaller flocs were settled out.
+
+As is shown in Figure 7, the results illustrate that increasing the length of the tube settler and the diameter of the flocculator does decrease the effluent turbidity. However, this decrease is not significant and the floc blanket still degraded.
 
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Experiment2Graph.png" width=600>
 
 Figure 7: The effluent turbidity recorded using tube settlers of varying lengths and flocculators of varying diameters.
 
-Thus, the hypothesis for the second experiment was not supported by the results.
+Thus, the hypothesis for the second experiment is not supported by the results.
 
 ###Experiment 3
 
-A third experiment was conducted to determine if the flocculator is the cause of floc blanket decay. The experiment was run at 3 mm/s upflow velocity, 4.2 mg/L PACL, using a 3/16 inch diameter flocculator and a 930 mm tube settler. The flocculator was flushed using a syringe approximately 5 hours after dosing coagulant.
+Since Experiment 2 illustrated that the sedimentation tank itself was not causing floc blanket decay, a third experiment was conducted to determine if the flocculator was causing the floc blanket decay. The experiment was run at 3 mm/s upflow velocity, 4.2 mg/L PACL, using a 3/16 inch diameter flocculator and a 930 mm tube settler. The flocculator was flushed using a syringe approximately 5 hours after dosing coagulant.
 
-[Figure needed, analysis of results needed]
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment3.png" width=600>
+
+Figure 8:
+
+In the HRS Team's sedimentation tank design, the floc blanket develops gradually from the bottom of the tank to the top. As is evidenced by Figure 8 above, there is a spike in turbidity at approximately 5.5 hours. This is likely due to the overflow of flocs being pushed out of the recirculator.
+
+Furthermore, the two trials of the experiment vary
+
+Aside from these anomalies, the general trend of the figure suggests that flushing the flocculator results in a much more gradual floc blanket decay. As can be seen in Figure 7 of Experiment 2, the effluent turbidity increased by approximately 15 NTU as the floc blanket began to decay. However, in Figure 8 of Experiment 3, the effluent turbidity increased by only about 2.5 NTU.
+
+Though flushing the flocculator resulted in a more gradual floc blanket decay, it did not resolve the issue completely. Furthermore, since the two trials of the experiment varied greatly, it is possible that floc blanket decay is not a result of the sedimentation system but rather a result of the floc blanket formation itself. The small scale interactions within the floc blanket that govern removal could potentially be responsible for its decay.
+
 ###Experiment 4
 
-In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours after initially dosing clay; when the data was plotted, the HRS team found that the stability of the floc blanket had increased. The objective of Experiment 4 was to test the effects of dosing coagulant 5 hours after dosing clay.
+In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours after initially dosing clay; when plotting the data, the HRS team found that doing so increases the stability of the floc blanket. The objective of Experiment 4 was to test the effects of dosing coagulant 5 hours after dosing clay.
 
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment4(1).png" width=600>
+
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment4(2).png" width=600>
 [Figure needed, analysis of results needed]
 
-Further studies must be conducted to determine the cause of floc blanket decay.
-
-<div class="alert alert-block alert-danger">
-Any other thoughts on why these hypotheses were wrong and what the actual problem is?
-
-After reading the High G floc report, it seems fairly definitive that the problem is the coagulant sticking to the walls and they have a solution for that in a lab setting. Are these two experiments linked?
-
-This is a good basis for results and analysis but there could be a little more insight here.
-</div>
+Further studies need to be conducted to determine the cause of floc blanket decay.
 
 ## Conclusions
-Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. After this dose there is no effect on effluent turbidity, and all doses still resulted in floc blanket decay. While this is clear from the data, the root cause of this result remains unclear; experiment 2 was conducted to try to narrow down the cause. We believe that increasing the capture velocity via increasing the tube settler length and flocculator diameter would show whether or not decreased floc size is the root cause of floc blanket decay.
+Based on the above data, the HRS team was able to conclude that increasing coagulant dose mitigated floc blanket degradation up until a coagulant dose of 4.2 mg/L. After this dose there is no effect on effluent turbidity, and all doses still resulted in floc blanket decay. While this result is clear from the data, the root cause of it remains unclear; experiment 2 was conducted to try to narrow down the cause. We believe that increasing the capture velocity via increasing the tube settler length and flocculator diameter would show whether or not decreased floc size is the root cause of floc blanket decay.
 
 Through these tests, experiment 2 demonstrated that decreased particle size due to coagulant accumulation in the flocculator is not fully responsible for floc blanket decay. The bigger flocculator should have resulted in larger flocs, while the longer tube settler should have allowed for the capture of smaller particles. Neither of these changes resulted in a stable floc blanket, but the duration of effective particle removal was slightly increased. This may be a partial solution to the floc blanket decay problem, but does not provide information on the complete picture.
 
-Experiment 3 was conducted to determine whether or not the flocculator specifically was causing floc blanket decay. The results of this experiment showed that flushing the flocculator several hours after coagulant begins dosing again does not have an appreciable impact on floc blanket stability. Despite these experiments, the root cause of floc blanket decay is not known. More potential causes to be tested are listed in the future work section.
+Experiment 3 was conducted to determine whether or not the flocculator specifically was causing floc blanket decay. The results of this experiment showed that flushing the flocculator several hours after coagulant begins dosing does have an  impact on floc blanket stability, but does not allow them to be stable indefinitely.
 
-Similarly, only one trial was able to be conducted underneath experiment 4. Because of this, we do not feel comfortable making any assertions about what the results may say about the issue at hand.
+Similarly, only one trial was able to be conducted underneath experiment 4. Because of this, we do not feel comfortable making any assertions about what the results may say about the issue at hand. However, dosing clay prior to beginning the experiment appeared to have a negligible impact.
+
+Despite all of these experiments, the root cause of floc blanket decay is still not known. More potential causes to be tested can be found in the future work section.
 
 <div class="alert alert-block alert-danger">
 Either use numbers OR words for numbers like "2" or "two" throughout report. Keep consistent.
@@ -253,11 +253,11 @@ Need to link back to overall importance of data.
 
 At the end of thism I feel unsure if we know what the problem really is and if you are trying to solve a problem that you are sure it exists but don't know why.
 
-I would like the conclusion to be more clear and add a bit mre context to these overall experiment conclusions.
+I would like the conclusion to be more clear and add a bit more context to these overall experiment conclusions.
 </div>
 
 ## Future Work
-Currently the Spring 2018 team does not have a solution for floc blanket degradation. Future work should focus on discovering what mechanisms cause the degradation, as well as methods to prevent or minimize it. There are currently two specific areas of particular interest They are particle interactions within the floc blanket being unstable, and the floc weir draining too many particles. There could also be experiments conducted at lower upflow velocities to determine if there is a threshold above which floc blanket decay occurs.
+Currently the Spring 2018 team does not have a solution for floc blanket degradation. Future work should focus on discovering what mechanisms cause the degradation, as well as methods to prevent or minimize it. There are currently two specific areas of particular interest: those two areas are particle interactions within the floc blanket being unstable, and the floc weir draining too many particles. There could also be experiments conducted at lower upflow velocities to determine if there is a threshold above which floc blanket decay occurs.
 
 <div class="alert alert-block alert-danger">
 Make the list a real list or take away the numbers.
