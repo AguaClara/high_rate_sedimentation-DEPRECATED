@@ -16,7 +16,7 @@ In the AguaClara lab, a sedimentation tank and its respective plate settlers are
 Figure 1: Comparison of sedimentation tank in an AguaClara plant vs. in an AguaClara lab.
 
 <p align=center>
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Labeled%20Apparatus.JPG" height=400 width=500> </p>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Labeled%20Apparatus.JPG" height=300 width=500> </p>
 INSERT DESCRIPTION HERE
 
 |column A| column B|
