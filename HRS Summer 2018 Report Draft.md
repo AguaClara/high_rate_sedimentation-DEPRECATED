@@ -1,6 +1,6 @@
 # High Rate Sedimentation, Summer 2018
 #### Hannah Si, Anna Hong, Barbara Oramah,
-#### insert date later
+#### insert date laterrr
 
 ## Abstract
 Past High Rate Sedimentation (HRS) teams have hypothesized that floc blankets thin as experiments progress due to coagulant sticking to the walls of the flocculator, reducing the overall coagulant dosage. The Spring 2018 team conducted experiments that found increasing coagulant dosage did not prevent floc blanket thinning, that increasing tube settler length and reducing flocculator shear had minimal effects on floc blanket thinning. Cleaning the flocculator during trials did result in less floc blanket decay.
