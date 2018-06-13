@@ -1,5 +1,5 @@
 # High Rate Sedimentation, Summer 2018
-#### Hannah Si, Anna Hong, Barbara Oramah, Ian
+#### Hannah Si, Anna Hong, Barbara Oramah,
 #### insert date later
 
 ## Abstract
