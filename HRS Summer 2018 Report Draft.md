@@ -54,6 +54,8 @@ Balwan (2016) explored the effect of the length of the tube settler on effluent 
 
 The Fall 2017 High Rate Sedimentation team experimented with varied sedimentation tank geometries in an attempt to find a configuration that allowed for stable floc blankets. They were unsuccessful; however, they found that they could not reestablish floc blankets mid experiment, and that headloss increased as the experiment progressed. This led to their floc accumulation hypothesis. This hypothesis suggests that coagulant and flocs sticks to the inside of the flocculator tubing, reducing the effective dosage of coagulant and reducing the effective diameter of the tubing. The Spring 2018 team began by testing this idea.
 
+Hello
+
 ## Methods
 ### Experimental Apparatus
 The overall lab bench set up of the HRS team is composed of several parts (Figure 2). These parts include the pumps, the stocks, the flocculator, and the turbidimeters.
