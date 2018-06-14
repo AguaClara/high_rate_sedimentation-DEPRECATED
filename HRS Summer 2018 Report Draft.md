@@ -17,10 +17,10 @@ Figure 1: Comparison of sedimentation tank in an AguaClara plant vs. in an AguaC
 
 <p align=center>
 <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Labeled%20Apparatus.JPG" height=300 width=500> </p>
-INSERT DESCRIPTION HERE
+Figure 2: Labeled experimental setup for the High Rate Sedimentation lab bench
 
-|column A| column B|
-| :-------------: |:-------------:|
+|Label| Name|
+| :-------------: |-------------|
 |1| Water Pump|
 | 2| Clay Pump  |
 |3   | Coagulant Pump  |
