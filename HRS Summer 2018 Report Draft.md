@@ -54,6 +54,8 @@ Balwan (2016) explored the effect of the length of the tube settler on effluent 
 
 The Fall 2017 High Rate Sedimentation team experimented with varied sedimentation tank geometries in an attempt to find a configuration that allowed for stable floc blankets. They were unsuccessful; however, they found that they could not reestablish floc blankets mid experiment, and that headloss increased as the experiment progressed. This led to their floc accumulation hypothesis. This hypothesis suggests that coagulant and flocs sticks to the inside of the flocculator tubing, reducing the effective dosage of coagulant and reducing the effective diameter of the tubing. The Spring 2018 team began by testing this idea.
 
+
+
 ## Methods
 ### Experimental Apparatus
 The overall lab bench set up of the HRS team is composed of several parts (Figure 2). These parts include the pumps, the stocks, the flocculator, and the turbidimeters.
@@ -122,26 +124,26 @@ $$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
 Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<sub>pipe</sub> is the inner diameter of the PVC pipe.
 
 ### Procedure
-####Experiment 1
+#### Experiment 1
 Using the aforementioned set-up, the HRS team tests the effect of increasing coagulant dose on floc blanket degradation and effluent turbidity. This is tested by first flushing the system to assure it was clean of coagulant and clay particles, then stabilizing the influent turbidity at 100 NTU by dosing clay using the PID control in ProCoDA. Then the team tests varying doses of coagulant with a constant upflow velocity in the sedimentation tank of 3 mm/s (experimentally extrapolated from an RPM of 28.3); this value is chosen as the team's experimental parameter. The first experiment is conducted at a coagulant dosage of 1.4 mg/L, as that was the minimum effective dose of coagulant in treatment plants. The corresponding coagulant pump RPM is 20. That initial coagulant dose is then increased incrementally, then is tested under the same conditions as above. For this experiment, the team records data on the influent and effluent turbidity, the headloss across the flocculator, and the time at which each of those data points is recorded.
 
-####Experiment 2
+#### Experiment 2
 Using the same general experimental set-up as the first experiment, the team uses a 930 mm tube settler to decrease the capture velocity of the sedimentation tank from 0.36 mm/s to 0.15 mm/s. After running a test with this set-up, the team also changes the flocculator to a 3/16 inch design provided by High G Flocculation to replace 1/8 inch tubing flocculator. The same data values as above are recorded for this experiment.
 
 <img src="https://user-images.githubusercontent.com/35945280/38057485-9dd494b6-32ad-11e8-9e6d-f05191949a9b.png" height250 width=400>
 
 Figure 5: Sedimentation tank with the 930 mm tube settler.
 
-####Experiment 3
+#### Experiment 3
 
 For experiment 3, trials are run at an upflow velocity of 3 mm/s, coagulant dose of 4.2 mg/L, and influent turbidity of 100 NTU. The apparatus used is the 930 mm tube settler and the 3/16 inch diameter flocculator. For these trials, approximately five to eight hours into testing, the flocculator was flushed with a syringe with the goal of removing built up coagulant from the walls. Experimental data is recorded for approximately another twelve to fifteen hours after flushing. The same data points as the above two experiments are recorded.
 
-####Experiment 4
+#### Experiment 4
 
 In experiment 4, the same general parameters are held as previous trials. For this experiment, clay was dosed without coagulant for several hours, then we began dosing coagulant. This is being tested because during a mistrial of experiment 3, we noticed that our floc blanket was more stable after dosing pure clay without coagulant for a period of time.
 
 ## Results and Analysis
-###Experiment 1
+### Experiment 1
 The floc blanket serves as a filter, decreasing the effluent turbidity of water flowing through the sedimentation tank. Therefore, a decrease in effluent turbidity is directly correlated to the presence of a floc blanket.
 
 Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc blanket eventually degrades as a result of the coagulant adhering to the walls of the flocculator tubing. Thus, it was hypothesized that increasing the concentration of the coagulant would compensate for the amount of coagulant  sticking to the tubing's walls, resulting in a sustainable floc blanket and a consistently low effluent turbidity. This was tested by varying the coagulant dose with respect to time over a period of 24 hours.
@@ -154,7 +156,7 @@ Figure 6: The effluent turbidity over 24 hours at varied coagulant doses.
 
 The Spring 2018 High G Flocculation Team found that the main factor contributing to their floc blanket decay is the accumulation of flocs on the flocculator tubing walls. However, it must be noted that their experiments were conducted at an upflow velocity of 1 mm/s, whereas the HRS team is working toward developing a stable floc blanket at 3 mm/s. Therefore, the cause of the High G Team's floc blanket degradation differs from the HRS Team's.
 
-###Experiment 2
+### Experiment 2
 After collecting and analyzing the data from Experiment 1, it was hypothesized that the degradation of the floc blanket is a result of smaller flocs escaping, rather than a result of flocs accumulating on the tubing walls. Therefore, the tube settler was lengthened and a flocculator with a larger diameter was used to decrease the capture velocity and to ensure that the smaller flocs were settled out.
 
 As is shown in Figure 7, the results illustrate that increasing the length of the tube settler and the diameter of the flocculator does decrease the effluent turbidity. However, this decrease is not significant and the floc blanket still degraded.
@@ -165,7 +167,7 @@ Figure 7: The effluent turbidity measured after using tube settlers of varying l
 
 Thus, the hypothesis for the second experiment is not supported by the results.
 
-###Experiment 3
+### Experiment 3
 
 Since Experiment 2 illustrated that the sedimentation tank itself was not causing floc blanket decay, a third experiment was conducted to determine if the flocculator was causing the floc blanket decay. The experiment was run at 3 mm/s upflow velocity, 4.2 mg/L PACL, using a 3/16 inch diameter flocculator and a 930 mm tube settler. The flocculator was flushed using a syringe approximately 5 hours after dosing coagulant.
 
@@ -181,7 +183,7 @@ Aside from these anomalies, the general trend of the figure suggests that flushi
 
 Though flushing the flocculator resulted in a more gradual floc blanket decay, it did not resolve the issue completely. Since the two trials of the experiment differed greatly, it is possible that floc blanket decay is not a result of the sedimentation system but rather a result of the floc blanket formation itself. The small scale interactions within the floc blanket that govern removal could potentially be responsible for its decay. This phenomenon must be explored in future studies.
 
-###Experiment 4
+### Experiment 4
 
 In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours after initially dosing clay; when plotting the data, the HRS team found that doing so increases the stability of the floc blanket. The objective of Experiment 4 was to test the effects of dosing 4.2 mg/L PACL of coagulant 5 hours after dosing clay.
 
