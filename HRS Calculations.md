@@ -24,6 +24,7 @@ rpm_water = Q_water/(Q_rev_water)
 print("Water pump speed: ", rpm_water, "\n")
 
 print("AguaClara Research Calculations")
+#diameter obtained from specs for MasterFlex tubing 06508-17
 print("Volume per rev for water pump:", vol_per_rev(6.4*u.mm))
 rpm_water = Q_water/vol_per_rev(6.4*u.mm)
 print("Water pump speed: ", rpm_water, "\n")
@@ -50,5 +51,5 @@ print("Corresponding coagulant pump speed:", rpm_coag)
 
 dilution_factor = C_coag_max/C_super_stock*1000
 print("Corresponding dilution factor: ", dilution_factor*u.mL/u.L)
-print(5*dilution_factor)
+print("Amount of super stock to add: ", 5*dilution_factor*u.mL)
 ```
