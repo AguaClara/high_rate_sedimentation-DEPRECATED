@@ -10,7 +10,7 @@ Since Spring 2018, the AguaClara Flocculation-Sedimentation Filtration team has 
 Here is a picture of the revised lab bench set up of the HRS team followed by a table listing the various components.
 
 <p align=center>
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Labeled%20Apparatus.JPG" height=300 width=500> </p>
+<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/updatedlabbenchsetup.JPG" height=300 width=500> </p>
 Figure 2: Labeled experimental setup for the High Rate Sedimentation lab bench
 
 |Label| Name|
@@ -23,11 +23,11 @@ Figure 2: Labeled experimental setup for the High Rate Sedimentation lab bench
 |6   |Pressure Sensor   |
 |7   | Influent Turbidimeter  |
 |8   |Effluent Turbidimeter   |
-|9   | Wastewater Bucket  |
-|10   | Pressure Attenuator  |
-|11   |Coagulant Stock   |
-|12   | Clay Stock  |
-|13   | Sedimentation Tank  |
+|9   | Pressure Attenuator  |
+|10   | Coagulant Stock  |
+|11   |Clay Stock   |
+|12   | Sedimentation Tank  |
+|13   | Waste Tube  |
 
 ###Procedures Before Experimenting
 ####Original configuration
