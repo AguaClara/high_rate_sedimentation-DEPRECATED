@@ -1,55 +1,61 @@
 ```python
 from aguaclara_research.tube_sizing import *
-import numpy
 from aide_design.shared.units import unit_registry as u
+import numpy
 
-def vol_per_rev(diameter):
-    R_pump = 1.62 * u.cm
-    k_nonlinear = 13
-    term1 = (R_pump * 2 * numpy.pi - k_nonlinear * diameter) / u.rev
-    term2 = numpy.pi * (diameter ** 2) / 4
-    return (term1 * term2).to(u.mL/u.rev)
+#Tubing ID : volume per revolution
+tubing_water = {
+  13 : .06*u.mL/u.rev,
+  14 : .21*u.mL/u.rev,
+  16 : 0.8*u.mL/u.rev,
+  17 : 2.8*u.mL/u.rev,
+  18 : 3.8*u.mL/u.rev
+}
 
-Q_sys =.1*numpy.pi*(.5*2.54)**2*u.mL/u.s
+#System parameters, in relation to the sedimentation tank
+upflow_velocity = 1 #in millimeters per second
+print("CALCULATIONS FOR UPFLOW VELOCITY OF", upflow_velocity, "MM/S \n")
+
+cross_sectional_area = numpy.pi * (0.5*u.inch * 2.54*u.cm/u.inch) ** 2
+Q_sys = (upflow_velocity/10*u.cm/u.s * cross_sectional_area).to(u.mL/u.s)
+print("System flow rate: ", Q_sys, "\n")
 
 C_clay = 100*u.NTU
-C_pacl_min = 1.4*u.mg/u.L
-tubing = "yellow-blue"
-Q_water = Q_water(Q_sys, 100*u.NTU, 1.4*u.mg/u.L, tubing, tubing)
+C_pacl = 1.4*u.mg/u.L
+tubing_clay = "yellow-blue"
+tubing_pacl = "yellow-blue"
 
-print("Our Calculations")
-Q_rev_water = 82.6*u.mL/u.min/(25*u.rev/u.min)
-print("Volume per rev for water pump:", Q_rev_water)
-rpm_water = Q_water/(Q_rev_water)
-print("Water pump speed: ", rpm_water, "\n")
+#Water pump speed
+Q_water = Q_water(Q_sys, C_clay, C_pacl, tubing_clay, tubing_pacl)
+Q_rev_water = tubing_water[17]
+rpm_water = Q_water/Q_rev_water
+print("Water pump speed:", rpm_water, "\n")
 
-print("AguaClara Research Calculations")
-#diameter obtained from specs for MasterFlex tubing 06508-17
-print("Volume per rev for water pump:", vol_per_rev(6.4*u.mm))
-rpm_water = Q_water/vol_per_rev(6.4*u.mm)
-print("Water pump speed: ", rpm_water, "\n")
-
-#Current Concentration
+#Current coagulant (PACl) concentration and pump speed
+print("CURRENT COAGULANT DOSAGE CALCULATIONS")
 C_super_stock = 70.28*u.g/u.L
 V_stock = 5*u.L
 dilution_factor = 0.8*u.mL/u.L
-V_super_stock = (V_stock*dilution_factor)
-print("Current volume of super stock: ", V_super_stock)
+V_super_stock = V_stock * dilution_factor
+print("Current volume of coagulant super stock to add: ", V_super_stock)
 
-M_stock = (C_super_stock*V_super_stock).to(u.g)
-C_stock = M_stock/V_stock
-print("Current concentration of coag stock: ", C_stock, "\n")
-#C_stock = 70.28*.8/1000) = C_super_stock * dilution_factor/1000
+M_stock = (C_super_stock * V_super_stock).to(u.g)
+C_stock = M_stock / V_stock #Note: C_stock= C_super_stock * dilution_factor/1000
+print("Current concentration of coagulant stock: ", C_stock)
 
-#Recommended Concentration
-C_coag_max = C_stock_max(Q_sys, 1.4*u.mg/u.L, tubing)
-print("Max concentration of coag stock: ", C_coag_max)
-Q_coag_min = Q_stock_max(Q_sys, 1.4*u.mg/u.L, tubing)
-print("Corresponding coagulant flow rate: ", Q_coag_min)
-rpm_coag = pump_rpm(Q_coag, tubing)
-print("Corresponding coagulant pump speed:", rpm_coag)
+Q_stock = (Q_sys * C_pacl / C_stock).to(u.mL/u.s)
+rpm_pacl = pump_rpm(Q_stock, tubing_pacl)
+print("Current coagulant pump speed:", rpm_pacl, "\n")
 
-dilution_factor = C_coag_max/C_super_stock*1000
-print("Corresponding dilution factor: ", dilution_factor*u.mL/u.L)
-print("Amount of super stock to add: ", 5*dilution_factor*u.mL)
+#Recommended coagulant (PACl) concentration and pump speed
+print("RECOMMENDED COAGULANT DOSAGE CALCULATIONS")
+rpm_pacl = min_rpm
+print("Minimum coagulant pump speed:", rpm_pacl) #defined in tube_sizing.py
+
+C_stock = C_stock_max(Q_sys, C_pacl, tubing_pacl)
+print("Maximum concentration of coagulant stock: ", C_stock)
+
+dilution_factor = C_stock / C_super_stock * 1000 * u.mL/u.L
+V_super_stock = V_stock * dilution_factor
+print("Maximum volume of super stock: ", V_super_stock)
 ```
