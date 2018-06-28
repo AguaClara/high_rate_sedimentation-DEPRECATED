@@ -229,15 +229,15 @@ Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation perf
 ### Set-up
 1. Make sure the set up is throughly cleaned out (see below under the Cleaning Procedure section) and the clay and coagulant stocks are replenished.
 2. Run water through the system with the pressure attenuator until effluent turbidity stabilizes below 1 NTU.
-  1. If you see the water rising steadily in the pressure attentuator (and the water level was already above the outlet), there is pressure buildup in the system, most likely caused by a closed valve or the presence of air in the tubing.
-  2. If there are air bubbles, redirect flow to the waste pump instead of the flocculator (after the influent turbidimeter), then direct it back through the flocculator and the rest of the system when the bubbles are removed.
+* If you see the water rising steadily in the pressure attentuator (and the water level was already above the outlet), there is pressure buildup in the system, most likely caused by a closed valve or the presence of air in the tubing.
+* If there are air bubbles, redirect flow to the waste pump instead of the flocculator (after the influent turbidimeter), then direct it back through the flocculator and the rest of the system when the bubbles are removed.
 3. Shut and open the appropriate valves in order to redirect flow to waste instead of the flocculator.
 4. Turn the clay stock stirrera nd ProCoDa on.
-  1. The clay pump will start running at 100 NTU. To lower it quickly to a more reasonable level, change the control mode to INT (internal), then toggle back to EXT (external) control mode.
-  2. TIP: Before the experiment, while the clay pump is off, set it into INT mode and then use the down arrow to lower the pump speed as low as possible. This will be the speed of the pump the next time it is on and in INT control mode.
+* The clay pump will start running at 100 NTU. To lower it quickly to a more reasonable level, change the control mode to INT (internal), then toggle back to EXT (external) control mode.
+* TIP: Before the experiment, while the clay pump is off, set it into INT mode and then use the down arrow to lower the pump speed as low as possible. This will be the speed of the pump the next time it is on and in INT control mode.
 5. Stabilize influent turbidity to 100 NTU.
-  1. Note: For faster stabilization, make sure the clay stock is not too concentrated.
-  2. Set the "i" constant of the PID control to zero until the influent turbidimeter decreases down to around 115 NTU, at which point you should change this "i" constant up to 2.
+* Note: For faster stabilization, make sure the clay stock is not too concentrated.
+* Set the "i" constant of the PID control to zero until the influent turbidimeter decreases down to around 115 NTU, at which point you should change this "i" constant up to 2.
 6. Disconnect the coagulant pump from the system and check if coagulant is pumping through correctly.
 7. Connect the coagulant tubing back to the main system and run the experiment.
 
@@ -245,15 +245,15 @@ Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation perf
 This is to be done before every new experiment.
 
 1. Clean out influent and effluent turbidimeters.
-  1. Even without running water, shut and open the appropriate valves to bypass the turbidimeter so that water does not leak into it while cleaning.
-  2. Unlock and take out the black cylinder on top of the turbidimeter. Loosen the input and output tubes on top of the cylinder.
-  3. Unscrew the glass vial, empty and rinse it, then fill it with clean water.
-  4. Screw the vial back in, wipe the bottle and cylinder free from water droplets or fingerprints, and then lock the cylinder back into the turbidimeter.
-  5. Remember to tighten the input and output tubes. If you used the white screws on the outflow turbidimeter tubes to block water passage, remember to unscrew them.
+* Even without running water, shut and open the appropriate valves to bypass the turbidimeter so that water does not leak into it while cleaning.
+* Unlock and take out the black cylinder on top of the turbidimeter. Loosen the input and output tubes on top of the cylinder.
+* Unscrew the glass vial, empty and rinse it, then fill it with clean water.
+* Screw the vial back in, wipe the bottle and cylinder free from water droplets or fingerprints, and then lock the cylinder back into the turbidimeter.
+* Remember to tighten the input and output tubes. If you used the white screws on the outflow turbidimeter tubes to block water passage, remember to unscrew them.
 2. Clean the flocculator and sedimentation tank.
-  1. Flush the flocculator at a high velocity (highest velocity of the water pump or use a syringe).
+* Flush the flocculator at a high velocity (highest velocity of the water pump or use a syringe).
 3. Clean out the pressure attenuator and run water through the system while bypassing the pressure attenuator.
-4. Rinse coagulant reservoir with DI water. 
+4. Rinse coagulant reservoir with DI water.
 
 ## ProCoDA Method File
 
