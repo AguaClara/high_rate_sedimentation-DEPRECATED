@@ -103,12 +103,49 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
 
 ###Experiments and Results
 
-#####Experiment 1
-Description:
-Result:
+The HRS team has been experimenting with two sedimentation tank designs in an effort to understand the reasons for floc blanket decay in the Spring 2018 and Fall 2017 semesters.
 
-###Results and Analysis
+1. **Sedimentation tank A** is the sedimentation tank design used by most AguaClara particle removal research teams, including the HRS team in the Fall 2017 semester. The tube settler is relatively short and the floc weir is placed on the left side of the tube settler.
 
+<p align="center">
+  <img src="Images/Sedimentation Tank A.png" width=300>
+</p>
+
+Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara research teams, including the Fall 2017 HRS team.
+
+2. **Sedimentation tank B** is the sedimentation tank design used by the Spring 2018 HRS team. The tube settler is relatively long and the floc weir is placed on the right side of the bend in the recirculator.
+
+(PICTURE HERE)
+
+####Experiment 1
+**Description**: To be consistent with the sedimentation tanks used by other subteams, this experiment used tank A. This was run at an upflow velocity of 3 mm/s for 9.5 hours to confirm whether a higher upflow velocity would cause failure and to observe floc blanket behavior leading to failure.
+
+**Results**: At about two and a half hours into the experiment, an opaque floc blanket has formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success. Whether this success was due to the floc weir being in an optimal position or having a more robust system will be further experimented in the near future.
+
+####Experiment 2
+**Description**: To be consistent with the sedimentation tank used by last semester's HRS team, this experiment ran a test with an upflow velocity of 3 mm/s using tank B at a longer time (22.5 hours). This test would help confirm whether tank design plays a factor in floc blanket decay and thus system failure.
+
+**Results**: At 9.5 hours into this experiment, the effluent turbidity reached 4.4 NTU. At this time, movement of flocs within tank B was slower than that in tank A and the floc blanket is not opaque. However, by the end of the experiment, system failure was observed with a final effluent turbidity of 19.5 NTU. This experiment observed a slower decay that may be due to using a more robust system. Nonetheless, this experiment was concluded to be a partial success.
+
+####Experiment 3
+**Description**: The second part of our initial observations includes running experiments at an upflow velocity of 1 mm/s to confirm system success. This experiment tested a 1 mm/s upflow velocity using tank B. For the first 30 minutes, there was an input of excess coagulant because the coagulant pump speed was not reduced from 20 RPM to 6.7 RPM to reflect this lower upflow velocity.
+
+**Results**: The initial effluent turbidity began at 4.4 NTU and increased throughout the duration of the experiment quite rapidly. By the end of 20 hours, the effluent turbidity was higher than influent turbidity at 135 NTU, making this a failure. It was hypothesized that the influx of large amounts of coagulant at the beginning of the experiment caused coagulant to stick to the walls, causing higher shear and decreased diameter. Coagulant particles may be colliding with other coagulant particles instead of clay particles, which only form small flocs. These small particles are more difficult to capture and thus travel upwards to the tube settler and out in the effluent tube.
+
+####Experiment 4
+**Description**: To nullify any potential effects from the initial coagulant dosage spike, this experiment ran Experiment 3 with the appropriate coagulant pump speed of 6.7 RPM.
+
+**Results**: With a final effluent turbidity of 20 NTU, system failure was observed, disproving the initial excess coagulant was the cause. There was no observable formation of a floc blanket, which means that the smaller flocs that are contaminating the effluent were not being captured and settled out. Since coagulant does not seem to be the cause of system failure, it is hypothesized that the upflow velocity is running too slowly for both sedimentation tank designs. One key observation was that there seemed to be a gradual increase in floc size within the flocculator as it neared its end.
+
+####Experiment 5
+**Description**: To make sure that the changes that we made to our experimental apparatus is not the cause of system failure, Experiment 1 was rerun but for a longer time of 18 hours.
+
+**Results**: As before, an opaque floc blanket formed with the same density gradient of flocs in the recirculator. However, this experiment ended with a slowly rising effluent turbidity of 26 NTU at 18 hours. There were many flocs settled in the tube settler, which may have reached there before the formation of the floc blanket. It seems that the floc blanket formed later than it had before in experiment 1, allowing the smaller flocs that are more difficult to capture travel up to the tube settler and out the effluent tube.
+
+####Experiment 6
+**Description**: Since experiment 1 was a success at an upflow velocity of 3 mm/s, it was predicted that running the same experiment at a lower upflow velocity of 1 mm/s would also be a success. Since no floc blanket formed, the water and coagulant pump speeds were increased to reflect a 2 mm/s upflow velocity because 1 mm/s may be too slow due to the geometry at the bottom of both sedimentation tanks. This increased speed was changed 2 hours after the start of the experiment.
+
+**Results**: Ending with an effluent turbidity of 46 NTU, this experiment observed system failure. No floc blanket formed throughout the duration of the experiment even with the increased speeds. While it seemed that there could be a speed too slow for this system to succeed, these results suggest that a different factor is causing system failure.
 
 ###Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters.
@@ -174,3 +211,6 @@ dilution_factor = C_stock / C_super_stock * 1000 * u.mL/u.L
 V_super_stock = V_stock * dilution_factor
 print("Maximum volume of super stock: ", V_super_stock)
 ```
+
+###Other Insights
+<!-- ProCoDa issues, etc. -->
