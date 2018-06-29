@@ -16,7 +16,7 @@ tubing_water = {
 }
 
 #System parameters, in relation to the sedimentation tank
-upflow_velocity = 1 #in millimeters per second
+upflow_velocity = 2 #in millimeters per second
 print("CALCULATIONS FOR UPFLOW VELOCITY OF", upflow_velocity, "MM/S \n")
 
 cross_sectional_area = numpy.pi * (0.5*u.inch * 2.54*u.cm/u.inch) ** 2
@@ -30,7 +30,8 @@ tubing_pacl = "yellow-blue"
 
 #Water pump speed
 Q_water = Q_water(Q_sys, C_clay, C_pacl, tubing_clay, tubing_pacl)
-Q_rev_water = tubing_water[17]
+tubing_water_ID = 17
+Q_rev_water = tubing_water[tubing_water_ID]
 rpm_water = Q_water/Q_rev_water
 print("Water pump speed:", rpm_water, "\n")
 
