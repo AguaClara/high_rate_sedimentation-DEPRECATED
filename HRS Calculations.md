@@ -4,6 +4,9 @@ from aide_design.shared.units import unit_registry as u
 import numpy
 
 #Tubing ID : volume per revolution
+#Obtained from Masterflex tubing specs, summarized on Confluence:
+#https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+
+#Peristaltic+Pumps
 tubing_water = {
   13 : .06*u.mL/u.rev,
   14 : .21*u.mL/u.rev,
