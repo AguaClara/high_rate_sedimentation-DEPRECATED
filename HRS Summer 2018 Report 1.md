@@ -116,7 +116,7 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 2. **Sedimentation tank B** is the sedimentation tank design used by the Spring 2018 HRS team. The tube settler is relatively long and the floc weir is placed on the right side of the bend in the recirculator.
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Sedimentation%20Tank%20B.png" width=300>
+  <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/SedTankB.png" width=300>
 </p>
 <!--Dimensions (cm): 50.5 for short vertical part ,33.5 for slanted part, 97 from bend ,30º is the angle-->
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
