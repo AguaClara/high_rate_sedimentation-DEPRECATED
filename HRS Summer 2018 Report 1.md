@@ -2,11 +2,11 @@
 #### Hannah Si and Anna Hong
 #### June 29, 2018
 
-##Abstract
+## Abstract
 Since Spring 2018, the AguaClara High Rate Sedimentation (HRS) team has been investigating the cause behind floc blanket decay in the sedimentation tank, which has been attributed to system failure at high upflow velocities. Along with conducting a small series of experiments, the Summer 2018 HRS team has developed a more robust experimental apparatus and clear set of instructions for setup.
-
-##Methods
-###Experimental Apparatus
+<!--Add a paragraph on why high rate sedimentation is important, and how it fits into the AguaClara plant (the global context) -->
+## Methods
+### Experimental Apparatus
 Below is a picture of the revised lab bench setup of the HRS team followed by a table listing the various components.
 
 <p align=center>
@@ -31,15 +31,15 @@ Figure 1. Labeled experimental setup for the High Rate Sedimentation lab bench
 |  12   | Sedimentation Tank    |
 |  13   | Waste Tube            |
 
-###Setup Procedures
-####Original Configuration
+### Setup Procedures
+#### Original Configuration
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Original%20Configuration.png" width = 500>
 </p>
 
 For detailed instructions and guidelines on preparing the High Rate Sedimentation experimental setup, refer to the [HRS Setup Procedures document](https://github.com/AguaClara/high_rate_sedimentation/blob/master/HRS%20Setup%20Procedures.docx) in our Github repository.
-
+<!--I would turn this document into a markdown file so that it can be opened easily on Github -->
 1. Drain the sedimentation tank.
 
 <p align = center>
@@ -71,7 +71,7 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
 </p>
 
 6. After the water reaches the top of the sed tank, shut off the water pump and drain the sed tank again.
-   * Repeat steps 5 and 6 to achieve a more thorough cleaning of the sed tank.
+   * Repeat steps 5 and 6 to achieve a more thorough cleaning of the sed tank. <!-- Is there a good way to recognize when it is completely clean?  How many times is this typically repeated? -->
 
 7. Run water only through the system with the pressure attenuator included until effluent turbidity stabilizes near 0 NTU (ideally below 1.0 NTU).
 
@@ -79,17 +79,17 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Step%207.png" width = 500>
 </p>
 
-8. Clean out the influent and effluent turbidimeters.
+8. Clean out the influent and effluent turbidimeters.  <!--How do you clean them?  If not included there this should be in the setup procedures document -->
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Step%208.png" width = 500>
 </p>
 
-9. Direct the flow to waste instead of the flocculator.
+9. Direct the flow to waste instead of the flocculator. <!--Add "by opening bypass X" -->
 
 10. Turn the clay stirrer and ProCoDa on.
 
-11. Stabilize influent turbidity to 100 NTU.
+11. Stabilize influent turbidity to 100 NTU. <!--How long does this usually take? -->
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Stabilize%20influent.png" width = 500>
@@ -100,8 +100,8 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/LastStep.png" width = 500>
 </p>
-
-###Experiments and Results
+<!-- If possible try to make the text in the images a little larger (mostly the bypass sections)  -->
+### Experiments and Results
 
 The HRS team has been experimenting with two sedimentation tank designs in an effort to understand the reasons for floc blanket decay in the Spring 2018 and Fall 2017 semesters.
 
@@ -121,13 +121,17 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 <!--Dimensions (cm): 50.5 for short vertical part ,33.5 for slanted part, 97 from bend ,30º is the angle-->
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
 
-####Experiment 1
+#### Experiment 1
+
+<!--I would encourage you to add any photos or videos you've collected during these experiments.  A picture is worth a thousand words! -->
+
+<!--I would also add graphs of ProCoDa data collected, primarily effluent turbidity.  This will provide much better understanding and allow readers to make their own conclusions.  This should be done through Python using the aguaclara_research code. -->
 **Description**: The purpose of the first two experiments is to record initial observations of floc blanket formation and decay using both sedimentation tank designs. For Experiment 1, the HRS apparatus was run at an upflow velocity of 3 mm/s for 9.5 hours using tank A in order to confirm whether this higher rate would lead to floc blanket decay causing system failure.
 
 **Results**: At about two and a half hours into the experiment, an opaque floc blanket has formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success. Whether this success was due to the floc weir being in an optimal position or having a more robust system will need to be further investigated. One key observation in the recirculator was more kinetic energy on the right side of the recirculator and in the region just below the bend of the sedimentation tank. This observation may be due to the combined weight of the flocs collected in the tube settler having a greater settling velocity than the upflow velocity of 3 mm/s. Throughout the bulk of the recirculator region, turbulent flow is observed to travel in a sinuous fashion.
 
 From the observations of this experiment, the Summer 2018 HRS team has formulated a hypothesis for floc blanket decay. Due to turbulent flow inside the recirculator, the longer a particle falls, the more likely it is that it will be caught in an upward current of water. Even though particles tend to fall on the tube settler (left) side of the recirculator and rise on the other (right) side, the upward currents inside the tube (perhaps caused by gravity and/or the presence of flocs) weave side to side in turbulent flow, making it possible for falling flocs to collide with and push down rising flocs, and more significantly, rising currents to capture falling flocs. This may be the cause of floc accumulation at the top of the blanket.
-
+<!--The image you made on the whiteboard explained this very well, try to recreate it! -->
 
 ####Experiment 2
 **Description**: Experiment 2 ran a test with an upflow velocity of 3 mm/s using tank B at a longer time (22.5 hours). This test would help confirm whether the sedimentation tank design plays a factor in floc blanket decay and thus system failure.
@@ -145,7 +149,7 @@ From the observations of this experiment, the Summer 2018 HRS team has formulate
 **Results**: With a final effluent turbidity of 20 NTU, system failure was observed, disproving that initial excess coagulant was the cause. There was no observable formation of a floc blanket, which means that the smaller flocs that were contaminating the effluent were not being captured and settled out. One key observation was that there seemed to be a gradual increase in floc size within the flocculator as it neared its end. However, the unusually clear sedimentation tank raises the question as to where these bigger flocs ended up going. Since excess coagulant does not seem to be preventing floc blanket formation and that the larger flocs from the flocculator seem to have disappeared, it is hypothesized that the upflow velocity of 1 mm/s is too slow.
 
 ####Experiment 5
-**Description**: To make sure that the changes that we made to our experimental apparatus is not the cause of system failure, Experiment 1 was rerun but for a longer period of 18 hours.
+**Description**: To make sure that the changes that we made to our experimental apparatus is not the cause of system failure, Experiment 1 was rerun but for a longer period of 18 hours. <!--Restate the specifics for experiment 1 (tube settler used, etc.) -->
 
 **Results**: As before, an opaque floc blanket formed with the same density gradient of flocs in the recirculator (higher density of flocs at the top compared to the bottom). However, this experiment ended with a slowly rising effluent turbidity of 26 NTU at 18 hours. There were many flocs settled in the tube settler, which may have reached there before the formation of the floc blanket. It seems that the floc blanket formed later than it had before in Experiment 1, allowing the smaller flocs that are more difficult to capture travel up to the tube settler and out the effluent tube. This much higher effluent turbidity suggests that something has changed since Experiment 1, but whether the design of the system was the change has yet to be determined.
 
@@ -154,11 +158,12 @@ From the observations of this experiment, the Summer 2018 HRS team has formulate
 
 **Results**: Ending with an effluent turbidity of 46 NTU, this experiment observed system failure. No floc blanket formed throughout the duration of the experiment even with the increased speeds. While it seemed that there could be a speed too slow for this system to succeed, these results suggest that a different factor is causing system failure.
 
-###Future Work
-The cause of floc blanket decay and thus system failure has yet to be determined. Future work will focus on verifying pump speed calculations for the water pump. Coagulant dosage will be experimentally adjusted in order to obtain the formation of a floc blanket. More immediately, experiments running at an upflow velocity of 2 mm/s will be tested with a lower coagulant dosage.
+<!-- Where did you end up with tank A vs. tank B?  It might be worth adding a paragraph discussing these, how flocs are removed in each, and how that might change effluent turbidity-->
 
+###Future Work
+The cause of floc blanket decay and thus system failure has yet to be determined. Future work will focus on verifying pump speed calculations for the water pump. Coagulant dosage will be experimentally adjusted in order to obtain the formation of a floc blanket. More immediately, experiments running at an upflow velocity of 2 mm/s will be tested with a lower coagulant dosage. <!--How are you planning on updating coagulant dosing? Trial and error or through calculations?-->
 ###Calculations
-We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters.
+We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters.<!--Are functions to do this available in aguaclara_research?  If not consider adding them, as these would be generally applicable to most particle removal teams -->
 
 The calculations in the "Current coagulant dosage calculations" section of our code differ from those of previous HRS teams in that the coagulant pump speed is the quotient of the desired flow rate of coagulant (mL/s) divided by the volume pumped per revolution by the coagulant pump (mL/rev), rather than the desired flow rate of coagulant (mL/s) divided by the flow rate of the coagulant pump (mL/s).
 
@@ -172,7 +177,9 @@ $V$ = volume per revolution
 
 $$S\ \frac{rev}{min} = \frac{Q\ \frac{mL}{min}}{V\ \frac{mL}{rev}}$$
 
+<!-- FYI the .shared branch only works if you have downloaded the filter design branch.  You might want to add a comment so others don't have the same problem (until they fix it)-->
 
+<!--Make sure to properly comment your code and define variables.  For example, explain the difference between coagulant_superstock and coagulent_stock-->
 ```python
 from aguaclara_research.tube_sizing import *
 from aide_design.shared.units import unit_registry as u
@@ -236,9 +243,9 @@ V_super_stock = V_stock * dilution_factor
 print("Maximum volume of super stock: ", V_super_stock)
 ```
 
-###Other Insights
+### Other Insights
 **Spiking influent turbidity**
-The influent turbidity seems to spike upwards when we start the coagulant pump, even when the coagulant is not connected to the system or pumping coagulant. It has beens suggested that the vibrations of the pump may be the cause, but we have yet to test this.
+The influent turbidity seems to spike upwards when we start the coagulant pump, even when the coagulant is not connected to the system or pumping coagulant. It has been suggested that the vibrations of the pump may be the cause, but we have yet to test this.
 
 **ProCoDa method files**
 Since losing our ProCoDa program settings after to a computer restart, we have decided to save snapshots of our ProCoDa setpoints and states after making any significant modifications, such as adding setpoints and variables (e.g. pressure from the pressure sensor), changing setpoint values (e.g. tuning the PID constants), and changing state logic (e.g. periodically flushing the system with a higher water pump speed).
