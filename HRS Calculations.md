@@ -48,6 +48,7 @@ C_stock = M_stock / V_stock #Note: C_stock= C_super_stock * dilution_factor/1000
 print("Current concentration of coagulant stock: ", C_stock)
 
 Q_stock = (Q_sys * C_pacl / C_stock).to(u.mL/u.s)
+print(Q_stock)
 rpm_pacl = pump_rpm(Q_stock, tubing_pacl)
 print("Current coagulant pump speed:", rpm_pacl, "\n")
 

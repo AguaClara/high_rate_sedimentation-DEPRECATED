@@ -22,9 +22,11 @@ print(flow_actual)
 print(error*100, "%")
 
 C_coag = 70.28*u.g/u.L
-m_flow_coag = (.0202*u.mL * 0.8*u.mL/u.L * C_coag).to(u.mg)
+m_flow_coag = (.0202*u.mL * 1.2165*u.mL/u.L * C_coag).to(u.mg)
 concentration = m_flow_coag/((1.209829868*u.mL+0.0202*u.mL).to(u.L))
 print(concentration)
+
+# New dilution factor of 1.2165 mL/L of coagulant should obtain the correct coagulant dosage given an RPM of 10.2 for a 2 mm/s experiment
 
 m_flow_coag = (flow_theoretical*u.s * 0.8*u.mL/u.L * C_coag).to(u.mg)
 concentration = m_flow_coag/((1.013*u.mL).to(u.L))
