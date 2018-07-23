@@ -3,7 +3,9 @@
 #### June 29, 2018
 
 ## Abstract
-Since Spring 2018, the AguaClara High Rate Sedimentation (HRS) team has been investigating the cause behind floc blanket decay in the sedimentation tank, which has been attributed to system failure at high upflow velocities. Along with conducting a small series of experiments, the Summer 2018 HRS team has developed a more robust experimental apparatus and clear set of instructions for setup.
+Since Spring 2018, the AguaClara High Rate Sedimentation (HRS) team has been investigating the cause behind floc blanket decay in the sedimentation tank, which has been attributed to system failure at high upflow velocities. At first, the Summer 2018 HRS team conducted experiments at lower upflow velocities of 1 mm/s and 2 mm/s to replicate system success. However, having discovered that floc blanket formation seems to not form at these lower velocities at all, the Summer 2018 HRS team has focused their experiments at the higher upflow velocity of 3 mm/s.
+
+Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, and other particles are removed from the water via gravitational settling. The HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower while maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflow velocities of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs among other advantages. Therefore, the goal of the HRS team is to investigate how to preserve system success at higher upflow velocities.
 <!--Add a paragraph on why high rate sedimentation is important, and how it fits into the AguaClara plant (the global context) -->
 ## Methods
 ### Experimental Apparatus
@@ -71,7 +73,7 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
 </p>
 
 6. After the water reaches the top of the sed tank, shut off the water pump and drain the sed tank again.
-   * Repeat steps 5 and 6 to achieve a more thorough cleaning of the sed tank. <!-- Is there a good way to recognize when it is completely clean?  How many times is this typically repeated? -->
+   * Repeat steps 5 and 6 about two to three more times in order to achieve a more thorough cleaning of the sed tank.
 
 7. Run water only through the system with the pressure attenuator included until effluent turbidity stabilizes near 0 NTU (ideally below 1.0 NTU).
 
@@ -89,7 +91,7 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
 
 10. Turn the clay stirrer and ProCoDa on.
 
-11. Stabilize influent turbidity to 100 NTU. <!--How long does this usually take? -->
+11. Stabilize influent turbidity to 100 NTU, which should take about 10-15 minutes.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Stabilize%20influent.png" width = 500>

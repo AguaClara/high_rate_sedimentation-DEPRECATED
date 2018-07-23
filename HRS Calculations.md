@@ -79,14 +79,14 @@ print("Water pump speed:", rpm_water, "\n")
 
 #Our water pump speed calculation
 C_clay_sys = turbidity_to_concentration(C_clay)
-C_clay_stock = turbidity_to_concentration(3000*u.NTU)
+C_clay_stock = turbidity_to_concentration(2000*u.NTU)
 Q_clay = Q_stock(Q_sys, C_clay_sys, C_clay_stock)
 print("Clay stock concentration:", C_clay_stock)
 print("Clay flow rate:", Q_clay)
 print("Clay pump speed (average):", pump_rpm(Q_clay, tubing_clay), "\n")
 
 #Q_pacl = Q_stock_pacl
-rpm_pacl = 18
+  rpm_pacl = 18
 Q_pacl = 0.0063786375*u.mL/u.s * rpm_pacl/3
 print("Pacl flow rate:", Q_pacl)
 # print("Pacl pump speed:", pump_rpm(Q_pacl, tubing_pacl))
