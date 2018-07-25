@@ -30,12 +30,24 @@ C_pacl = 1.4*u.mg/u.L
 tubing_clay = "yellow-blue"
 tubing_pacl = "yellow-blue"
 
-upflow_velocity = 3 #in millimeters per second
+upflow_velocity = 4 #in millimeters per second
 print("CALCULATIONS FOR UPFLOW VELOCITY OF", upflow_velocity, "MM/S \n")
 
 cross_sectional_area = numpy.pi * (0.5*u.inch * 2.54*u.cm/u.inch) ** 2
 Q_sys = (upflow_velocity/10*u.cm/u.s * cross_sectional_area).to(u.mL/u.s)
 print("System flow rate: ", Q_sys, "\n")
+
+# coag_flow_per_three_rev = 0.0063786375*u.mL/u.s
+# coag_rpm = 9
+#
+# C_sys = 4.5*u.mg/u.L
+# Q_stock = coag_flow_per_three_rev * coag_rpm/3
+# C_stock = C_sys * Q_sys / Q_stock
+#
+# C_super_stock = 70.28*u.mg/u.mL
+# dilution_factor = C_stock / C_super_stock
+# print(C_stock)
+# print(dilution_factor)
 
 '''
 #Current coagulant (PACl) concentration and pump speed
@@ -79,14 +91,14 @@ print("Water pump speed:", rpm_water, "\n")
 
 #Our water pump speed calculation
 C_clay_sys = turbidity_to_concentration(C_clay)
-C_clay_stock = turbidity_to_concentration(3000*u.NTU)
+C_clay_stock = turbidity_to_concentration(4000*u.NTU)
 Q_clay = Q_stock(Q_sys, C_clay_sys, C_clay_stock)
 print("Clay stock concentration:", C_clay_stock)
 print("Clay flow rate:", Q_clay)
 print("Clay pump speed (average):", pump_rpm(Q_clay, tubing_clay), "\n")
 
 #Q_pacl = Q_stock_pacl
-rpm_pacl = 18
+rpm_pacl = 9
 Q_pacl = 0.0063786375*u.mL/u.s * rpm_pacl/3
 print("Pacl flow rate:", Q_pacl)
 # print("Pacl pump speed:", pump_rpm(Q_pacl, tubing_pacl))
