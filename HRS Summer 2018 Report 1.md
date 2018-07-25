@@ -1,11 +1,12 @@
 #High Rate Sedimentation, Summer 2018
-#### Hannah Si and Anna Hong
-#### June 29, 2018
+#### Anna Hong and Hannah Si
+#### July 27, 2018
 
 ## Abstract
-Since Spring 2018, the AguaClara High Rate Sedimentation (HRS) team has been investigating the cause behind floc blanket decay in the sedimentation tank, which has been attributed to system failure at high upflow velocities. At first, the Summer 2018 HRS team conducted experiments at lower upflow velocities of 1 mm/s and 2 mm/s to replicate system success. However, having discovered that floc blanket formation seems to not form at these lower velocities at all, the Summer 2018 HRS team has focused their experiments at the higher upflow velocity of 3 mm/s.
+Sedimentation is a critical process for water treatment plants by which coagulated minerals, dirt, and other particles are removed from the water via gravitational settling. The High Rate Sedimentation (HRS) team hopes to design a sedimentation tank that will yield an effluent with turbidity of 0.3 NTU or lower at a high upflow velocity. While 1 NTU is the World Health Organization's standard for turbidity drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflow velocities of 3 mm/s or greater. Therefore, the goal of HRS team is to to preserve system success while raising upflow velocity, in order to provide more clean water in a given time without increasing treatment plant size. Operating at a greater efficiency would eliminate the need for additional building materials and higher construction and maintenance costs, thus
 
-Sedimentation is a critical process for water treatment plants. It is the process by which coagulated minerals, dirt, and other particles are removed from the water via gravitational settling. The HRS team hopes to design a tank that will yield an effluent of 0.3 NTU or lower while maintaining high upflow velocity. While the World Health Organization has a standard of at most 1 NTU for drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflow velocities of 3 mm/s or greater. A larger upflow velocity would allow for a reduction in treatment plant size, which would reduce construction costs among other advantages. Therefore, the goal of the HRS team is to investigate how to preserve system success at higher upflow velocities.
+Since the fall of 2017, the AguaClara High Rate Sedimentation (HRS) team has been investigating the cause behind floc blanket decay, which has been attributed to system failure, at high upflow velocities in the sedimentation tank. The Summer 2018 HRS team first conducted experiments at lower upflow velocities of 1 mm/s and 2 mm/s in a 1" diameter tube to replicate system success. However, after failing to produce a floc blanket at these lower upflow velocities yet succeeding at higher velocities, the Summer 2018 HRS team has focused on optimizing sedimentation at a higher upflow velocity of 3 mm/s. The team confirmed the optimal coagulant dosage to be approximately 4.5 mg/L of PACl and is currently redesigning the sedimentation tank's bottom geometry to enhance resuspension of flocs.
+
 <!--Add a paragraph on why high rate sedimentation is important, and how it fits into the AguaClara plant (the global context) -->
 ## Methods
 ### Experimental Apparatus
@@ -127,16 +128,25 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
 
 ###Summary of Previous Experiments
-| Experiment # | Description           |Results|
-|:---------------:| :-------------------- |:------|
-|   1   | Shorter experiment that ran at a 3 mm/s upflow velocity using tank A to record initial observations of floc blanket formation and decay|Success. Effluent turbidity did not exceed 2.0 NTU and formation of a healthy floc blanket.
-|   2   | Longer experiment that ran at a 3 mm/s upflow velocity using tank B to record initial observations of floc blanket formation and decay|Partial success. Effluent turbidity stayed quite low (4.4 NTU) but increased to 19.5 NTU as time progressed.
-|   3   | Longer experiment that ran at a 1 mm/s upflow velocity using tank B with initial excess coagulant| Failure. Effluent turbidity began at 4.6 NTU and rapidly increased throughout the duration of the experiment. It is hypothesized that the excess coagulant may be the cause of failure.
-|   4   | Experiment 3 with appropriate coagulant dosage from the beginning | Failure. Effluent turbidity rose to 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. It is now hypothesized that the upflow velocity of 1 mm/s is too slow.
-|   5   | Rerun Experiment 1 with 3 mm/s upflow velocity using tank A to confirm that changes we made to our experimental apparatus is not the cause of system failure.| Failure. Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
-|   6   |Shorter experiment that ran at a 1 mm/s upflow velocity using tank A, which was increased to 2 mm/s about 2 hours after the start of experimentation.| Failure. Effluent turbidity ended at 46 NTU and this was after increasing the upflow velocity to 2 mm/s. These results suggest that 2 mm/s may still be too slow for system success.
+| Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Results|
+|:---------------:|:----:| :----------------------------- |:------|
+|3|A|INSERT COAG SYSTEM CONCENTRATIONS HERE |Success. Effluent turbidity <= 2.0 NTU.
+|3|B|            |Partial success. Effluent turbidity stayed around 4.4  NTU for the first 10 hours of experimentation but increased to 19.5 NTU at 22.5 hours.
+|1|B|      Initial influx of coagulant        | Failure. Effluent turbidity increased to 135 NTU. There was an initial influx of coagulant that was hypothesized to be the cause of failure.
+|1|B|Appropriate dosage of coagulant      | Failure. Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
+|3|A|      | Failure. Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
+|1 -> 2| A |           | Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.
 ###Summary of New Experiments
-
+| Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Results|
+|:---:|:----:| :--------: |:------------------------------|
+|2|A|1.4|Failure. Effluent turbidity stayed around 37-40 NTU and there was no floc blanket formation even after 7 hours|
+|2|A|2.8 but increased to 4.2 after ~ 1hr|Failure. Effluent turbidity stayed around 33-35 NTU and no formation of floc blanket|
+|2|A|4.2|Failure. Effluent turbidity ranged from 35-40 NTU and no formation of floc blanket.|
+|3|A|1.5|Effluent turbidity initially spiked to ~45 NTU yet decreased to a somewhat stable value of ~15 NTU. Floc blanket started to decay at 3 hours into the experiment.|
+|3|A|3.0|Effluent turbidity stabilized around 16 NTU by 20.5 hours. It seems like a higher coagulant dosage leads to faster floc blanket formation.|
+|3|A|4.5|Initial spike of effluent turbidity to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to formation of a healthy floc blanket. Suggests that a higher upflow velocity and a higher coagulant dosage contribute to system success.|
+|4|A|4.5|Initial spike of effluent turbidity to ~50 NTU but decreased to 16-17 NTU after 3 hours. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant.|
+|4|A|4.5 but diluted coagulant stock and increased the coagulant pump speed.|   |
 
 #### Experiment 1
 
