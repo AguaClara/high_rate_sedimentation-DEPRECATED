@@ -149,6 +149,7 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 13. [Experiment 13](#experiment-13)
 14. [Experiment 14](#experiment-14)
 15. [Experiment 15](#experiment-15)
+16. [Experiment 16](#experiment-16)
 
 #### Summary of Previous Experiments
 |Experiment #|Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Results|
@@ -156,10 +157,10 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 |1|3|A|1.4|Success. Effluent turbidity <= 2.0 NTU.
 |2|3|B|1.4|Partial success. Effluent turbidity stayed around 4.4  NTU for the first 10 hours of experimentation but increased to 19.5 NTU at 22.5 hours.
 |3|1|B|1.4 with an initial influx of coagulant| Failure. Effluent turbidity increased to 135 NTU. There was an initial influx of coagulant that was hypothesized to be the cause of failure.
-|4|1|B|1.4 with appropriate dosage of coagulant      | Failure. Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
+|4|1|B|1.4 with appropriate dosage of coagulant| Failure. Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
 |5|3|A|1.4| Failure. Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
-|6|1 -> 2| A |1.4| Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.
-
+|6|1 -> 2| A |1.4| Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
+[Table of Contents](#table-of-contents)
 #### Experiment 1
 
 <!--I would encourage you to add any photos or videos you've collected during these experiments.  A picture is worth a thousand words! -->
@@ -199,7 +200,7 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 
 **Results**: Ending with an effluent turbidity of 46 NTU, this experiment observed system failure. No floc blanket formed throughout the duration of the experiment even with the increased speeds. While it seemed that there could be a speed too slow for this system to succeed, these results suggest that a different factor is causing system failure. [Table of Contents](#table-of-contents)
 
-####**Sedimentation Tank A vs. B**
+#### **Sedimentation Tank A vs. B**
 Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design tank A as it is the configuration that other AguaClara subteams use. <!--Should we include more in this paragraph? We can't really talk about the difference in floc removal...) -->[Table of Contents](#table-of-contents)
 
 ### Summary of New Experiments
@@ -267,17 +268,19 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 **Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water+flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour. [Table of Contents](#table-of-contents)
 
 #### Experiment 16
-**Description**: The flat bottom geometry was modified to have a conical shape in order to allow for better resuspension of built-up flocs aggregating at the bottom of the sedimentation tank. Experiment 15 was run at 3 mm/s using tank A with a system coagulant dosage of 4.5 mg/L.
+**Description**: The flat bottom geometry was modified to have a conical shape in order to allow for better resuspension of built-up flocs aggregating at the bottom of the sedimentation tank. Experiment 15 was run at 3 mm/s with a system coagulant dosage of 4.5 mg/L.
 
 **Results**: While there seemed to have a more stable floc blanket in the recirculator, this experiment was also a failure. Flocs still built up at the bottom of the tank. It is hypothesized that a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup. [Table of Contents](#table-of-contents)
 
-###Future Work
+[INSERT PICTURE HERE]
+
+### Future Work
 The cause of floc blanket decay and thus system failure has yet to be determined. Future work will focus on verifying pump speed calculations for the water pump. Coagulant dosage will be experimentally adjusted in order to obtain the formation of a floc blanket. More immediately, experiments running at an upflow velocity of 2 mm/s will be tested with a lower coagulant dosage. <!--How are you planning on updating coagulant dosing? Trial and error or through calculations?-->
 
 **INCLUDE INFORMATION ABOUT NEW SED TANK DESIGN TO INVENT WITH JET REVERSER CAPABILITIES. TALK ABOUT MODIFYING THE SED TANK DESIGN THAT TIM HELPED US MAKE**
 -talk about the ring that forms
 
-###Calculations
+### Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters.<!--Are functions to do this available in aguaclara_research?  If not consider adding them, as these would be generally applicable to most particle removal teams -->
 
 The calculations in the "Current coagulant dosage calculations" section of our code differ from those of previous HRS teams in that the coagulant pump speed is the quotient of the desired flow rate of coagulant (mL/s) divided by the volume pumped per revolution by the coagulant pump (mL/rev), rather than the desired flow rate of coagulant (mL/s) divided by the flow rate of the coagulant pump (mL/s).
