@@ -127,14 +127,14 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
 
 ###Summary of Previous Experiments
-####Table of Contents
-1. [Experiment 1]
-<!--Don't understand why these hyperlinks aren't working -->
-2. [Experiment 2]
-3. [Experiment 3]
-4. [Experiment 4]
-5. [Experiment 5]
-6. [Experiment 6]
+####Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+
+1. [Experiment 1](#experiment-1)
+2. [Experiment 2](#experiment-2)
+3. [Experiment 3](#experiment-3)
+4. [Experiment 4](#experiment-4)
+5. [Experiment 5](#experiment-5)
+6. [Experiment 6](#experiment-6)
 
 |Experiment #|Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Results|
 |:---:|:---------------:|:----:| :-------: |:------|
@@ -145,7 +145,7 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 |5|3|A|1.4| Failure. Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
 |6|1 -> 2| A |1.4| Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.
 
-#### Experiment 1 <a name="Experiment 1"></a>
+#### Experiment 1
 
 <!--I would encourage you to add any photos or videos you've collected during these experiments.  A picture is worth a thousand words! -->
 
@@ -248,7 +248,7 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 ####Experiment 16
 **Description**: In order to resolve this ring-like formation, the 10:1 ratio for a jet reverser was used in order to modify the geometry of the sedimentation tank bottom.
 
-**Results**: 
+**Results**:
 
 ###Future Work
 The cause of floc blanket decay and thus system failure has yet to be determined. Future work will focus on verifying pump speed calculations for the water pump. Coagulant dosage will be experimentally adjusted in order to obtain the formation of a floc blanket. More immediately, experiments running at an upflow velocity of 2 mm/s will be tested with a lower coagulant dosage. <!--How are you planning on updating coagulant dosing? Trial and error or through calculations?-->
