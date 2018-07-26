@@ -126,7 +126,7 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 </p>
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
 
-### Table of Contents  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+### Table of Contents
 
 #### Previous Experiments
 * [Summary of Previous Experiments](#summary-of-previous-experiments)
@@ -202,67 +202,71 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 ####**Sedimentation Tank A vs. B**
 Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design tank A as it is the configuration that other AguaClara subteams use. <!--Should we include more in this paragraph? We can't really talk about the difference in floc removal...) -->[Table of Contents](#table-of-contents)
 
-###Summary of New Experiments
+### Summary of New Experiments
+* Note: All experiments were run using tank A
 
-|Experiment #| Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Results|
-|:---:|:---:|:----:| :--------: |:------------------------------|
-|7|2|A|1.4|Failure. Effluent turbidity stayed around 37-40 NTU and there was no floc blanket formation even after 7 hours|
-|8|2|A|2.8 but increased to 4.2 after ~ 1hr|Failure. Effluent turbidity stayed around 33-35 NTU and no formation of floc blanket|
-|9|2|A|4.2|Failure. Effluent turbidity ranged from 35-40 NTU and no formation of floc blanket.|
-|10|3|A|1.5|Effluent turbidity initially spiked to ~45 NTU yet decreased to a somewhat stable value of ~15 NTU. Floc blanket started to decay at 3 hours into the experiment.|
-|11|3|A|3.0|Effluent turbidity stabilized around 16 NTU by 20.5 hours. It seems like a higher coagulant dosage leads to faster floc blanket formation.|
-|12|3|A|4.5|Initial spike of effluent turbidity to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to formation of a healthy floc blanket. Suggests that a higher upflow velocity and a higher coagulant dosage contribute to system success.|
-|13|4|A|4.5|Initial spike of effluent turbidity to ~50 NTU but decreased to 16-17 NTU after 3 hours. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant.|
-|14|4|A|4.5 but diluted coagulant stock and increased the coagulant pump speed.|Failure. Effluent turbidity stabilized ~30 NTU. Observed gelling in the sedimentation tank and flocculator. It seems like 4 mm/s is to high of an upflow velocity.|
-|15|3|A|4.5|Failure. Inserted a new sedimentation tank bottom in order to see what is happening near the inlet of water and flocs.|
+|Experiment #| Upflow Velocity (mm/s) | Coagulant System Concentration (mg/L)|Results|
+|:---:|:---:| :--------: |:------------------------------|
+|7|2|1.4|Failure. Effluent turbidity of 37-40 NTU and no formation of floc blanket.|
+|8|2|2.8 but increased to 4.2 after ~ 1hr|Effluent turbidity of 33-35 NTU and no formation of floc blanket.|
+|9|2|4.2|Failure. Effluent turbidity ranged from 35-40 NTU and no formation of floc blanket.|
+|10|3|1.5|Effluent turbidity initially spiked to ~45 NTU yet decreased to a somewhat stable value of ~15 NTU. Floc blanket started to decay at 3 hours into the experiment.|
+|11|3|3.0|Effluent turbidity stabilized around 16 NTU by 20.5 hours. It seems like a higher coagulant dosage leads to faster floc blanket formation.|
+|12|3|4.5|Initial spike of effluent turbidity to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to formation of a healthy floc blanket. Suggests that a higher upflow velocity and a higher coagulant dosage contribute to system success.|
+|13|4|4.5|Initial spike of effluent turbidity to ~50 NTU but decreased to 16-17 NTU after 3 hours. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant.|
+|14|4|4.5 but diluted coagulant stock and increased the coagulant pump speed.|Failure. Effluent turbidity stabilized ~30 NTU. Observed gelling in the sedimentation tank and flocculator. It seems like 4 mm/s is to high of an upflow velocity.|
+|15|3|4.5|Failure. Inserted a new sedimentation tank bottom in order to see what is happening near the inlet of water and flocs. Buildup of flocs due to the flat surface of the tank bottom.|
+|16|3|4.5|Modified the new sedimentation tank bottom to have a conical shape rather than a flat one.|
 [Table of Contents](#table-of-contents)
 
-####Experiment 7
-**Description**: The following three experiments ran at upflow velocities of 2 mm/s in order to confirm whether 2 mm/s is indeed too slow to achieve system success. Experiment 7 ran at 2 mm/s using tank A with a coagulant system concentration of 1.4 mg/L.
+#### Experiment 7
+**Description**: The following three experiments ran at upflow velocities of 2 mm/s in order to confirm whether 2 mm/s is indeed too slow to achieve system success. Experiment 7 ran at 2 mm/s with a coagulant system concentration of 1.4 mg/L.
 
-**Results**: Ending with an effluent turbidity of 46 NTU, this experiment observed system failure. No floc blanket formed throughout the duration of the experiment. [Table of Contents](#table-of-contents)
+**Results**: Ending with an effluent turbidity of 37-40 NTU, this experiment observed system failure. No floc blanket formed throughout the duration of the experiment, which was around 7 hours. Whether this failure was a result of insufficient levels of coagulant in the system or due to too low of an upflow velocity has yet to be determined. [Table of Contents](#table-of-contents)
 
-####Experiment 8
+#### Experiment 8
 **Description**: Experiment 8 ran at 2 mm/s using tank A with a coagulant system concentration of 2.8 mg/L, which was increased to 4.2 mg/L after 1 hour into the experiment.  
 
-**Results**: Failure. Effluent turbidity did not deviate from 33-35 NTU and formation of a floc blanket was not observed. [Table of Contents](#table-of-contents)
+**Results**: Since this experiment seemed to be showing the same observations as that of Experiment 7, the coagulant system concentration was increased to 4.2 mg/L, a level that would supply more than enough coagulant to the system. However, effluent turbidity did not deviate from 33-35 NTU and there was no formation of a floc blanket even with the increased coagulant input to the system. [Table of Contents](#table-of-contents)
 
-####Experiment 9
-**Description**: Experiment 9 ran at 2 mm/s using tank A with a coagulant system concentration fo 4.2 mg/L.
+#### Experiment 9
+**Description**: To confirm that insufficient levels of coagulant were not the cause of system failure and that timing was not the issue, Experiment 9 ran at 2 mm/s with a coagulant system concentration of 4.2 mg/L from the beginning.
 
-**Results**: Failure. Effluent turbidity ranged from 35-40 NTU. Large flocs formed near the beginning of Experiments 7-9, suggesting that there is more than enough coagulant in the system. Therefore, insufficient levels of coagulant in the system does not seem to be the cause for system failure. [Table of Contents](#table-of-contents)
+**Results**: Large flocs formed in the sedimentation tank near the beginning of this experiment, indicating that there is more than enough coagulant in the system. Therefore, an insufficient level of coagulant in the system does not seem to be the cause for system failure. From these experiments, it is now hypothesized that 2 mm/s is still to slow to make a healthy floc blanket and thus cleaner effluent waters.[Table of Contents](#table-of-contents)
 
-####Experiment 10
-**Description**: The next series of experiments were run at a higher upflow velocity of 3 mm/s using tank A. This was done to further confirm that 2 mm/s was still too slow for floc blanket formation and thus system success. Experiment 10 had a system coagulant dosage of 1.5 mg/L.
+#### Experiment 10
+**Description**: The next series of experiments were run at a higher upflow velocity of 3 mm/s. This was done to further confirm that 2 mm/s was still too slow for floc blanket formation and thus system success. Experiment 10 had a system coagulant dosage of 1.5 mg/L.
 
-**Results**: Effluent turbidity initially spiked to ~45 NTU but decreased to a somewhat stable value of ~15 NTU. Floc blanket decay began around 3 hours into the experiment. [Table of Contents](#table-of-contents)
+**Results**: Effluent turbidity initially spiked to ~45 NTU but decreased to a somewhat stable value of ~15 NTU. While 15 NTU does not meet the turbidity standards for the World Health Organization or the EPA, this experiment may have well reached 0.3 NTU had not the initial spike in effluent turbidity occurred. Unlike the experiments at slower upflow velocities, a healthy floc blanket formed and showed a density gradient as time passed. [Table of Contents](#table-of-contents)
 
-####Experiment 11
-**Description**: Experiment 11 ran at 3 mm/s using tank A with a coagulant system concentration fo 3.0 mg/L.
+#### Experiment 11
+**Description**: Experiment 11 ran at 3 mm/s with a coagulant system concentration of 3.0 mg/L.
 
-**Results**: Effluent turbidity stabilized around 16 NTU by the time 20.5 hours passed. The trend seems to be that a higher system coagulant dosage leads to faster floc blanket formation and thus system success. [Table of Contents](#table-of-contents)
+**Results**: Effluent turbidity stabilized around 16 NTU by the time 20.5 hours passed. A healthy floc blanket formed about 1.5 hours faster in Experiment 11 than in Experiment 10. Therefore, the trend seems to be that a higher system coagulant dosage leads to faster floc blanket formation and thus system success. [Table of Contents](#table-of-contents)
 
-####Experiment 12
-**Description**: Experiment 12 ran at 3 mm/s using tank A with a coagulant system concentration fo 4.5 mg/L.
+#### Experiment 12
+**Description**: Experiment 12 ran at 3 mm/s with a coagulant system concentration of 4.5 mg/L.
 
-**Results**: Effluent turbidity initially spiked to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to the formation of a healthy floc blanket early on. However, as the experiment progressed, effluent turbidity increased to 11-12 NTU. These results suggest that a higher upflow velocity combined with a higher coagulant dosage contribute to system success. [Table of Contents](#table-of-contents)
+**Results**: Effluent turbidity initially spiked to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to the formation of a healthy floc blanket early on. As the experiment progressed the floc blanket did experience decay, causing the effluent turbidity to increase to 11-12 NTU. Another key observation is that as you increase the upflow velocity, the size of flocs in the flocculator decrease. For the 3 mm/s experiments, there was a good mixture of small and bigger flocs in the floccualtor. These results suggest that a higher upflow velocity combined with a higher coagulant dosage contribute to system success. As of now, this combination of a 3 mm/s upflow velocity and a system coagulant dosage of 4.5 mg/L seems to demonstrate optimal high rate sedimentation performance. [Table of Contents](#table-of-contents)
 
-####Experiment 13
-**Description**: Experiment 13 was run to see if an even higher upflow velocity could system preserve system success. Experiment 13 was run at 4 mm/s using tank A with a coagulant system concentration fo 4.5 mg/L.
+#### Experiment 13
+**Description**: Experiment 13 was run to see if an even higher upflow velocity could preserve system success. Experiment 13 was run at 4 mm/s with a coagulant system concentration of 4.5 mg/L.
 
-**Results**: Effluent turbidity initially spiked to ~50 NTU but rapidly decreased to 16-17 NTU after 3 hours. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant, which was hypothesized to have contributed to system failure. [Table of Contents](#table-of-contents)
+**Results**: Effluent turbidity initially spiked to ~50 NTU but rapidly decreased to 16-17 NTU after 3 hours. Flocs in the flocculator were only small, indicating that 4 mm/s might be too fast for the flocs to sufficiently collide with one another and flocculate before entering the sedimentation tank. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant, which was hypothesized to have contributed to system failure. [Table of Contents](#table-of-contents)
 
-####Experiment 14
-**Description**: To see whether system failure was a result of inputting too concentrated amounts of coagulant to the system at a given time, experiment 14 was run at 4 mm/s with a diluted coagulant stock but an increased coagulant pump speed.
+#### Experiment 14
+**Description**: To see whether system failure was a result of inputting too concentrated amounts of coagulant into the system at a given time, Experiment 14 was run at 4 mm/s with the same coagulant system concentration as that of Experiment 13 but with a diluted coagulant stock and an increased coagulant pump speed.
 
-**Results**: Failure. Effluent stabilized around 30 NTU. Like experiment 13, gelling in the sedimentation tank and flocculator was observed. Therefore, it seems like 4 mm/s is too high of an upflow velocity to achieve system success given this sedimentation design. [Table of Contents](#table-of-contents)
+**Results**: Effluent turbidity stabilized around 30 NTU. Like experiment 13, gelling in the sedimentation tank and flocculator was observed. Therefore, it seems like 4 mm/s is too high of an upflow velocity to achieve system success given this sedimentation design. [Table of Contents](#table-of-contents)
 
-####Experiment 15
-**Description**: To gain a better understanding about floc movement the moment where flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using tank A with a system coagulant dosage of 4.5 mg/L.
+#### Experiment 15
+**Description**: To gain a better understanding about floc movement the moment when flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted using a PVC rod. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using tank A with a system coagulant dosage of 4.5 mg/L.
 
-**Results**: Failure. Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" per 10 minutes in the 1" diameter sedimentation tank. A fast upflow velocity of incoming flocs and water was seen but only at the very center of the bottom. No initial signs for floc blanket formation so the experiment was stopped after 1 hour. [Table of Contents](#table-of-contents)
+[INSERT PICTURE OF THE FLAT GEOMETRY]
 
-####Experiment 16
+**Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water+flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour. [Table of Contents](#table-of-contents)
+
+#### Experiment 16
 **Description**: The flat bottom geometry was modified to have a conical shape in order to allow for better resuspension of built-up flocs aggregating at the bottom of the sedimentation tank. Experiment 15 was run at 3 mm/s using tank A with a system coagulant dosage of 4.5 mg/L.
 
 **Results**: While there seemed to have a more stable floc blanket in the recirculator, this experiment was also a failure. Flocs still built up at the bottom of the tank. It is hypothesized that a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup. [Table of Contents](#table-of-contents)
