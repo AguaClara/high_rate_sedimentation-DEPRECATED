@@ -13,25 +13,20 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
 
 <p align=center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/updatedlabbenchsetup.JPG" width = 500>
+  <br></br>
+  Figure 1. Labeled experimental setup for the High Rate Sedimentation lab bench
 </p>
 
-Figure 1. Labeled experimental setup for the High Rate Sedimentation lab bench
+| Label | Component             | Label | Component             |
+|:-----:|:--------------------- |:-----:|:--------------------- |
+|   1   | Water Pump            |   8   | Effluent Turbidimeter |
+|   2   | Clay Pump             |   9   | Pressure Attenuator   |
+|   3   | Coagulant Pump        |  10   | Coagulant Stock       |
+|   4   | Waste Pump            |  11   | Clay Stock            |
+|   5   | Flocculator           |  12   | Sedimentation Tank    |
+|   6   | Pressure Sensor       |  13   | Waste Tube            |
+|   7   | Influent Turbidimeter |       |                       |
 
-| Label | Component             |
-|:-----:| :-------------------- |
-|   1   | Water Pump            |
-|   2   | Clay Pump             |
-|   3   | Coagulant Pump        |
-|   4   | Waste Pump            |
-|   5   | Flocculator           |
-|   6   | Pressure Sensor       |
-|   7   | Influent Turbidimeter |
-|   8   | Effluent Turbidimeter |
-|   9   | Pressure Attenuator   |
-|  10   | Coagulant Stock       |
-|  11   | Clay Stock            |
-|  12   | Sedimentation Tank    |
-|  13   | Waste Tube            |
 
 ### Setup Procedures
 #### Original Configuration
@@ -40,54 +35,84 @@ Figure 1. Labeled experimental setup for the High Rate Sedimentation lab bench
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Org%20Config.png" width = 500>
 </p>
 
-For detailed instructions and guidelines on preparing the High Rate Sedimentation experimental setup, refer to the [HRS Setup Procedures document](https://github.com/AguaClara/high_rate_sedimentation/blob/master/HRS%20Setup%20Procedures.docx) in our Github repository.
-<!--I would turn this document into a markdown file so that it can be opened easily on Github -->
+The guidelines below are not comprehensive. For detailed instructions preparing the High Rate Sedimentation experimental setup, refer to the [HRS Setup Procedures](LINK HERE) document in our Github repository.
+
+
 1. Drain the sedimentation tank.
+   a. Close the valves that would allow backflow into the sedimentation tank’s effluent tube. Disconnect that tube.
+   b. Close the valve between the flocculator and sed tank.
+   c. Open the valve that drains the sed tank from the bottom.
+   d. Disconnect the tube attached to the floc weir and catch the draining fluid in a waste bucket or tub.
+   e. Reconnect the tube to the floc weir. Turn on the waste pump to drain the floc weir throughout the rest of the setup.
+     * The waste pump should be controlled by ProCoDA, so turning it on may require turning on ProCoDA and then manually disabling other pumps.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/DrainSedTank.png" width = 500>
 </p>
 
 2. Clean the flocculator and sedimentation tank.
+   a. Close values leading to the flocculator.
+   b. Take the disconnected effluent tube (see step 1) and connect it to end of the flocculator.
+   c. Connect one end of a long cleaning tube to the system just before the **coagulant entry point**.
+   d. Connect the other end of the cleaning tube to the sink and turn on the faucet slowly. Make sure that the water is not rising more than a couple inches from the bottom of the sed tank. Continue for 30 seconds.
 
 <p align = center>
-  <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/CleanFlocSedTank.png" width = 500>
+  <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/CleanFloc.png" width = 500>
 </p>
 
-3. Rearrange the tubing to clean out the flocculator in the reverse direction using the waste tube that drains the sedimentation tank.
+3. Clean out the flocculator in the reverse direction.
+   a. Just before the coagulant entry point, swap the cleaning tube for another tube long enough to reach a waste bucket or tub. This can be a new tube or, as shown in the diagram, the waste tube that drains the sedimentation tank.
+   b. Connect the cleaning tube to the end of the flocculator.
+   c. Turn on the sink faucet and gradually accelerate the water speed. This can reach a higher speed than in Step 2, though not high enough for the faucet to  start spraying water.
+   d. Turn off the faucet and redo all connections that were modified in Steps 1-3.
 
 <p align = center>
   <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/ReverseFloc.png" width = 500>
   </p>
 
-4. Clean out the pressure attenuator.
+4. Clean out the pressure attenuator if there seems to be clay inside.
+   a. Close valves on either side of the pressure attenuator.
+   b. If there is water inside the pressure attenuator bottle, turn it upside down (so water does not spill out) and remove the tubes connected to the inlets and outlets.
+   c. Pour out the contents and rinse the bottle.
+   d. Add enough water to cover the inlet and outlet holes, screw the cap on, turn the bottle upside down again, and insert the tubes back into the inlets and outlets.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/PressureAtt.png" width = 500>
 </p>
 
-5. Disconnect the coagulant pump from system and check if coagulant is pumping through. Then reconnect it to the system.
-   * Make sure the coagulant valve is open. There should be steady droplets of solution.
+5. Disconnect the coagulant tube from system, turn on the pump, and check that coagulant is running through. If it is, reconnect the tube to the system.
+   * Make sure the coagulant valve is open. There should be steady drops of solution.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/CoagStock.png" width = 500>
 </p>
 
 6. Run water through the system while bypassing the pressure attenuator.
+   * While waiting for one of the longer steps of the setup to complete (such as this step), start making the coagulant and clay stocks.
+
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/CleanSystem.png" width = 500>
 </p>
 
-7. After the water reaches the top of the sed tank, shut off the water pump and drain the sed tank again.
-   * Repeat steps 5 and 6 about two to three more times in order to achieve a more thorough cleaning of the sed tank.
+7. After the water reaches the top of the sed tank, shut off the water pump and drain the sedimentation tank again.
+   * Repeat steps 5 and 6 about two to three more times to achieve a more thorough cleaning of the sed tank.
+<br></br>
 
-8. Run water only through the system with the pressure attenuator included until effluent turbidity stabilizes near 0 NTU (ideally below 1.0 NTU).
+8. Run water only through the system _with_ the pressure attenuator included until effluent turbidity stabilizes near 0 NTU (ideally below 1.0 NTU). It is natural for influent and effluent turbidity to rise at first in this step.
+   *  Troubleshooting Pressure Buildup
+      * If the water level is rising steadily in the pressure attenuator (and it was already above the outlet), there is still pressure buildup in the system, most likely due to a closed valve or air in the tubing.
+      * If there may be air, redirect flow to waste instead of the flocculator (after the influent turbidimeter) until the pressure stabilizes.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Effluent0NTU.png" width = 500>
 </p>
 
-9. Clean out the influent and effluent turbidimeters. Refer to the [HRS Setup Procedures document](https://github.com/AguaClara/high_rate_sedimentation/blob/master/HRS%20Setup%20Procedures.docx) in our Github repository for more detailed instructions on how to do this.
+9. Clean out the influent and effluent turbidimeters.
+   a. Even without water running, shut and open the appropriate values to bypass the turbidimeter so that water doesn't leak into it while cleaning
+   b. Unlock and take out the black cylinder on top of the turbidimeter.
+   c. Unscrew the glass vial, empty and rinse it, then fill it with clean water. Tap water is sufficient.
+   d. Screw the vial back in, wipe the bottle and cylinder free from water droplets or fingerprints, and then lock the black cylinder back into the turbidimeter.
+   e. If you used the white screws on the outflow turbidimeter tubes to block water passage, remember to unscrew them.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleanturbidimeters.png" width = 500>
@@ -99,9 +124,15 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Stabilizeinfluent.png" width = 500>
 </p>
 
-11. Turn the clay stirrer and ProCoDa on and stabilize influent turbidity to 100 NTU, which should take about 10-15 minutes.
+11. Turn on the clay stirrer, make sure that the ProCoDA state is ON, and then start the clay pump.
+    * Note: While on internal control mode (INT), the clay pump must be controlled manually. While on external control mode (EXT), it must be controlled programmatically.
+    * If ProCoDA should be, but is not controlling the clay pump, press the INT/EXT button on the pump to toggle its control mode to internal, start the pump, and then toggle back to external control mode.
+<br></br>
 
-12. Redirect the flow back to the flocculator and main system. Turn on the coagulant pump to start the experiment.
+12. Allow stabilize influent turbidity to 100 NTU. With the appropriate clay stock concentration and PID constants, this will take several minutes.
+<br></br>
+
+13. Redirect the flow back to the flocculator and main system. Turn on the coagulant pump to start the experiment.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Runexperiment.png" width = 500>
@@ -111,7 +142,7 @@ For detailed instructions and guidelines on preparing the High Rate Sedimentatio
 
 The HRS team has been experimenting with two sedimentation tank designs in an effort to understand the reasons for floc blanket decay in the Spring 2018 and Fall 2017 semesters.
 
-1. **Sedimentation tank A** is the sedimentation tank design used by most AguaClara particle removal research teams, including the HRS team in the Fall 2017 semester. The tube settler is relatively short and the floc weir is placed on the left side of the tube settler.
+1. **Sedimentation tank A** is the sedimentation tank design used by most AguaClara particle removal research teams, including the HRS team in the Fall 2017 semester. The tube settler is relatively short and the floc weir is placed on the left side of the tube settler (when the tube settler points to the left).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Sedimentation%20Tank%20A.png" width=300>
@@ -119,7 +150,7 @@ The HRS team has been experimenting with two sedimentation tank designs in an ef
 
 Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara research teams, including the Fall 2017 HRS team.
 
-2. **Sedimentation tank B** is the sedimentation tank design used by the Spring 2018 HRS team. The tube settler is relatively long and the floc weir is placed on the right side of the bend in the recirculator.
+2. **Sedimentation tank B** is the sedimentation tank design used by the Spring 2018 HRS team. The tube settler is relatively long and the floc weir is placed on the right side of the bend in the recirculator (when the tube settler points to the left).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/SedTankB.png" width=300>
@@ -152,13 +183,13 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 16. [Experiment 16](#experiment-16)
 
 #### Summary of Previous Experiments
-|Experiment #|Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Results|
-|:---:|:---------------:|:----:| :-------: |:------|
-|1|3|A|1.4|Success. Effluent turbidity <= 2.0 NTU.
-|2|3|B|1.4|Partial success. Effluent turbidity stayed around 4.4  NTU for the first 10 hours of experimentation but increased to 19.5 NTU at 22.5 hours.
-|3|1|B|1.4 with an initial influx of coagulant| Failure. Effluent turbidity increased to 135 NTU. There was an initial influx of coagulant that was hypothesized to be the cause of failure.
-|4|1|B|1.4 with appropriate dosage of coagulant| Failure. Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
-|5|3|A|1.4| Failure. Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
+|Experiment #|Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Floc Blanket Formed| Results|
+|:---:|:---------------:|:----:| :-------: |:------| :--- |
+|1|3|A|1.4|Yes|Effluent turbidity <= 2.0 NTU.
+|2|3|B|1.4|Yes|Effluent turbidity stayed around 4.4 NTU for the first 10 hours of experimentation but increased to 19.5 NTU at 22.5 hours.
+|3|1|B|1.4 with initial excess coagulant|No|Effluent turbidity increased to 135 NTU. There was an initial excess in coagulant that may have caused the failure.
+|4|1|B|1.4 with appropriate dosage of coagulant|No|Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
+|5|3|A|1.4|Yes|Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
 |6|1 -> 2| A |1.4| Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
 [Table of Contents](#table-of-contents)
 #### Experiment 1
@@ -176,6 +207,13 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 **Description**: Experiment 2 ran a test with an upflow velocity of 3 mm/s using tank B at a longer time (22.5 hours). This test would help confirm whether the sedimentation tank design plays a factor in floc blanket decay and thus system failure.
 
 **Results**: At the same time when Experiment 1 ended (9.5 hours), the effluent turbidity reached 4.4 NTU. Movement of flocs at this time was slower than that observed in tank A and the floc blanket was not opaque. Since these observations seemed to be characteristic of  earlier stages of floc blanket formation and decay, the experiment was prolonged to 22.5 hours. By the end of this experiment, system failure was observed with a final effluent turbidity of 19.5 NTU. This slower decay may be due to using a more robust system. Nonetheless, this experiment was concluded to be a partial success. [Table of Contents](#table-of-contents)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=JcQjRKY91NI&feature=youtu.be"> <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp2pic.PNG" width=300> </a>
+</p>
+
+Figure \_. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be) for a video of the sedimentation tank during Experiment 2.
+
 
 #### Experiment 3
 **Description**: The next set of experiments were done at a slower upflow velocity in order to simulate and confirm system success observed at AguaClara treatment plants. This experiment tested a 1 mm/s upflow velocity using tank B. For the first 30 minutes, there was an input of excess coagulant because the coagulant pump speed was not reduced from 20 RPM to 6.7 RPM to reflect this lower upflow velocity.
@@ -230,10 +268,20 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 
 **Results**: Since this experiment seemed to be showing the same observations as that of Experiment 7, the coagulant system concentration was increased to 4.2 mg/L, a level that would supply more than enough coagulant to the system. However, effluent turbidity did not deviate from 33-35 NTU and there was no formation of a floc blanket even with the increased coagulant input to the system. [Table of Contents](#table-of-contents)
 
+<p align = center>
+  <img src ="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/exp8new2.png" width = 150>
+</p>
+
 #### Experiment 9
 **Description**: To confirm that insufficient levels of coagulant were not the cause of system failure and that timing was not the issue, Experiment 9 ran at 2 mm/s with a coagulant system concentration of 4.2 mg/L from the beginning.
 
-**Results**: Large flocs formed in the sedimentation tank near the beginning of this experiment, indicating that there is more than enough coagulant in the system. Therefore, an insufficient level of coagulant in the system does not seem to be the cause for system failure. From these experiments, it is now hypothesized that 2 mm/s is still to slow to make a healthy floc blanket and thus cleaner effluent waters.[Table of Contents](#table-of-contents)
+**Results**: Large flocs formed in the sedimentation tank near the beginning of this experiment, indicating that there is more than enough coagulant in the system. Therefore, an insufficient level of coagulant in the system does not seem to be the cause for system failure. From these experiments, it is now hypothesized that 2 mm/s is still to slow to make a healthy floc blanket and thus cleaner effluent waters. [Table of Contents](#table-of-contents)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be"> <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp9Pic.PNG" width=200> </a>
+</p>
+
+Figure \_. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be) for a video of the sedimentation tank during Experiment 9.
 
 #### Experiment 10
 **Description**: The next series of experiments were run at a higher upflow velocity of 3 mm/s. This was done to further confirm that 2 mm/s was still too slow for floc blanket formation and thus system success. Experiment 10 had a system coagulant dosage of 1.5 mg/L.
@@ -250,10 +298,22 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 
 **Results**: Effluent turbidity initially spiked to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to the formation of a healthy floc blanket early on. As the experiment progressed the floc blanket did experience decay, causing the effluent turbidity to increase to 11-12 NTU. Another key observation is that as you increase the upflow velocity, the size of flocs in the flocculator decrease. For the 3 mm/s experiments, there was a good mixture of small and bigger flocs in the floccualtor. These results suggest that a higher upflow velocity combined with a higher coagulant dosage contribute to system success. As of now, this combination of a 3 mm/s upflow velocity and a system coagulant dosage of 4.5 mg/L seems to demonstrate optimal high rate sedimentation performance. [Table of Contents](#table-of-contents)
 
+<p align = "center">
+  <a href="https://www.youtube.com/watch?v=mQuRGDWsnd4&feature=youtu.be"> <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Experiment12NEW.png" width = 200> </a>
+  </p>
+
+Figure \_. Click the image or [this link](https://www.youtube.com/watch?v=mQuRGDWsnd4&feature=youtu.be) for a video of the sedimentation tank during Experiment 12.
+
 #### Experiment 13
 **Description**: Experiment 13 was run to see if an even higher upflow velocity could preserve system success. Experiment 13 was run at 4 mm/s with a coagulant system concentration of 4.5 mg/L.
 
 **Results**: Effluent turbidity initially spiked to ~50 NTU but rapidly decreased to 16-17 NTU after 3 hours. Flocs in the flocculator were only small, indicating that 4 mm/s might be too fast for the flocs to sufficiently collide with one another and flocculate before entering the sedimentation tank. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant, which was hypothesized to have contributed to system failure. [Table of Contents](#table-of-contents)
+
+<p align="center">
+  <a href="https://www.youtube.com/watch?v=aITr4ERrPCg&feature=youtu.be%22"> <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp13Picnew.png" width=150> </a>
+</p>
+
+Figure \_. Click the image or [this link](https://www.youtube.com/watch?v=aITr4ERrPCg&feature=youtu.be%22) for a video of the sedimentation tank during Experiment 13.
 
 #### Experiment 14
 **Description**: To see whether system failure was a result of inputting too concentrated amounts of coagulant into the system at a given time, Experiment 14 was run at 4 mm/s with the same coagulant system concentration as that of Experiment 13 but with a diluted coagulant stock and an increased coagulant pump speed.
@@ -263,7 +323,9 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 #### Experiment 15
 **Description**: To gain a better understanding about floc movement the moment when flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted using a PVC rod. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using tank A with a system coagulant dosage of 4.5 mg/L.
 
-[INSERT PICTURE OF THE FLAT GEOMETRY]
+<p align = center>
+  <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/FlatBottomNew.jpeg" width = 400>
+  </p>
 
 **Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water+flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour. [Table of Contents](#table-of-contents)
 
@@ -272,7 +334,11 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 
 **Results**: While there seemed to have a more stable floc blanket in the recirculator, this experiment was also a failure. Flocs still built up at the bottom of the tank. It is hypothesized that a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup. [Table of Contents](#table-of-contents)
 
-[INSERT PICTURE HERE]
+<p align = center>
+  <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/ConicalBottom.jpg" width = 300>
+  <align = center>
+    <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/conicalbottom2.jpeg" width = 250>
+</p>
 
 ### Future Work
 The cause of floc blanket decay and thus system failure has yet to be determined. Future work will focus on verifying pump speed calculations for the water pump. Coagulant dosage will be experimentally adjusted in order to obtain the formation of a floc blanket. More immediately, experiments running at an upflow velocity of 2 mm/s will be tested with a lower coagulant dosage. <!--How are you planning on updating coagulant dosing? Trial and error or through calculations?-->
