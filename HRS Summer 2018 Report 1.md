@@ -289,6 +289,8 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 |14|4|4.5 but diluted coagulant stock and increased the coagulant pump speed.|Failure. Effluent turbidity stabilized ~30 NTU. Observed gelling in the sedimentation tank and flocculator. It seems like 4 mm/s is to high of an upflow velocity.|
 |15|3|4.5|Failure. Inserted a new sedimentation tank bottom in order to see what is happening near the inlet of water and flocs. Buildup of flocs due to the flat surface of the tank bottom.|
 |16|3|4.5|Modified the new sedimentation tank bottom to have a conical shape rather than a flat one.|
+
+
 [Table of Contents](#table-of-contents)
 
 #### Experiment 7
@@ -454,7 +456,7 @@ Therefore, future work will consist of investigating what happens the moment whe
 
 As briefly mentioned in the results section for Experiment 16, we hypothesize that there is a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup and thus system failure. In order to combat floc buildup, we plan on drilling a larger hole a specific distance from the top in order to fulfill the 10:1 jet expansion ratio. That way, any build up that may form at the bottom of the sedimentation tank may not form.
 
-If this solution does not work, the next step will be to design and fabricate a completely new sedimentation tank that would more closely resemble a jet reverser that is currently in use at AguaClara plants. 
+If this solution does not work, the next step will be to design and fabricate a completely new sedimentation tank that would more closely resemble a jet reverser that is currently in use at AguaClara plants.
 
 ### Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters.<!--Are functions to do this available in aguaclara_research?  If not consider adding them, as these would be generally applicable to most particle removal teams -->
