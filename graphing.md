@@ -95,13 +95,11 @@ plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Dat
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-26-2018 13:06', '6-26-2018 21:00', 0, 4)
 
-# plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-27-2018 15:11', '6-28-2018 9:05', 0, 4)
-#Missing data
+plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-27-2018 15:11', '6-28-2018 9:05', 0, 4)
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-2-2018 12:34', '7-2-2018 21:10', 0, 4)
 
-# plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-9-2018 13:57', '7-9-2018 21:00', 0, 4)
-#missing data
+plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-9-2018 13:57', '7-9-2018 19:50', 0, 4)
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-10-2018 10:53', '7-10-2018 12:45', 0, 4)
 
@@ -112,7 +110,6 @@ plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Dat
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-12-2018 12:24', '7-13-2018 9:00', 0, 4)
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-16-2018 11:15', '7-17-2018 9:35', 0, 4)
-
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-17-2018 11:25', '7-18-2018 9:23', 0, 4)
 
