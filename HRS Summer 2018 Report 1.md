@@ -35,8 +35,6 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Org%20Config.png" width = 500>
 </p>
 
-The guidelines below are not comprehensive. For detailed instructions preparing the High Rate Sedimentation experimental setup, refer to the [HRS Setup Procedures](LINK HERE) document in our Github repository.
-
 
 1. Drain the sedimentation tank.
    a. Close the valves that would allow backflow into the sedimentation tank’s effluent tube. Disconnect that tube.
@@ -167,7 +165,7 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 4. [Experiment 4](#experiment-4)
 5. [Experiment 5](#experiment-5)
 6. [Experiment 6](#experiment-6)
-* [Sedimentation Tank A vs. B](#sedimentation-tank-a-vs.-b)
+* [Sedimentation Tank A vs. B](#sedimentation-tank-a-vs-b)
 
 #### New Experiments
 * [Summary of New Experiments](#summary-of-new-experiments)
@@ -183,19 +181,18 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 16. [Experiment 16](#experiment-16)
 
 #### Summary of Previous Experiments
-|Experiment #|Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Floc Blanket Formed| Results|
-|:---:|:---------------:|:----:| :-------: |:------| :--- |
-|1|3|A|1.4|Yes|Effluent turbidity <= 2.0 NTU.
-|2|3|B|1.4|Yes|Effluent turbidity stayed around 4.4 NTU for the first 10 hours of experimentation but increased to 19.5 NTU at 22.5 hours.
-|3|1|B|1.4 with initial excess coagulant|No|Effluent turbidity increased to 135 NTU. There was an initial excess in coagulant that may have caused the failure.
-|4|1|B|1.4 with appropriate dosage of coagulant|No|Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
-|5|3|A|1.4|Yes|Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
-|6|1 -> 2| A |1.4| Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
+|Experiment |Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Floc <br/> Blanket Formed| Effluent Turbidity|
+|:---:|:---------------:|:----:| :-------: |:-----:| :--- |
+|1|3|A|1.4|Yes| ≤ 2 NTU
+|2|3|B|1.4|Yes| 4.4 NTU by 10 hours, 19.5 NTU by 22.5 hours
+|3|1|B|4.2 &rarr; 1.4 |No|Reached 135 NTU. Failure may be due to initial excess coagulant.
+|4|1|B|1.4|No|Reached 20 NTU. New hypothesis is that upflow velocity of 1 mm/s is too slow.
+|5|3|A|1.4|Yes|Reached 26 NTU
+|6|1 &rarr; 2| A |1.4|No|Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
 
 [Table of Contents](#table-of-contents)
 #### Experiment 1
 
-<!--I don't think you uploaded the graph for this first experiment conducted on 6.12.18?? -->
 **Description**: The purpose of the first two experiments is to record initial observations of floc blanket formation and decay using both sedimentation tank designs. For Experiment 1, the HRS apparatus was run at an upflow velocity of 3 mm/s for 9.5 hours using tank A in order to confirm whether this higher rate would lead to floc blanket decay causing system failure.
 
 **Results**: At about two and a half hours into the experiment, an opaque floc blanket has formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success. Whether this success was due to the floc weir being in an optimal position or having a more robust system will need to be further investigated.
@@ -271,7 +268,7 @@ Figure 9. Effluent turbidity vs. Time with a 1 -> 2 mm/s Upflow Velocity using T
 
 [Table of Contents](#table-of-contents)
 
-#### **Sedimentation Tank A vs. B**
+#### Sedimentation Tank A vs. B
 Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design tank A as it is the configuration that other AguaClara subteams use.
 
 [Table of Contents](#table-of-contents)
