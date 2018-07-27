@@ -272,7 +272,9 @@ Figure 9. Effluent turbidity vs. Time with a 1 -> 2 mm/s Upflow Velocity using T
 [Table of Contents](#table-of-contents)
 
 #### **Sedimentation Tank A vs. B**
-Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design tank A as it is the configuration that other AguaClara subteams use. <!--Should we include more in this paragraph? We can't really talk about the difference in floc removal...) -->[Table of Contents](#table-of-contents)
+Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design tank A as it is the configuration that other AguaClara subteams use.
+
+[Table of Contents](#table-of-contents)
 
 ### Summary of New Experiments
 * Note: All experiments were run using tank A
