@@ -1,6 +1,6 @@
-#####Graphing ProCoDA data without statelog
+##### Graphing ProCoDA data without statelog
 
-The functions are in the process of being documented.
+The functions below (which are in the process of being documented and reviewed) plot a scatterplot of two columns of data from a ProCoDA data file based on start and end times only, instead of states. As now, data can be read for experiments spanning up to 2 days. See the bottom of the document for an example usage of the functions.
 
 ```python
 import pandas as pd
