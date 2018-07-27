@@ -281,8 +281,8 @@ Since the design of the sedimentation tank did not seem to be the deciding facto
 ### Summary of New Experiments
 * Note: All experiments were run using tank A
 
-|Experiment #| Upflow Velocity (mm/s) | Coagulant System Concentration (mg/L)|Results|
-|:---:|:---:| :--------: |:------------------------------|
+|Experiment #|Upflow Velocity (mm/s)|Coagulant System Concentration (mg/L)|Floc Blanket Formed|Results|
+|:---:|:---:|:--------:|:---|:-----------|
 |7|2|1.4|Failure. Effluent turbidity of 37-40 NTU and no formation of floc blanket.|
 |8|2|2.8 but increased to 4.2 after ~ 1hr|Effluent turbidity of 33-35 NTU and no formation of floc blanket.|
 |9|2|4.2|Failure. Effluent turbidity ranged from 35-40 NTU and no formation of floc blanket.|
