@@ -167,7 +167,9 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 4. [Experiment 4](#experiment-4)
 5. [Experiment 5](#experiment-5)
 6. [Experiment 6](#experiment-6)
+
 * [Sedimentation Tank A vs. B](#sedimentation-tank-a-vs.-b)
+<!--this link does not work-->
 
 #### New Experiments
 * [Summary of New Experiments](#summary-of-new-experiments)
@@ -184,13 +186,13 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 
 #### Summary of Previous Experiments
 |Experiment #|Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Floc Blanket Formed| Results|
-|:---:|:---------------:|:----:| :-------: |:------| :--- |
+|:---:|:---------------:|:----:| :-------: |:-----:| :--- |
 |1|3|A|1.4|Yes|Effluent turbidity <= 2.0 NTU.
 |2|3|B|1.4|Yes|Effluent turbidity stayed around 4.4 NTU for the first 10 hours of experimentation but increased to 19.5 NTU at 22.5 hours.
 |3|1|B|1.4 with initial excess coagulant|No|Effluent turbidity increased to 135 NTU. There was an initial excess in coagulant that may have caused the failure.
 |4|1|B|1.4 with appropriate dosage of coagulant|No|Effluent turbidity ended at 20 NTU and there was no observable formation of a floc blanket. Disproves hypothesis that initial excess coagulant caused system failure. New hypothesis that upflow velocity of 1 mm/s is too slow.
 |5|3|A|1.4|Yes|Effluent turbidity ended at 26 NTU after 18 hours of experimentation. Floc blanket formation occurred later than it had before in Experiment 1.
-|6|1 -> 2| A |1.4| Failure. Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
+|6|1 -> 2| A |1.4|No|Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
 
 [Table of Contents](#table-of-contents)
 #### Experiment 1
