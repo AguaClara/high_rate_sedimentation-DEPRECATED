@@ -1,4 +1,4 @@
-#High Rate Sedimentation, Summer 2018
+#  High Rate Sedimentation, Summer 2018
 #### Anna Hong and Hannah Si
 #### July 27, 2018
 
