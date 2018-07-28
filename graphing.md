@@ -97,7 +97,7 @@ plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Dat
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-27-2018 15:11', '6-28-2018 9:05', 0, 4)
 
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-2-2018 12:34', '7-2-2018 21:10', 0, 4)
+plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-28-2018 12:05', '6-28-2018 21:34', 0, 4)
 
 plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-9-2018 13:57', '7-9-2018 19:50', 0, 4)
 

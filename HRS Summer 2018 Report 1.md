@@ -140,7 +140,7 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
 
 The HRS team has been experimenting with two sedimentation tank designs in an effort to understand the reasons for floc blanket decay in the Spring 2018 and Fall 2017 semesters.
 
-1. **Sedimentation tank A** is the sedimentation tank design used by most AguaClara particle removal research teams, including the HRS team in the Fall 2017 semester. The tube settler is relatively short and the floc weir is placed on the left side of the tube settler (when the tube settler points to the left).
+1. **Sedimentation Tank A** is the sedimentation tank design used by most AguaClara particle removal research teams, including the HRS team in the Fall 2017 semester. The tube settler is relatively short and the floc weir is placed on the left side of the tube settler (when the tube settler points to the left).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Sedimentation%20Tank%20A.png" width=300>
@@ -148,7 +148,7 @@ The HRS team has been experimenting with two sedimentation tank designs in an ef
 
 Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara research teams, including the Fall 2017 HRS team.
 
-2. **Sedimentation tank B** is the sedimentation tank design used by the Spring 2018 HRS team. The tube settler is relatively long and the floc weir is placed on the right side of the bend in the recirculator (when the tube settler points to the left).
+2. **Sedimentation Tank B** is the sedimentation tank design used by the Spring 2018 HRS team. The tube settler is relatively long and the floc weir is placed on the right side of the bend in the recirculator (when the tube settler points to the left).
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/SedTankB.png" width=300>
@@ -181,28 +181,29 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 16. [Experiment 16](#experiment-16)
 
 #### Summary of Previous Experiments
-|Experiment |Upflow Velocity (mm/s) |Tank Type| Coagulant System Concentration (mg/L)|Floc <br/> Blanket Formed| Effluent Turbidity|
-|:---:|:---------------:|:----:| :-------: |:-----:| :--- |
-|1|3|A|1.4|Yes| ≤ 2 NTU
-|2|3|B|1.4|Yes| 4.4 NTU by 10 hours, 19.5 NTU by 22.5 hours
-|3|1|B|4.2 &rarr; 1.4 |No|Reached 135 NTU. Failure may be due to initial excess coagulant.
-|4|1|B|1.4|No|Reached 20 NTU. New hypothesis is that upflow velocity of 1 mm/s is too slow.
-|5|3|A|1.4|Yes|Reached 26 NTU
-|6|1 &rarr; 2| A |1.4|No|Effluent turbidity ended at 46 NTU even after increasing the upflow velocity to 2 mm/s after first two hours. Results suggest that 2 mm/s may still be too slow for system success.|
+|Experiment |Upflow Velocity (mm/s) |Tank Type| Coagulant Dosage (mg/L)|Floc <br/> Blanket Formed| Ending Effluent Turbidity|Insights|
+|:---:|:---------------:|:----:| :-------: |:-----:|:---|:---|
+|1|3|A|1.4|Yes| ≤ 2 NTU|
+|2|3|B|1.4|Yes| 4.4 NTU &rarr; 19.5 NTU
+|3|1|B|4.2 &rarr; 1.4 |No|135 NTU| Failure may be due to initial excess coagulant.
+|4|1|B|1.4|No|20 NTU|New hypothesis: 1 mm/s upflow velocity is too slow.
+|5|3|A|1.4|Yes|26 NTU
+|6|1 &rarr; 2| A |1.4|No|46 NTU| 2 mm/s upflow velocity may also be too slow.|
 
 [Table of Contents](#table-of-contents)
+
 #### Experiment 1
 
-**Description**: The purpose of the first two experiments is to record initial observations of floc blanket formation and decay using both sedimentation tank designs. For Experiment 1, the HRS apparatus was run at an upflow velocity of 3 mm/s for 9.5 hours using tank A in order to confirm whether this higher rate would lead to floc blanket decay causing system failure.
+**Description**: The purpose of the first two experiments was to record initial observations of floc blanket behavior using both sedimentation tank designs. For Experiment 1, the HRS apparatus was run at an upflow velocity of 3 mm/s for 9.5 hours using Tank A in order to confirm that this higher rate would lead to floc blanket decay and system failure.
 
-**Results**: At about two and a half hours into the experiment, an opaque floc blanket has formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success. Whether this success was due to the floc weir being in an optimal position or having a more robust system will need to be further investigated.
+**Results**: At about 2.5 hours into the experiment, an opaque floc blanket formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success -- contrary to the Fall 2017 and Spring 2018 teams' results. Whether this success was due to the floc weir being in an optimal position or a more robust system will need to be further investigated.
 [Table of Contents](#table-of-contents)
 
 #### Experiment 2
 
-**Description**: Experiment 2 ran a test with an upflow velocity of 3 mm/s using tank B at a longer time (22.5 hours). This test would help confirm whether the sedimentation tank design plays a factor in floc blanket decay and thus system failure.
+**Description**: Experiment 2 ran a test with an upflow velocity of 3 mm/s using Tank B for a longer time (22.5 hours). This test was intended to confirm whether the sedimentation tank design plays a factor in floc blanket decay and thus system failure.
 
-**Results**: At the same time when Experiment 1 ended (9.5 hours), the effluent turbidity reached 4.4 NTU. Movement of flocs at this time was slower than that observed in tank A and the floc blanket was not opaque. Since these observations seemed to be characteristic of  earlier stages of floc blanket formation and decay, the experiment was prolonged to 22.5 hours. By the end of this experiment, system failure was observed with a final effluent turbidity of 19.5 NTU. This slower decay may be due to using a more robust system. Nonetheless, this experiment was concluded to be a partial success.
+**Results**: At the same time at which Experiment 1 ended (9.5 hours), the effluent turbidity reached 4.4 NTU. Movement of flocs at this time was slower than that observed in Tank A and the floc blanket was not opaque, but became less dense toward the bottom of the sedimentation tank. By the end of 22.5 hours, the effluent turbidity of 19.5 NTU. While the turbidity level signals system failure, it decayed at a significantly slower rate than for the Spring 2018 HRS team.
 
 <p align="center">
   <a href="https://www.youtube.com/watch?v=JcQjRKY91NI&feature=youtu.be"> <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp2pic.PNG" width=200> </a>
@@ -213,18 +214,20 @@ Figure 4. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc6
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/6-14-2018.png">
 </p>
+
 Figure 5. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity using Tank B
 
 [Table of Contents](#table-of-contents)
 
 #### Experiment 3
-**Description**: The next set of experiments were done at a slower upflow velocity in order to simulate and confirm system success observed at AguaClara treatment plants. This experiment tested a 1 mm/s upflow velocity using tank B. For the first 30 minutes, there was an input of excess coagulant because the coagulant pump speed was not reduced from 20 RPM to 6.7 RPM to reflect this lower upflow velocity.
+**Description**: The next two experiments were run at a slower upflow velocity with Tank B in order to simulate successful particle removal in AguaClara treatment plants. This experiment tested a 1 mm/s upflow velocity. For the first 30 minutes, there was an input of excess coagulant because the coagulant pump speed was not reduced from 20 RPM to 6.7 RPM to accommodate this lower upflow velocity.
 
-**Results**: The initial effluent turbidity began at 4.6 NTU and increased throughout the duration of the experiment quite rapidly. By the end of 20 hours, the effluent turbidity was higher than influent turbidity at 135 NTU, making this a failure. It was hypothesized that the influx of large amounts of coagulant at the beginning of the experiment caused coagulant to stick to the walls, causing higher shear and decreased diameter. Coagulant particles may be colliding with other coagulant particles instead of clay particles, which only form small flocs. These small particles are more difficult to capture and thus travel upwards to the tube settler and out in the effluent tube.
+**Results**: The initial effluent turbidity began at 4.6 NTU and rapidly increased throughout experiment. By the end of 20 hours, the effluent turbidity spiked higher than the influent turbidity -- 135 NTU compared to 100 NTU -- making this a failure. It was hypothesized that the excess coagulant at the beginning of the experiment stuck to the walls of the tubing, creating higher shear and decreased diameter. Coagulant particles may have collided with other coagulant particles instead of clay particles, leading to smaller flocs that are more difficult to capture in the tube settler.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/6-25-2018.png">
 </p>
+
 Figure 6. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B with Initial Excess Coagulant
 
 [Table of Contents](#table-of-contents)
@@ -233,20 +236,21 @@ Figure 6. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B
 
 **Description**: To nullify any potential effects from the initial coagulant dosage spike in Experiment 3, this experiment ran at 1 mm/s with the appropriate coagulant pump speed of 6.7 RPM for 8 hours.
 
-**Results**: With a final effluent turbidity of 20 NTU, system failure was observed, disproving that initial excess coagulant was the cause. There was no observable formation of a floc blanket, which means that the smaller flocs that were contaminating the effluent were not being captured and settled out. One key observation was that there seemed to be a gradual increase in floc size within the flocculator as it neared its end. However, the unusually clear sedimentation tank raises the question as to where these bigger flocs ended up going. Since excess coagulant does not seem to be preventing floc blanket formation and that the larger flocs from the flocculator seem to have disappeared, it is hypothesized that the upflow velocity of 1 mm/s is too slow.
+**Results**: With a final effluent turbidity of 20 NTU, the system still failed, disproving that initial excess coagulant was the main problem. There was no observable formation of a floc blanket, and smaller flocs in the sedimentation tank were not being captured and settled out. One key observation was that the size and amount of flocs emerging in the sedimentation tank appeared to be less than that at the end of the flocculator. The large flocs may have been accumulating in the bottom of the sedimentation tank, which is covered by white PVC connections. Therefore, it is hypothesized that the upflow velocity of 1 mm/s is too slow for floc resuspension in the sedimentation tank that leads to healthy floc blanket formation.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/6-26-2018.png">
 </p>
+
 Figure 7. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B with No Initial Excess Coagulant
 
 [Table of Contents](#table-of-contents)
 
 #### Experiment 5
 
-**Description**: To make sure that the changes that we made to our experimental apparatus is not the cause of system failure, Experiment 1 (3 mm/s upflow velocity with tank A) was rerun but for a longer period of 18 hours.
+**Description**: To ensure that no modifications to our experimental apparatus were  the cause of system failure, Experiment 1 (3 mm/s upflow velocity with Tank A) was rerun but for a longer period of 18 hours.
 
-**Results**: As before, an opaque floc blanket formed with the same density gradient of flocs in the recirculator (higher density of flocs at the top compared to the bottom). However, this experiment ended with a slowly rising effluent turbidity of 26 NTU at 18 hours. There were many flocs settled in the tube settler, which may have reached there before the formation of the floc blanket. It seems that the floc blanket formed later than it had before in Experiment 1, allowing the smaller flocs that are more difficult to capture travel up to the tube settler and out the effluent tube. This much higher effluent turbidity suggests that something has changed since Experiment 1, but whether the design of the system was the change has yet to be determined.
+**Results**: As before, an opaque floc blanket formed with the same density gradient of flocs in the recirculator (higher density toward the top). However, this experiment ended with a slowly rising effluent turbidity of 26 NTU at 18 hours. There were many flocs settled high in the tube settler. It seems that the floc blanket formed later than it did in Experiment 1, allowing small flocs to escape in the beginning of the experiment. This significantly higher effluent turbidity suggests that something has changed since Experiment 1, but whether the design of the system was the change has yet to be determined.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/6-27-2018.png">
@@ -257,37 +261,38 @@ Figure 8. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity using Tank A
 
 #### Experiment 6
 
-**Description**: Since Experiment 1 was a success at an upflow velocity of 3 mm/s using tank A, it was predicted that running the same experiment at a lower upflow velocity of 1 mm/s would also be a success. About 2 hours after the start of the experiment, there was still no signs of floc blanket formation. Since other AguaClara subteams experienced system success at a 2 mm/s upflow velocity, the water and coagulant pump speeds were increased to reflect this higher speed to test the hypothesis that upflow velocity was indeed too slow as formulated after Experiment 4.
+**Description**: This experiment tested whether a lower upflow velocity of 1 mm/s could also be successful with Tank A. After about 2 hours, there were still no signs of floc blanket formation. Since other AguaClara subteams experienced system success at a 2 mm/s upflow velocity, the water and coagulant pump speeds were doubled at this time to attain this higher velocity to test whether a 1 mm/s upflow velocity is indeed too slow (as hypothesized after Experiment 4).
 
-**Results**: Ending with an effluent turbidity of 46 NTU, this experiment observed system failure. No floc blanket formed throughout the duration of the experiment even with the increased speeds. While it seemed that there could be a speed too slow for this system to succeed, these results suggest that a different factor is causing system failure.
+**Results**: This experiment ended with a failing effluent turbidity of 46 NTU. No floc blanket formed during the experiment even with the increased flow rates. It seems that floc blanket formation requires an upflow velocity of approximately 3 mm/s or higher.
 
 <p align = center>
-  <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-2-2018.png"> <!--is this supposed to be the graph for 6.28.18??-->
+  <img src="Images/Graphs/6-28-2018.png">
 </p>
+
 Figure 9. Effluent turbidity vs. Time with a 1 -> 2 mm/s Upflow Velocity using Tank A
 
 [Table of Contents](#table-of-contents)
 
 #### Sedimentation Tank A vs. B
-Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design tank A as it is the configuration that other AguaClara subteams use.
+Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design Tank A, as it is the configuration used by other AguaClara subteams.
 
 [Table of Contents](#table-of-contents)
 
 ### Summary of New Experiments
-* Note: All experiments were run using tank A
+Note: All subsequent experiments were run using Tank A.
 
-|Experiment #|Upflow Velocity (mm/s)|Coagulant System Concentration (mg/L)|Floc Blanket Formed|Results|
-|:---:|:---:|:--------:|:---|:-----------|
-|7|2|1.4|Failure. Effluent turbidity of 37-40 NTU and no formation of floc blanket.|
-|8|2|2.8 but increased to 4.2 after ~ 1hr|Effluent turbidity of 33-35 NTU and no formation of floc blanket.|
-|9|2|4.2|Failure. Effluent turbidity ranged from 35-40 NTU and no formation of floc blanket.|
-|10|3|1.5|Effluent turbidity initially spiked to ~45 NTU yet decreased to a somewhat stable value of ~15 NTU. Floc blanket started to decay at 3 hours into the experiment.|
-|11|3|3.0|Effluent turbidity stabilized around 16 NTU by 20.5 hours. It seems like a higher coagulant dosage leads to faster floc blanket formation.|
-|12|3|4.5|Initial spike of effluent turbidity to ~22 NTU but rapidly decreased to 2-3 NTU after 1 hour, most likely due to formation of a healthy floc blanket. Suggests that a higher upflow velocity and a higher coagulant dosage contribute to system success.|
-|13|4|4.5|Initial spike of effluent turbidity to ~50 NTU but decreased to 16-17 NTU after 3 hours. Visible gelling in the sedimentation tank and the flocculator indicate excess system coagulant.|
-|14|4|4.5 but diluted coagulant stock and increased the coagulant pump speed.|Failure. Effluent turbidity stabilized ~30 NTU. Observed gelling in the sedimentation tank and flocculator. It seems like 4 mm/s is to high of an upflow velocity.|
-|15|3|4.5|Failure. Inserted a new sedimentation tank bottom in order to see what is happening near the inlet of water and flocs. Buildup of flocs due to the flat surface of the tank bottom.|
-|16|3|4.5|Modified the new sedimentation tank bottom to have a conical shape rather than a flat one.|
+|Experiment|Upflow Velocity (mm/s)|Coagulant Dosage (mg/L)|Floc Blanket Formed|Ending Effluent Turbidity|Insights|
+|:---:|:---:|:--------:|:---|:------|:---|
+|7|2|1.4|No|37-40 NTU|
+|8|2|2.8 &rarr; 4.2|No|33-35 NTU|
+|9|2|4.2|No|35-40 NTU|
+|10|3|1.5|Yes|15 NTU|
+|11|3|3.0|Yes|16 NTU|Faster floc blanket formation|
+|12|3|4.5|Yes|2-3 NTU &rarr; 11-12 NTU|Even faster floc blanket formation|
+|13|4|4.5|Yes|27-28 NTU|Gelling observed in flocculator and sedimentation tank|
+|14|4|4.5 <br/> with higher pump speed|Yes|~30 NTU|Gelling still observed; 4 mm/s may be too high|
+|15|3|4.5|Yes|27 NTU (at 1 hr)| With inserted, flat surfaced sedimentation tank bottom to observe floc buildup|
+|16|3|4.5|Yes|22 NTU|With conical sedimentation tank bottom, flocs are still building up|
 
 
 [Table of Contents](#table-of-contents)
@@ -305,7 +310,7 @@ Figure 10. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 1.4 mg/L
 [Table of Contents](#table-of-contents)
 
 #### Experiment 8
-**Description**: Experiment 8 ran at 2 mm/s using tank A with a coagulant system concentration of 2.8 mg/L, which was increased to 4.2 mg/L after 1 hour into the experiment.  
+**Description**: Experiment 8 ran at 2 mm/s using Tank A with a coagulant system concentration of 2.8 mg/L, which was increased to 4.2 mg/L after 1 hour into the experiment.  
 
 **Results**: Since this experiment seemed to be showing the same observations as that of Experiment 7, the coagulant system concentration was increased to 4.2 mg/L, a level that would supply more than enough coagulant to the system. However, effluent turbidity did not deviate from 33-35 NTU and there was no formation of a floc blanket even with the increased coagulant input to the system.
 
@@ -317,6 +322,7 @@ Figure 11. Instead of a floc blanket, Experiment 8 only formed dispersed flocs a
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-10-2018%20a.png">
 </p>
+
 Figure 12. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 2.8 mg/L System Coagulant Concentration
 
 [Table of Contents](#table-of-contents)
@@ -335,6 +341,7 @@ Figure 13. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-10-2018%20b.png">
 </p>
+
 Figure 14. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 4.2 mg/L System Coagulant Concentration
 
 [Table of Contents](#table-of-contents)
@@ -347,6 +354,7 @@ Figure 14. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 4.2 mg/L
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-11-2018.png">
 </p>
+
 Figure 15. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 1.5 mg/L System Coagulant Concentration
 
 [Table of Contents](#table-of-contents)
@@ -359,6 +367,7 @@ Figure 15. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 1.5 mg/L
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-12-2018.png">
 </p>
+
 Figure 16. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 3.0 mg/L System Coagulant Concentration
 
 [Table of Contents](#table-of-contents)
@@ -377,6 +386,7 @@ Figure 17. Click the image or [this link](https://www.youtube.com/watch?v=mQuRGD
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-16-2018.png">
 </p>
+
 Figure 18. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration
 
 [Table of Contents](#table-of-contents)
@@ -395,6 +405,7 @@ Figure 19. Click the image or [this link](https://www.youtube.com/watch?v=aITr4E
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-17-2018.png">
 </p>
+
 Figure 20. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration
 
 [Table of Contents](#table-of-contents)
@@ -407,12 +418,13 @@ Figure 20. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-18-2018.png">
 </p>
+
 Figure 21. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Diluted Coagulant Stock and Increased Coagulant Pump Speed
 
 [Table of Contents](#table-of-contents)
 
 #### Experiment 15
-**Description**: To gain a better understanding about floc movement the moment when flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted using a PVC rod. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using tank A with a system coagulant dosage of 4.5 mg/L.
+**Description**: To gain a better understanding about floc movement the moment when flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted using a PVC rod. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using Tank A with a system coagulant dosage of 4.5 mg/L.
 
 <p align = center>
   <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/FlatBottomNew.jpeg" width = 400>
@@ -425,6 +437,7 @@ Figure 22: Flat bottom insert of the sedimentation tank.
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-19-2018.png">
 </p>
+
 Figure 23. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Flat Tank Bottom Insert
 
 [Table of Contents](#table-of-contents)
@@ -437,6 +450,7 @@ Figure 23. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
   <align = center>
     <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/conicalbottom2.jpeg" width = 200>
 </p>
+
 Figure 24: Conical bottom insert of the sedimentation tank.
 
 **Results**: While there seemed to have a more stable floc blanket in the recirculator, this experiment was also a failure. Flocs still built up at the bottom of the tank. It is hypothesized that a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup.
@@ -444,6 +458,7 @@ Figure 24: Conical bottom insert of the sedimentation tank.
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-23-2018.png">
 </p>
+
 Figure 25. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Conical Tank Bottom Insert
 
 [Table of Contents](#table-of-contents)
@@ -458,7 +473,7 @@ As briefly mentioned in the results section for Experiment 16, we hypothesize th
 If this solution does not work, the next step will be to design and fabricate a completely new sedimentation tank that would more closely resemble a jet reverser that is currently in use at AguaClara plants.
 
 ### Calculations
-We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters.<!--Are functions to do this available in aguaclara_research?  If not consider adding them, as these would be generally applicable to most particle removal teams -->
+We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters. (These calculations are in the process of being integrated into the aguaclara_research repository as revised as well as added functions.)
 
 The calculations in the "Current coagulant dosage calculations" section of our code differ from those of previous HRS teams in that the coagulant pump speed is the quotient of the desired flow rate of coagulant (mL/s) divided by the volume pumped per revolution by the coagulant pump (mL/rev), rather than the desired flow rate of coagulant (mL/s) divided by the flow rate of the coagulant pump (mL/s).
 
@@ -472,15 +487,17 @@ $V$ = volume per revolution
 
 $$S\ \frac{rev}{min} = \frac{Q\ \frac{mL}{min}}{V\ \frac{mL}{rev}}$$
 
-<!-- FYI the .shared branch only works if you have downloaded the filter design branch.  You might want to add a comment so others don't have the same problem (until they fix it)-->
+Note: Since certain components of the aguaclara_research library are currently under constructon, to use the library you must first clone the [aide_design git repository](https://github.com/AguaClara/aide_design) , switch to its filter_design branch, and then follow the pip install instructions on the [aguaclara_research git repository](https://github.com/AguaClara/aguaclara_research) README.
 
-<!--Make sure to properly comment your code and define variables.  For example, explain the difference between coagulant_superstock and coagulent_stock-->
 ```python
 from aguaclara_research.tube_sizing import *
 from aide_design.shared.units import unit_registry as u
 import numpy
 
-#Tubing ID : volume per revolution
+#Tubing ID : volume output per revolution
+#Obtained from Masterflex tubing specs, summarized on Confluence:
+#https://confluence.cornell.edu/display/AGUACLARA/Auto+Tutorial+for+
+#Peristaltic+Pumps
 tubing_water = {
   13 : .06*u.mL/u.rev,
   14 : .21*u.mL/u.rev,
@@ -489,61 +506,125 @@ tubing_water = {
   18 : 3.8*u.mL/u.rev
 }
 
-#System parameters, in relation to the sedimentation tank
-upflow_velocity = 1 #in millimeters per second
-print("CALCULATIONS FOR UPFLOW VELOCITY OF", upflow_velocity, "MM/S \n")
+def Q_stock(Q_plant, C_plant, C_stock):
+  '''
+  Parameters
+  ----------
+  Q_plant : float
+    flow rate of the system, in u.mL/u.s
+  C_plant : float
+    concentration of substance of interest in the entire system, must have same
+    units as C_stock
+  C_stock : float
+    concentration of stock solution of substance of interest, must have same
+    units as C_plant
 
-cross_sectional_area = numpy.pi * (0.5*u.inch * 2.54*u.cm/u.inch) ** 2
+  Returns
+  -------
+  float : the mass-balanced flow rate of the stock solution of interest
+  '''
+  return (Q_plant * C_plant / C_stock).to(u.mL/u.s)
+
+
+def C_stock(Q_plant, C_plant, Q_stock):
+  '''
+  Parameters
+  ----------
+  Q_plant : float
+    flow rate of the system, in u.mL/u.s
+  C_plant : float
+    concentration of substance of interest in the entire system, in u.mg/u.L
+  Q_stock : float
+    flow rate of stock solution of substance of interest, in u.mL/u.s
+
+  Returns
+  -------
+  float : the mass-balanced concentration of the stock solution of interest
+  '''
+  return (Q_plant * C_plant / Q_stock).to(u.mg/u.L)
+
+
+def dilution_factor(C_stock, C_super_stock):
+    '''
+    Parameters
+    ----------
+    C_stock : float
+        concentration of the stock solution connected to the pump
+    C_super_stock : float
+        concentration of the super stock solution from which stock is made
+    '''
+    return (C_stock / C_super_stock).to(u.mL/u.L)
+
+
+def turbidity_to_concentration(turbidity):
+  '''
+  Parameters
+  ----------
+  turbidity : float
+    must be in units of u.NTU
+
+  Returns
+  -------
+  float : the concentration of kaolin clay for the desired turbidity, in milligrams
+    of clay per liter of water
+  Relation was determined by previous research documented on Confluence:
+    https://confluence.cornell.edu/display/AGUACLARA/Clay+Concentration+in+Stock
+    +Solution+for+Desired+Influent+Turbidity
+  '''
+  return (turbidity/u.NTU + 2.0839) / .3729 * u.mg/u.L
+
+#######################################################
+
+#SYSTEM PARAMETERS
+C_clay = 100*u.NTU            #system influent turbidity
+C_pacl = 2.8*u.mg/u.L         #system coagulant dosage
+tubing_clay = "yellow-blue"   #color coding of Masterflex tubing for clay pump
+tubing_pacl = "yellow-blue"   #color coding of Masterflex tubing for coagulant pump
+
+sed_tank_radius = 0.5*u.inch  #inner radius of sedimentation tank
+upflow_velocity = 3           #sed tank upflow velocity, in mm/s
+
+cross_sectional_area = numpy.pi * (sed_tank_radius.to(u.cm)) ** 2
 Q_sys = (upflow_velocity/10*u.cm/u.s * cross_sectional_area).to(u.mL/u.s)
+
+print("CALCULATIONS FOR UPFLOW VELOCITY OF", upflow_velocity, "MM/S \n")
 print("System flow rate: ", Q_sys, "\n")
 
-C_clay = 100*u.NTU
-C_pacl = 1.4*u.mg/u.L
-tubing_clay = "yellow-blue"
-tubing_pacl = "yellow-blue"
 
-#Water pump speed
-Q_water = Q_water(Q_sys, C_clay, C_pacl, tubing_clay, tubing_pacl)
+#CLAY CONCENTRATION AND PUMP SPEED CALCULATIONS
+C_clay_stock = 10.8*u.g/u.L    #concentration of clay stock (mg kaolin clay per
+                                #liter of water)
+
+C_clay_sys = turbidity_to_concentration(C_clay)
+Q_clay = Q_stock(Q_sys, C_clay_sys, C_clay_stock)
+print("Clay stock concentration:", C_clay_stock)
+print("Clay pump speed (average):", pump_rpm(Q_clay, tubing_clay), "\n")
+
+#COAGULANT CONCENTRATION CALCULATIONS
+C_super_stock = 70.28*u.g/u.L   #concentration of super stock solution from
+                                #which stock is made   
+pacl_flow_3_rpm = 0.0063786375*u.mL/u.s  #flow rate when coagulant pump is running
+                                         #at 3 rpm (chosen for being near the
+                                         #lowest speed of the pump),
+                                         #EXPERIMENTALLY DETERMINED
+rpm_pacl = 9*u.rev/u.min        #desired coagulant pump speed   
+
+Q_pacl = pacl_flow_3_rpm * rpm_pacl/(3*u.rev/u.min)
+C_pacl_stock = C_stock(Q_sys, C_pacl, Q_pacl)
+print("Coagulant pump speed:", rpm_pacl)
+print("Coagulant stock concentration:", dilution_factor(C_pacl_stock, C_super_stock), "\n")
+
+Q_water = Q_sys - Q_clay - Q_pacl
 tubing_water_ID = 17
 Q_rev_water = tubing_water[tubing_water_ID]
-rpm_water = Q_water/Q_rev_water
-print("Water pump speed:", rpm_water, "\n")
-
-#Current coagulant (PACl) concentration and pump speed
-print("CURRENT COAGULANT DOSAGE CALCULATIONS")
-C_super_stock = 70.28*u.g/u.L
-V_stock = 5*u.L
-dilution_factor = 0.8*u.mL/u.L
-V_super_stock = V_stock * dilution_factor
-print("Current volume of coagulant super stock to add: ", V_super_stock)
-
-M_stock = (C_super_stock * V_super_stock).to(u.g)
-C_stock = M_stock / V_stock #Note: C_stock= C_super_stock * dilution_factor/1000
-print("Current concentration of coagulant stock: ", C_stock)
-
-Q_stock = (Q_sys * C_pacl / C_stock).to(u.mL/u.s)
-rpm_pacl = pump_rpm(Q_stock, tubing_pacl)
-print("Current coagulant pump speed:", rpm_pacl, "\n")
-
-#Recommended coagulant (PACl) concentration and pump speed
-print("RECOMMENDED COAGULANT DOSAGE CALCULATIONS")
-rpm_pacl = min_rpm
-print("Minimum coagulant pump speed:", rpm_pacl) #defined in tube_sizing.py
-
-C_stock = C_stock_max(Q_sys, C_pacl, tubing_pacl)
-print("Maximum concentration of coagulant stock: ", C_stock)
-
-dilution_factor = C_stock / C_super_stock * 1000 * u.mL/u.L
-V_super_stock = V_stock * dilution_factor
-print("Maximum volume of super stock: ", V_super_stock)
+rpm_water = (Q_water/Q_rev_water).to(u.rev/u.min)
+print("Water pump speed:", rpm_water)
 ```
 
 ### Other Insights
 
-
-
 **Spiking influent turbidity**
-The influent turbidity seems to spike upwards when we start the coagulant pump, even when the coagulant is not connected to the system or pumping coagulant. It has been suggested that the vibrations of the pump may be the cause, but we have yet to test this.
+The influent turbidity consistently spikes upwards at the start of experiments. While previously we associated the spike with the turning on of the coagulant pump, we now believe it is due to the necessary redirection of flow in the system (of clay and water going to the flocculator instead of waste). The redirection of flow, which involves the opening and shutting of values, seems to introduce a bubble of air into flocculator that congests flow and may be causing clay to accumulate behind the bubble, all the way to the influent turbidimeter.
 
 **ProCoDa method files**
 Since losing our ProCoDa program settings after to a computer restart, we have decided to save snapshots of our ProCoDa setpoints and states after making any significant modifications, such as adding setpoints and variables (e.g. pressure from the pressure sensor), changing setpoint values (e.g. tuning the PID constants), and changing state logic (e.g. periodically flushing the system with a higher water pump speed).
