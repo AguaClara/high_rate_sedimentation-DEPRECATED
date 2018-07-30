@@ -3,13 +3,15 @@
 #### July 27, 2018
 
 ## Abstract
-Sedimentation is a critical process for water treatment plants by which coagulated minerals, dirt, and other particles are removed from the water via gravitational settling. The High Rate Sedimentation (HRS) team hopes to design a sedimentation tank that will yield an effluent with turbidity of 0.3 NTU or lower at a high upflow velocity. While 1 NTU is the World Health Organization's standard for turbidity drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflow velocities of 3 mm/s or greater. Therefore, the goal of HRS team is to to preserve system success while raising upflow velocity in order to provide more clean water in a given time without increasing treatment plant size. Operating at a greater efficiency would eliminate the need for additional building materials and higher construction and maintenance costs.
+Sedimentation is a critical process for water treatment plants by which coagulated minerals, dirt, and other particles are removed from the water via gravitational settling. The High Rate Sedimentation (HRS) team works to design a sedimentation tank that will yield an effluent with turbidity of 0.3 NTU or lower at a high upflow velocity. While 1 NTU is the World Health Organization's standard for turbidity drinking water, the EPA standard is 0.3 NTU. AguaClara currently achieves this with an upflow velocity of 1 mm/s, but not at upflow velocities of 3 mm/s or greater. Therefore, the goal of HRS team is to preserve system success while raising upflow velocity in order to provide more clean water in a given time without increasing treatment plant size. Operating at a greater efficiency would eliminate the need for additional building materials and higher construction and maintenance costs.
 
 Since the fall of 2017, the AguaClara High Rate Sedimentation (HRS) team has been investigating the cause behind floc blanket decay, which has been attributed to system failure, at high upflow velocities in the sedimentation tank. The Summer 2018 HRS team first conducted experiments at lower upflow velocities of 1 mm/s and 2 mm/s in a 1" diameter tube to replicate system success. However, after failing to produce a floc blanket at these lower upflow velocities yet succeeding at higher velocities, the Summer 2018 HRS team has focused on optimizing sedimentation at a higher upflow velocity of 3 mm/s. The team confirmed the optimal coagulant dosage to be approximately 4.5 mg/L of PACl and is currently redesigning the sedimentation tank's bottom geometry to enhance resuspension of flocs.
 
 ## Methods
 ### Experimental Apparatus
 Below is a picture of the revised lab bench setup of the HRS team followed by a table listing the various components.
+
+**Ian's Comment:** Whenever you refer to a picture or table in the text, refer to it by its number (eg "Figure 1 below shows...")
 
 <p align=center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/updatedlabbenchsetup.JPG" width = 500>
@@ -112,6 +114,9 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
    d. Screw the vial back in, wipe the bottle and cylinder free from water droplets or fingerprints, and then lock the black cylinder back into the turbidimeter.
    e. If you used the white screws on the outflow turbidimeter tubes to block water passage, remember to unscrew them.
 
+**Ian's Comment:** This is the one step where I would include actual pictures of opening up a turbidimeter and cleaning it
+
+
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleanturbidimeters.png" width = 500>
 </p>
@@ -137,6 +142,8 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
 </p>
 
 ### Experiments and Results
+
+**Ian's Comment:** Include a link somewhere in this section to where your data is stored on Github so someone can look at it if they want.  Also either label the data files with what experiment they correspond to, or include that in the description of each experiment.
 
 The HRS team has been experimenting with two sedimentation tank designs in an effort to understand the reasons for floc blanket decay in the Spring 2018 and Fall 2017 semesters.
 
@@ -199,6 +206,8 @@ Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 H
 **Results**: At about 2.5 hours into the experiment, an opaque floc blanket formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success -- contrary to the Fall 2017 and Spring 2018 teams' results. Whether this success was due to the floc weir being in an optimal position or a more robust system will need to be further investigated.
 [Table of Contents](#table-of-contents)
 
+**Ian's Comment:** Do you have data from this experiment?  If so include it
+
 #### Experiment 2
 
 **Description**: Experiment 2 ran a test with an upflow velocity of 3 mm/s using Tank B for a longer time (22.5 hours). This test was intended to confirm whether the sedimentation tank design plays a factor in floc blanket decay and thus system failure.
@@ -248,7 +257,7 @@ Figure 7. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B
 
 #### Experiment 5
 
-**Description**: To ensure that no modifications to our experimental apparatus were  the cause of system failure, Experiment 1 (3 mm/s upflow velocity with Tank A) was rerun but for a longer period of 18 hours.
+**Description**: To ensure that no modifications to our experimental apparatus were the cause of system failure, Experiment 1 (3 mm/s upflow velocity with Tank A) was rerun but for a longer period of 18 hours.
 
 **Results**: As before, an opaque floc blanket formed with the same density gradient of flocs in the recirculator (higher density toward the top). However, this experiment ended with a slowly rising effluent turbidity of 26 NTU at 18 hours. There were many flocs settled high in the tube settler. It seems that the floc blanket formed later than it did in Experiment 1, allowing small flocs to escape in the beginning of the experiment. This significantly higher effluent turbidity suggests that something has changed since Experiment 1, but whether the design of the system was the change has yet to be determined.
 
@@ -424,6 +433,9 @@ Figure 21. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L
 [Table of Contents](#table-of-contents)
 
 #### Experiment 15
+
+**Ian's Comment:** This would be a great experiment to include a video from if you have any
+
 **Description**: To gain a better understanding about floc movement the moment when flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted using a PVC rod. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using Tank A with a system coagulant dosage of 4.5 mg/L.
 
 <p align = center>
@@ -471,6 +483,7 @@ Therefore, future work will consist of investigating what happens the moment whe
 As briefly mentioned in the results section for Experiment 16, we hypothesize that there is a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup and thus system failure. In order to combat floc buildup, we plan on drilling a larger hole a specific distance from the top in order to fulfill the 10:1 jet expansion ratio. That way, any build up that may form at the bottom of the sedimentation tank may not form.
 
 If this solution does not work, the next step will be to design and fabricate a completely new sedimentation tank that would more closely resemble a jet reverser that is currently in use at AguaClara plants.
+
 
 ### Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters. (These calculations are in the process of being integrated into the aguaclara_research repository as revised as well as added functions.)
