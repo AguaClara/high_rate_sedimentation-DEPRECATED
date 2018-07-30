@@ -155,49 +155,38 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 </p>
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
 
-### Table of Contents
+#### Summary of Experiments
 
-#### Previous Experiments
-* [Summary of Previous Experiments](#summary-of-previous-experiments)
-1. [Experiment 1](#experiment-1)
-2. [Experiment 2](#experiment-2)
-3. [Experiment 3](#experiment-3)
-4. [Experiment 4](#experiment-4)
-5. [Experiment 5](#experiment-5)
-6. [Experiment 6](#experiment-6)
-* [Sedimentation Tank A vs. B](#sedimentation-tank-a-vs-b)
-
-#### New Experiments
-* [Summary of New Experiments](#summary-of-new-experiments)
-7. [Experiment 7](#experiment-7)
-8. [Experiment 8](#experiment-8)
-9. [Experiment 9](#experiment-9)
-10. [Experiment 10](#experiment-10)
-11. [Experiment 11](#experiment-11)
-12. [Experiment 12](#experiment-12)
-13. [Experiment 13](#experiment-13)
-14. [Experiment 14](#experiment-14)
-15. [Experiment 15](#experiment-15)
-16. [Experiment 16](#experiment-16)
-
-#### Summary of Previous Experiments
 |Experiment |Upflow Velocity (mm/s) |Tank Type| Coagulant Dosage (mg/L)|Floc <br/> Blanket Formed| Ending Effluent Turbidity|Insights|
 |:---:|:---------------:|:----:| :-------: |:-----:|:---|:---|
-|1|3|A|1.4|Yes| ≤ 2 NTU|
-|2|3|B|1.4|Yes| 4.4 NTU &rarr; 19.5 NTU
-|3|1|B|4.2 &rarr; 1.4 |No|135 NTU| Failure may be due to initial excess coagulant.
-|4|1|B|1.4|No|20 NTU|New hypothesis: 1 mm/s upflow velocity is too slow.
-|5|3|A|1.4|Yes|26 NTU
-|6|1 &rarr; 2| A |1.4|No|46 NTU| 2 mm/s upflow velocity may also be too slow.|
+|[1](#experiment-1)|3|A|1.4|Yes| ≤ 2 NTU|
+|[2](#experiment-2)|3|B|1.4|Yes| 4.4 NTU &rarr; 19.5 NTU
+|[3](#experiment-3)|1|B|4.2 &rarr; 1.4 |No|135 NTU| Failure may be due to initial excess coagulant.
+|[4](#experiment-4)|1|B|1.4|No|20 NTU|New hypothesis: 1 mm/s upflow velocity is too slow.
+|[5](#experiment-5)|3|A|1.4|Yes|26 NTU
+|[6](#experiment-6)|1 &rarr; 2| A |1.4|No|46 NTU| 2 mm/s upflow velocity may also be too slow.|
 
-[Table of Contents](#table-of-contents)
+Note: All subsequent experiments were run using Tank A. See section [Sedimentation Tank A vs. B](#sedimentation-tank-a-vs-b).
+
+|Experiment|Upflow Velocity (mm/s)|Coagulant Dosage (mg/L)|Floc Blanket Formed|Ending Effluent Turbidity|Insights|
+|:---:|:---:|:--------:|:---|:------|:---|
+|[7](#experiment-7)|2|1.4|No|37-40 NTU|
+|[8](#experiment-8)|2|2.8 &rarr; 4.2|No|33-35 NTU|
+|[9](#experiment-9)|2|4.2|No|35-40 NTU|
+|[10](#experiment-10)|3|1.5|Yes|15 NTU|
+|[11](#experiment-11)|3|3.0|Yes|16 NTU|Faster floc blanket formation|
+|[12](#experiment-12)|3|4.5|Yes|2-3 NTU &rarr; 11-12 NTU|Even faster floc blanket formation|
+|[13](#experiment-13)|4|4.5|Yes|27-28 NTU|Gelling observed in flocculator and sedimentation tank|
+|[14](#experiment-14)|4|4.5 <br/> with higher pump speed|Yes|~30 NTU|Gelling still observed; 4 mm/s may be too high|
+|[15](#experiment-15)|3|4.5|Yes|27 NTU (at 1 hr)| With inserted, flat surfaced sedimentation tank bottom to observe floc buildup|
+|[16](#experiment-16)|3|4.5|Yes|22 NTU|With conical sedimentation tank bottom, flocs are still building up|
 
 #### Experiment 1
 
 **Description**: The purpose of the first two experiments was to record initial observations of floc blanket behavior using both sedimentation tank designs. For Experiment 1, the HRS apparatus was run at an upflow velocity of 3 mm/s for 9.5 hours using Tank A in order to confirm that this higher rate would lead to floc blanket decay and system failure.
 
 **Results**: At about 2.5 hours into the experiment, an opaque floc blanket formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success -- contrary to the Fall 2017 and Spring 2018 teams' results. Whether this success was due to the floc weir being in an optimal position or a more robust system will need to be further investigated.
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 2
 
@@ -217,7 +206,7 @@ Figure 4. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc6
 
 Figure 5. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity using Tank B
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 3
 **Description**: The next two experiments were run at a slower upflow velocity with Tank B in order to simulate successful particle removal in AguaClara treatment plants. This experiment tested a 1 mm/s upflow velocity. For the first 30 minutes, there was an input of excess coagulant because the coagulant pump speed was not reduced from 20 RPM to 6.7 RPM to accommodate this lower upflow velocity.
@@ -230,7 +219,7 @@ Figure 5. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity using Tank B
 
 Figure 6. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B with Initial Excess Coagulant
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 4
 
@@ -244,7 +233,7 @@ Figure 6. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B
 
 Figure 7. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B with No Initial Excess Coagulant
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 5
 
@@ -257,7 +246,7 @@ Figure 7. Effluent turbidity vs. Time with a 1 mm/s Upflow Velocity using Tank B
 </p>
 Figure 8. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity using Tank A for Longer Period of Time (18 hours)
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 6
 
@@ -271,31 +260,12 @@ Figure 8. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity using Tank A
 
 Figure 9. Effluent turbidity vs. Time with a 1 -> 2 mm/s Upflow Velocity using Tank A
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Sedimentation Tank A vs. B
 Since the design of the sedimentation tank did not seem to be the deciding factor between system success and failure, the subsequent experiments were conducted using the standard design Tank A, as it is the configuration used by other AguaClara subteams.
 
-[Table of Contents](#table-of-contents)
-
-### Summary of New Experiments
-Note: All subsequent experiments were run using Tank A.
-
-|Experiment|Upflow Velocity (mm/s)|Coagulant Dosage (mg/L)|Floc Blanket Formed|Ending Effluent Turbidity|Insights|
-|:---:|:---:|:--------:|:---|:------|:---|
-|7|2|1.4|No|37-40 NTU|
-|8|2|2.8 &rarr; 4.2|No|33-35 NTU|
-|9|2|4.2|No|35-40 NTU|
-|10|3|1.5|Yes|15 NTU|
-|11|3|3.0|Yes|16 NTU|Faster floc blanket formation|
-|12|3|4.5|Yes|2-3 NTU &rarr; 11-12 NTU|Even faster floc blanket formation|
-|13|4|4.5|Yes|27-28 NTU|Gelling observed in flocculator and sedimentation tank|
-|14|4|4.5 <br/> with higher pump speed|Yes|~30 NTU|Gelling still observed; 4 mm/s may be too high|
-|15|3|4.5|Yes|27 NTU (at 1 hr)| With inserted, flat surfaced sedimentation tank bottom to observe floc buildup|
-|16|3|4.5|Yes|22 NTU|With conical sedimentation tank bottom, flocs are still building up|
-
-
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 7
 **Description**: The following three experiments ran at upflow velocities of 2 mm/s in order to confirm whether 2 mm/s is indeed too slow to achieve system success. Experiment 7 ran at 2 mm/s with a coagulant system concentration of 1.4 mg/L.
@@ -307,7 +277,7 @@ Note: All subsequent experiments were run using Tank A.
 </p>
 Figure 10. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 1.4 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 8
 **Description**: Experiment 8 ran at 2 mm/s using Tank A with a coagulant system concentration of 2.8 mg/L, which was increased to 4.2 mg/L after 1 hour into the experiment.  
@@ -325,7 +295,7 @@ Figure 11. Instead of a floc blanket, Experiment 8 only formed dispersed flocs a
 
 Figure 12. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 2.8 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 9
 **Description**: To confirm that insufficient levels of coagulant were not the cause of system failure and that timing was not the issue, Experiment 9 ran at 2 mm/s with a coagulant system concentration of 4.2 mg/L from the beginning.
@@ -344,7 +314,7 @@ Figure 13. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc
 
 Figure 14. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 4.2 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 10
 **Description**: The next series of experiments were run at a higher upflow velocity of 3 mm/s. This was done to further confirm that 2 mm/s was still too slow for floc blanket formation and thus system success. Experiment 10 had a system coagulant dosage of 1.5 mg/L.
@@ -357,7 +327,7 @@ Figure 14. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 4.2 mg/L
 
 Figure 15. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 1.5 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 11
 **Description**: Experiment 11 ran at 3 mm/s with a coagulant system concentration of 3.0 mg/L.
@@ -370,7 +340,7 @@ Figure 15. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 1.5 mg/L
 
 Figure 16. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 3.0 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 12
 **Description**: Experiment 12 ran at 3 mm/s with a coagulant system concentration of 4.5 mg/L.
@@ -389,7 +359,7 @@ Figure 17. Click the image or [this link](https://www.youtube.com/watch?v=mQuRGD
 
 Figure 18. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 13
 **Description**: Experiment 13 was run to see if an even higher upflow velocity could preserve system success. Experiment 13 was run at 4 mm/s with a coagulant system concentration of 4.5 mg/L.
@@ -408,7 +378,7 @@ Figure 19. Click the image or [this link](https://www.youtube.com/watch?v=aITr4E
 
 Figure 20. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 14
 **Description**: To see whether system failure was a result of inputting too concentrated amounts of coagulant into the system at a given time, Experiment 14 was run at 4 mm/s with the same coagulant system concentration as that of Experiment 13 but with a diluted coagulant stock and an increased coagulant pump speed.
@@ -421,7 +391,7 @@ Figure 20. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L
 
 Figure 21. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Diluted Coagulant Stock and Increased Coagulant Pump Speed
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 15
 **Description**: To gain a better understanding about floc movement the moment when flocs and water first enter the sedimentation tank, a new sedimentation bottom geometry was inserted using a PVC rod. This additional piece had a flat bottom with a 3/16" hole drilled through its entirety. Experiment 15 ran at 3 mm/s using Tank A with a system coagulant dosage of 4.5 mg/L.
@@ -440,7 +410,7 @@ Figure 22: Flat bottom insert of the sedimentation tank.
 
 Figure 23. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Flat Tank Bottom Insert
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 16
 **Description**: The flat bottom geometry was modified to have a conical shape in order to allow for better resuspension of built-up flocs aggregating at the bottom of the sedimentation tank. Experiment 15 was run at 3 mm/s with a system coagulant dosage of 4.5 mg/L.
@@ -461,7 +431,7 @@ Figure 24: Conical bottom insert of the sedimentation tank.
 
 Figure 25. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Conical Tank Bottom Insert
 
-[Table of Contents](#table-of-contents)
+[Return to Summary of Experiments](#summary-of-experiments)
 
 ### Future Work
 Coming into this project, the research question was to investigate the cause behind floc blanket decay. However, once experimentation began, this question changed to figuring out why a floc blanket does not form under theoretically optimal conditions. Our initial thoughts were that there was an insufficient level of coagulant in the system, but our results suggest that this is not the case. In fact, we have seen there is such a thing as too much coagulant in the system, which may also contribute to system failure.
@@ -592,7 +562,7 @@ print("System flow rate: ", Q_sys, "\n")
 
 
 #CLAY CONCENTRATION AND PUMP SPEED CALCULATIONS
-C_clay_stock = 10.8*u.g/u.L    #concentration of clay stock (mg kaolin clay per
+C_clay_stock = 5.4*u.g/u.L    #concentration of clay stock (mg kaolin clay per
                                 #liter of water)
 
 C_clay_sys = turbidity_to_concentration(C_clay)
