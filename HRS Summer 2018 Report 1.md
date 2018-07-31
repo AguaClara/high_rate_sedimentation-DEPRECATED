@@ -9,9 +9,7 @@ Since the fall of 2017, the AguaClara High Rate Sedimentation (HRS) team has bee
 
 ## Methods
 ### Experimental Apparatus
-Below is a picture of the revised lab bench setup of the HRS team followed by a table listing the various components.
-
-**Ian's Comment:** Whenever you refer to a picture or table in the text, refer to it by its number (eg "Figure 1 below shows...")
+Figure 1 below shows the revised lab bench setup of the HRS team followed by a table listing the various components.
 
 <p align=center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/updatedlabbenchsetup.JPG" width = 500>
@@ -107,8 +105,7 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Effluent0NTU.png" width = 500>
 </p>
 
-9. Clean out the influent and effluent turbidimeters. Refer to the [AguaClara Tutorial Wiki Page](https://github.com/AguaClara/aguaclara_tutorial/wiki) for more details on how to do this.
-<!--need to update this link!-->
+9. Clean out the influent and effluent turbidimeters. Refer to the [AguaClara Tutorial Wiki Page](https://github.com/AguaClara/aguaclara_tutorial/wiki/Cleaning-a-Turbidimeter) for more details on how to do this.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleanturbidimeters.png" width = 500>
@@ -136,8 +133,6 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
 
 ### Experiments and Results
 
-**Ian's Comment:** Include a link somewhere in this section to where your data is stored on Github so someone can look at it if they want.  Also either label the data files with what experiment they correspond to, or include that in the description of each experiment.
-
 The HRS team has been experimenting with two sedimentation tank designs in an effort to understand the reasons for floc blanket decay in the Spring 2018 and Fall 2017 semesters.
 
 1. **Sedimentation Tank A** is the sedimentation tank design used by most AguaClara particle removal research teams, including the HRS team in the Fall 2017 semester. The tube settler is relatively short and the floc weir is placed on the left side of the tube settler (when the tube settler points to the left).
@@ -156,6 +151,7 @@ Figure 2. Sedimentation Tank A, the sedimentation tank used by most AguaClara re
 Figure 3. Sedimentation Tank B, the sedimentation tank used by the Spring 2018 HRS research subteam.
 
 #### Summary of Experiments
+To access the raw data files, click [this link](https://github.com/AguaClara/high_rate_sedimentation/tree/master/ProCoDA%20Data%20Files).
 
 |Experiment |Upflow Velocity (mm/s) |Tank Type| Coagulant Dosage (mg/L)|Floc <br/> Blanket Formed| Ending Effluent Turbidity|Insights|
 |:---:|:---------------:|:----:| :-------: |:-----:|:---|:---|
@@ -189,6 +185,7 @@ Note: All subsequent experiments were run using Tank A. See section [Sedimentati
 [Return to Summary of Experiments](#summary-of-experiments)
 
 **Ian's Comment:** Do you have data from this experiment?  If so include it
+<!--no data for this experiment-->
 
 #### Experiment 2
 
