@@ -107,15 +107,7 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Effluent0NTU.png" width = 500>
 </p>
 
-9. Clean out the influent and effluent turbidimeters.
-   a. Even without water running, shut and open the appropriate valves to bypass the turbidimeter so that water doesn't leak into it while cleaning
-   b. Unlock and take out the black cylinder on top of the turbidimeter.
-   c. Unscrew the glass vial, empty and rinse it, then fill it with clean water. Tap water is sufficient.
-   d. Screw the vial back in, wipe the bottle and cylinder free from water droplets or fingerprints, and then lock the black cylinder back into the turbidimeter.
-   e. If you used the white screws on the outflow turbidimeter tubes to block water passage, remember to unscrew them.
-
-**Ian's Comment:** This is the one step where I would include actual pictures of opening up a turbidimeter and cleaning it
-
+9. Clean out the influent and effluent turbidimeters. Refer to the [AguaClara Tutorial Wiki Page](https://github.com/AguaClara/aguaclara_tutorial/wiki) for more details on how to do this.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleanturbidimeters.png" width = 500>
