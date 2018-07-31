@@ -108,7 +108,7 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
 </p>
 
 9. Clean out the influent and effluent turbidimeters.
-   a. Even without water running, shut and open the appropriate values to bypass the turbidimeter so that water doesn't leak into it while cleaning
+   a. Even without water running, shut and open the appropriate valves to bypass the turbidimeter so that water doesn't leak into it while cleaning
    b. Unlock and take out the black cylinder on top of the turbidimeter.
    c. Unscrew the glass vial, empty and rinse it, then fill it with clean water. Tap water is sufficient.
    d. Screw the vial back in, wipe the bottle and cylinder free from water droplets or fingerprints, and then lock the black cylinder back into the turbidimeter.
