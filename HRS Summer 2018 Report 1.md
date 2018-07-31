@@ -407,10 +407,16 @@ Figure 22: Flat bottom insert of the sedimentation tank.
 **Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water+flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour.
 
 <p align = center>
+  <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp15.png" width = 300>
+  </p>
+
+Figure 23. Click the image or [this link](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp15.png) for a video of the sedimentation tank during Experiment 15.
+
+<p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-19-2018.png">
 </p>
 
-Figure 23. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Flat Tank Bottom Insert
+Figure 24. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Flat Tank Bottom Insert
 
 [Return to Summary of Experiments](#summary-of-experiments)
 
@@ -423,7 +429,7 @@ Figure 23. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
     <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/conicalbottom2.jpeg" width = 200>
 </p>
 
-Figure 24: Conical bottom insert of the sedimentation tank.
+Figure 25: Conical bottom insert of the sedimentation tank.
 
 **Results**: While there seemed to have a more stable floc blanket in the recirculator, this experiment was also a failure. Flocs still built up at the bottom of the tank. It is hypothesized that a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup.
 
@@ -431,7 +437,7 @@ Figure 24: Conical bottom insert of the sedimentation tank.
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-23-2018.png">
 </p>
 
-Figure 25. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Conical Tank Bottom Insert
+Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L System Coagulant Concentration with Conical Tank Bottom Insert
 
 [Return to Summary of Experiments](#summary-of-experiments)
 
