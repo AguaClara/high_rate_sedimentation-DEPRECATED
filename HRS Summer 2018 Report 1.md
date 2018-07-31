@@ -410,7 +410,7 @@ Figure 22: Flat bottom insert of the sedimentation tank.
   <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp15.png" width = 300>
   </p>
 
-Figure 23. Click the image or [this link](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp15.png) for a video of the sedimentation tank during Experiment 15.
+Figure 23. Click the image or [this link](https://www.youtube.com/watch?v=ayDQifTPa88&feature=youtu.be) for a video of the sedimentation tank during Experiment 15.
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Graphs/7-19-2018.png">
