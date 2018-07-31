@@ -407,7 +407,8 @@ Figure 22: Flat bottom insert of the sedimentation tank.
 **Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water+flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour.
 
 <p align = center>
-  <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp15.png" width = 300>
+  <a href="https://www.youtube.com/watch?v=ayDQifTPa88&feature=youtu.be">
+  <img src = "https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Exp15.png" width = 300> </a>
   </p>
 
 Figure 23. Click the image or [this link](https://www.youtube.com/watch?v=ayDQifTPa88&feature=youtu.be) for a video of the sedimentation tank during Experiment 15.
