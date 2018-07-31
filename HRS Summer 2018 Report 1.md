@@ -108,6 +108,7 @@ Below is a picture of the revised lab bench setup of the HRS team followed by a 
 </p>
 
 9. Clean out the influent and effluent turbidimeters. Refer to the [AguaClara Tutorial Wiki Page](https://github.com/AguaClara/aguaclara_tutorial/wiki) for more details on how to do this.
+<!--need to update this link!-->
 
 <p align = center>
   <img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleanturbidimeters.png" width = 500>
