@@ -1,4 +1,7 @@
-#PAC Dosing
+## PAC Dosing
+
+**Attention: The calculation for coagulant pump speed (RPM) is outdated. Please see [HRS Calculations.md]() in the Calculations folder of our Github repository for a corrected calculation.** 
+
 ```python
 from aide_design.play import*
 

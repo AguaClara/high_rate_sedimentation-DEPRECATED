@@ -182,10 +182,9 @@ Note: All subsequent experiments were run using Tank A. See section [Sedimentati
 **Description**: The purpose of the first two experiments was to record initial observations of floc blanket behavior using both sedimentation tank designs. For Experiment 1, the HRS apparatus was run at an upflow velocity of 3 mm/s for 9.5 hours using Tank A in order to confirm that this higher rate would lead to floc blanket decay and system failure.
 
 **Results**: At about 2.5 hours into the experiment, an opaque floc blanket formed in the recirculator. By the end of this shorter experiment, the effluent turbidity did not rise above 2.0 NTU, making this a success -- contrary to the Fall 2017 and Spring 2018 teams' results. Whether this success was due to the floc weir being in an optimal position or a more robust system will need to be further investigated.
-[Return to Summary of Experiments](#summary-of-experiments)
+Unfortunately, continuous data was not able to recorded for this experiment.
 
-**Ian's Comment:** Do you have data from this experiment?  If so include it
-<!--no data for this experiment-->
+[Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 2
 
