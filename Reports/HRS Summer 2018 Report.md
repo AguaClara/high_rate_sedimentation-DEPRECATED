@@ -195,7 +195,7 @@ Unfortunately, continuous data was not able to recorded for this experiment.
 
 <p align=center>
   <a href = https://www.youtube.com/watch?v=JcQjRKY91NI&feature=youtu.be">
-  <img src="/Images/Summer 2018 Experiments/Exp2pic.png" width = 200>
+  <img src="/Images/Summer 2018 Experiments/Exp2pic.PNG" width = 200>
 </p>
 
 Figure 4. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be) for a video of the sedimentation tank during Experiment 2.
@@ -303,7 +303,7 @@ Figure 12. Effluent turbidity vs. Time with a 2 mm/s Upflow Velocity at 2.8 mg/L
 **Results**: Large flocs formed in the sedimentation tank near the beginning of this experiment, indicating that there is more than enough coagulant in the system. Therefore, an insufficient level of coagulant in the system does not seem to be the cause for system failure. From these experiments, it is now hypothesized that 2 mm/s is still to slow to make a healthy floc blanket and thus cleaner effluent waters.
 
 <p align="center">
-  <a href="https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be"> <img src="/Images/Summer 2018 Experiments/Exp9Pic.png" width = 200></a>
+  <a href="https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be"> <img src="/Images/Summer 2018 Experiments/Exp9Pic.PNG" width = 200></a>
 </p>
 
 Figure 13. Click the image or [this link](https://www.youtube.com/watch?v=dMs-pc6IACs&feature=youtu.be) for a video of the sedimentation tank during Experiment 9.
@@ -427,7 +427,6 @@ Figure 24. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
   <align = center>
     <img src = "/Images/Setup/conicalbottom2.png" width = 200>
 </p>
-<!--need to fix this-->
 
 Figure 25: Conical bottom insert of the sedimentation tank.
 
@@ -714,7 +713,7 @@ We accomplish this by _saving a new method file_ in our datalog directory with a
 The past method files stored on the HRS computer and our current method file have been saved to our Github repository.
 
 <p align="center">
-  <img src="/Images/ProCoDa/Config Tab_Method files.PNG" height=275>
+  <img src="/Images/ProCoDA/Config Tab_Method files.PNG" height=275>
 </p>
 
 Figure 4. Above is the Configuration in ProCoDa. Click the icon pointed to by the red arrow to save a method file snapshot and the icon pointed to by the blue arrow to open a snapshot.
