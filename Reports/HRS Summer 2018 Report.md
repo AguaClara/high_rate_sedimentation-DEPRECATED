@@ -713,7 +713,7 @@ We accomplish this by _saving a new method file_ in our datalog directory with a
 The past method files stored on the HRS computer and our current method file have been saved to our Github repository.
 
 <p align="center">
-  <img src="/Images/ProCoDA/Config Tab_Method files.PNG" height=275>
+  <img src="/Images/ProCoDA/Config Tab_Method Files.PNG" height=275>
 </p>
 
 Figure 4. Above is the Configuration in ProCoDa. Click the icon pointed to by the red arrow to save a method file snapshot and the icon pointed to by the blue arrow to open a snapshot.
