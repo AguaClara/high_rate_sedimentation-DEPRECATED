@@ -12,7 +12,10 @@ AguaClara's sedimentation tank design includes inclined parallel plates called p
 
 In the AguaClara lab, a sedimentation tank and its respective plate settlers are simulated by plastic piping, and is called a tube settler. The tube that simulates a pathway of fluid in the tank is referred to as the "recirculator" by the HRS team. See figure 1 for a visual representation of these designs.
 
-![SedimentationTank](https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Figure%201.JPG)
+<p align="center">
+  <img src="/Images/Lab vs Plant Sed Tanks.JPG" width=800>
+</p>
+
 Figure 1: Comparison of sedimentation tank in an AguaClara plant vs. in an AguaClara lab.
 
 The recirculator and tube settler simulate the sedimentation tank basin and plate settlers respectively. Since the behavior of a section of fluid is characteristic of the entire tank, tubing can be used to simulate a simple pathway in the reactor. This allows for a practical form of experimentation that is small scale, easy to manipulate, and representative of the respective tank design.
@@ -38,7 +41,9 @@ The Fall 2017 High Rate Sedimentation team experimented with varied sedimentatio
 ### Experimental Apparatus
 The overall lab bench set up of the HRS team is composed of several parts (Figure 2). These parts include the pumps, the stocks, the flocculator, and the turbidimeters.
 
-<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Lab%20Bench%20Setup.png" height250 width=400>
+<p align = "center">
+  <img src="/Images/Archive/Lab Bench Setup.png" height250 width=400>
+</p>
 
 Figure 2: The HRS lab bench setup is composed of the turbidimeters, stocks, pumps, and a flocculator.
 
@@ -70,7 +75,7 @@ This section contains the theories, steps, and progress the Fall 2017 team follo
 
 Design: The geometry of the apparatus is based on the concept of ”capture velocity.” Capture velocity is the slowest moving particle that an area can capture and is a property of the sedimentation tank. In other words, the greater a particle’s terminal settling velocity, the less distance it must travel and the more likely it is to be captured. Terminal settling velocity is reached when the frictional force (viscous shear) of the fluid, combined with the buoyant force, balances with the gravity. The larger the diameter of a particle, the greater its terminal velocity. This relationship may be shown through Stoke’s Theorem as seen in the following formula:
 
-$$ V_t = \frac{d^2g}{18v} ∗ \frac{ρ_{floc} − ρ_{H_2O}}{ρ_{H_2O}} ... (2)$$
+$$ V_t = \frac{d^2g}{18v} * \frac{ρ_{floc} - ρ_{H_2O}}{ρ_{H_2O}} ... (2)$$
 
 Where d is the diameter of the pipe, g the gravity force, v is viscosity and ρ represents the different densities of the water and the floc.
 
@@ -82,7 +87,9 @@ Where α is the angle of the tube settler, V<sub>α</sub> is the upflow velocity
 
 A floc blanket has the potential to climb up to the weir, so the distance after the floc weir is used as the active length of the tube settler in the capture velocity calculation. In the case of the standard design, with an effective length of 27.08 cm, the resulting capture velocity is .462 mm/s. In order to be consistent with previous research teams, the tube settler is at a 60<sup>o</sup> bend in relation to the x-axis in the Fall 2017 model. Additionally, the inner diameter is set to 1 inch rather than 3/4 inches to increase visibility of the floc blanket during experiments.
 
-<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.45%20PM.png" height250 width=400>
+<p align = "center">
+  <img src="/Images/Setup/TubeSettlerSchematic.png" width=400>
+</p>
 
 Figure 3: A diagram of the active tube settler length L, the inner diameter of the apparatus S, and the angle α.
 
@@ -90,14 +97,16 @@ Figure 3: A diagram of the active tube settler length L, the inner diameter of t
 
 In the Fall 2017 model, the floc weir—a floc drainage pipe that keeps the floc blanket at a stable height—is welded onto the tube settler rather than the recirculator and the apparatus is enclosed by compression fittings. The reason for an intermittent floc weir on the tube settler is due to the it keeps flocs recirculating in the floc blanket for longer.
 
-<img src="https://raw.githubusercontent.com/JustinConneely/Personal/master/Images/Screen%20Shot%202018-03-08%20at%2011.53.29%20PM.png" height250 width=400>
+<p align="center">
+  <img src="/Images/Setup/Sedimentation Tank A.png" width=400>
+</p>
 
 Figure 4: The standard design includes a 50 cm recirculation zone, a 36.47 cm tube settler, an a 40 cm long floc weir. The inner diameter of the PVC tubing is 1 inch rather than 3/4 inches like previous
 semesters.
 
 Compared to previous semesters, the size of the apparatus has been reduced a considerable amount. It is important to note that the team’s goal is not necessarily to reduce turbidity more than previous designs were able to achieve, but rather to investigate possible alternatives to sedimentation tank design in order to avoid the complex geometries used in those designs as they are more expensive. Since the tubing size increased from 3/4 inch to 1 inch, the flow rate of influent water had to be altered in order to achieve the 3 mm/s upflow velocity that is unique to high rate sedimentation. The following equation is used in order to help the team determine these values:
 
-$$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} ∗ π} ... (4) $$
+$$ V_{floc} = \frac{Q_{floc}}{\frac{D^2_{pipe}}{4} * π} ... (4) $$
 
 Where Q<sub>floc</sub> is the volumetric flow of water through the system and D<sub>pipe</sub> is the inner diameter of the PVC pipe.
 
@@ -108,7 +117,9 @@ Using the aforementioned set-up, the HRS team tests the effect of increasing coa
 ####Experiment 2
 Using the same general experimental set-up as the first experiment, the team uses a 930 mm tube settler to decrease the capture velocity of the sedimentation tank from 0.36 mm/s to 0.15 mm/s. After running a test with this set-up, the team also changes the flocculator to a 3/16 inch design provided by High G Flocculation to replace 1/8 inch tubing flocculator. The same data values as above are recorded for this experiment.
 
-<img src="https://user-images.githubusercontent.com/35945280/38057485-9dd494b6-32ad-11e8-9e6d-f05191949a9b.png" height250 width=400>
+<p align="center">
+  <img src="/Images/Archive/Long Tube Settler Sed Tank.png" width=400>
+</p>
 
 Figure 5: Sedimentation tank with the 930 mm tube settler.
 
@@ -128,7 +139,9 @@ Prior to experimentation, the Spring 2018 HRS Team hypothesized that the floc bl
 
 Increasing the PAC dose led to a lower effluent turbidity, but only until a dose of 4.2 mg/L was reached. This can be seen in Figure 6. Floc blanket decay can be correlated to changes in effluent turbidity readings. Once the minimum effluent turbidity is reached the only changes occurring in the sedimentation tank will be the density of the floc blanket. Since particles are only removed in the sedimentation tank, changes to removal must be a function of changes to the floc blanket. Thus, the increase in effluent turbidity that began approximately 5 hours after the experiment began indicated that all coagulant doses still resulted in floc blanket decay and the hypothesis was not supported by the data.
 
-![Figure5](/Images/HRSupdatedgraph.png)
+<p align="center">
+  <img src="/Graphs/2018 Spring/HRSupdatedgraph.png" width=500>
+</p>
 
 Figure 6: The effluent turbidity over 24 hours at varied coagulant doses.
 
@@ -139,7 +152,9 @@ After collecting and analyzing the data from Experiment 1, it was hypothesized t
 
 As is shown in Figure 7, the results illustrate that increasing the length of the tube settler and the diameter of the flocculator does decrease the effluent turbidity. However, this decrease is not significant and the floc blanket still degraded.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Experiment2Graph.png" width=600>
+<p align="center">
+  <img src="/Graphs/2018 Spring/Experiment2Graph.png" width=600>
+</p>
 
 Figure 7: The effluent turbidity measured after using tube settlers of varying lengths and flocculators of varying diameters.
 
@@ -149,7 +164,9 @@ Thus, the hypothesis for the second experiment is not supported by the results.
 
 Since Experiment 2 illustrated that the sedimentation tank itself was not causing floc blanket decay, a third experiment was conducted to determine if the flocculator was causing the floc blanket decay. The experiment was run at 3 mm/s upflow velocity, 4.2 mg/L PACL, using a 3/16 inch diameter flocculator and a 930 mm tube settler. The flocculator was flushed using a syringe approximately 5 hours after dosing coagulant.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment3.png" width=600>
+<p align="center">
+  <img src="/Graphs/2018 Spring/HRSExperiment3.png" width=600>
+</p>
 
 Figure 8: The effluent turbidity measured after flushing the flocculator.
 
@@ -165,11 +182,15 @@ Though flushing the flocculator resulted in a more gradual floc blanket decay, i
 
 In a failed trial of Experiment 3, the coagulant was dosed approximately 5 hours after initially dosing clay; when plotting the data, the HRS team found that doing so increases the stability of the floc blanket. The objective of Experiment 4 was to test the effects of dosing 4.2 mg/L PACL of coagulant 5 hours after dosing clay.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment4(1).png" width=600>
+<p align="center">
+  <img src="/Graphs/2018 Spring/HRSExperiment4(1).png" width=600>
+</p>
 
 Figure 9: The effluent turbidity measured before, during, and after dosing coagulant.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/HRSExperiment4(2).png" width=600>
+<p align="center">
+  <img src="/Graphs/2018 Spring/HRSExperiment4(2).png" width=600>
+</p>
 
 Figure 10: The effluent turbidity measured after dosing coagulant approximately 5 hours after dosing clay.
 
@@ -217,7 +238,10 @@ Swetland, K., Weber-Shirk, M., Lion, L. (2014).  Flocculation-sedimentation perf
 
 2. Clean flocculator and sedimentation tank by attaching the long cleaning tube to the push to connect at the start of the flocculator and the sink. Then detach the tube at the bottom of the sedimentation tank and attach it to the top of the tank. Then turn the sink on slowly and run for 30 seconds. A picture of the cleaning tube is shown in figure 8.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Cleaning%20tube.jpg" width=600>
+<p align="center">
+  <img src="/Images/Setup/Cleaning Tube.jpg" width=400>
+</p>
+
 Figure 11: Cleaning tube.
 
 3. Rinse coagulant reservoir with DI water.
@@ -243,8 +267,9 @@ In order to properly begin an experiment, the ProCoDA method file must be turned
 
 * OFF – Resting state of ProCoDA. All sensors, relays, and pumps are turned off.
 
-
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/On%20State.png" width=600>
+<p align="center">
+  <img src="/Images/ProCoDA/On State.png" width=600>
+</p>
 
 Figure 12: The ON state of the HRS ProCoDA method file. The floc hopper drain and clay pump are the active items controlled by the pump.
 
@@ -253,7 +278,9 @@ Here, you should list the set points used in your method file and explain their 
 
 The following is a list of all the Set Points in the method file and their values. Exact location of these points in the method file can be seen in the figure below.
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Set%20Points.png" width=600>
+<p align="center">
+  <img src="/Images/ProCoDA/Set Points.png" width=600>
+</p>
 
 Figure 13: This is the overall order of the Set Points for the HRS method file.
 
@@ -265,14 +292,18 @@ Figure 13: This is the overall order of the Set Points for the HRS method file.
 * i - no units, value of 2.3, constant. Value determined through method mentioned in "PID Control" section of report and trial and error.
 * D - no units, value of 0, constant
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Output%20Settings.png" width=600>
+<p align="center">
+  <img src="/Images/ProCoDA/Output Settings.png" width=600>
+</p>
 
 Figure 14: This is the output settings for the PID state. This process runs in the background and only needs to be set up at the beginning of a semester's work. Note that PID controls the clay pump and whether it is turned on or not at any given time.
 
 * Influent Turbidimeter ID - no units, value of 1, constant. Value is due to the step in which the turbidimeter is installed and acknowledged in the data recording process. Effluent Turbidimeter ID is 2 since it takes in data later down the line.
 * Influent Turbidity - no units, value of 0, variable. See Figure below
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Influent%20Set%20Point.png" width=600>
+<p align="center">
+  <img src="/Images/ProCoDA/Influent Set Point.png" width=600>
+</p>
 
 Figure 15: This displays the influent turbidity Set Point and the selected sensors to establish the relationship.
 
@@ -280,7 +311,9 @@ Figure 15: This displays the influent turbidity Set Point and the selected senso
 * Effluent Turbidity - no units, value of 2
 * PumpControl(Clay) - no units, value of 0, variable
 
-<img src="https://raw.githubusercontent.com/AguaClara/high_rate_sedimentation/master/Images/Pump%20Control.png" width=600>
+<p align="center">
+  <img src="/Images/ProCoDA/Pump Control.png" width=600>
+</p>
 
 Figure 16: This shows the relationship between the PumpControl(Clay) variable and other predefined set points.
 
