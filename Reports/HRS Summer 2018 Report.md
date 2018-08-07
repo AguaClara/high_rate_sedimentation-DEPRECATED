@@ -463,9 +463,9 @@ Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
 
 <p align = center>
   <a href="https://www.youtube.com/watch?v=EajLuP6eX9w&feature=youtu.be">
-    <img src="/Images/Summer 2018 Experiments/TriSedTank.png" width = 400> </a>
+    <img src="/Images/Summer 2018 Experiments/TriSedTank.jpeg" width = 400> </a>
   </p>
-  Figure 28. Click the image or [this link](https://www.youtube.com/watch?v=EajLuP6eX9w&feature=youtu.be) for a video of the sedimentation tank during Experiment 17.
+  Figure 28. Click the image or [this link](https://www.youtube.com/watch?v=EajLuP6eX9w&feature=youtu.be) for a video of the sedimentation tank during Experiment 19.
 
   **Results**: As it can be seen in the video provided in Figure 28, there is a circular motion at the bottom of the sedimentation tank, which is assumed to be a result of its triangular geometry. Key aspects of this design for successful resuspension of flocs are the steep slope and the small hole that all the flocs are funneled to. Unlike experiments 15-18, this sedimentation tank did not observe a build-up of flocs anytime during the experiment. Inspired by these results, we hope to create an insert that mimics a similar geometry and thus successful resuspension of flocs.
 
