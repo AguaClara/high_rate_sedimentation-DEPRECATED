@@ -442,7 +442,7 @@ Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
 [Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 17
-**Description**: Before running Experiment 17, the funneled sedimentation tank insert from Experiment 16 was modified to have a larger 1/2" diameter 1 cm below the bottom of the funnel. Experiment 17 was run at an upflow velocity of 3 mm/s and system coagulant dosage of 4.5 mg/L.
+**Description**: The next 3 experiments were primarily run to observe whether or not flocs were building up at the top of the sedimentation tank insert. Effluent turbidity and floc blanket formation were not specifically sought after during these experiments. Before running Experiment 17, the funneled sedimentation tank insert from Experiment 16 was modified to have a larger 1/2" diameter 1 cm below the bottom of the funnel. Experiment 17 was run at an upflow velocity of 3 mm/s and system coagulant dosage of 4.5 mg/L.
 
 **Results**: At first, the modified sedimentation tank geometry seemed to work as the flocs that built up on the surrounding sloped ring fell into the larger hole. However, floc build-up started to be observed when the hole with a larger diameter was full of flocs. Instead of improving the performance from last experiment, Experiment 17 built up flocs at a faster rate - 4cm of flocs after only 45 minutes.
 
@@ -482,9 +482,7 @@ Coming into this project, the research question was to investigate the cause beh
 
 Therefore, future work will consist of investigating what happens the moment when flocs and water enter the sedimentation tank. This was done by elevating the bottom with a fabricated insert as depicted in Figures 22 and 24. Since the flat and conically-shaped tank inserts failed as flocs built up at the bottom, future work will consist of modifying the geometry further in order to induce optimal resuspension of flocs for floc blanket formation.
 
-As briefly mentioned in the results section for Experiment 16, we hypothesize that there is a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup and thus system failure. In order to combat floc buildup, we plan on drilling a larger hole a specific distance from the top in order to fulfill the 10:1 jet expansion ratio. That way, any build up that may form at the bottom of the sedimentation tank may not form.
-
-If this solution does not work, the next step will be to design and fabricate a completely new sedimentation tank that would more closely resemble a jet reverser that is currently in use at AguaClara plants.
+Currently, a fabrication manual for the new sedimentation tank insert is being developed and can be accessed **here at this link**. Using this manual, it is the hope for the Fall 2018 HRS Team to begin and refine fabricating this insert until there is successful floc resuspension and healthy floc blanket formation. If this solution does not work, the next step will be to design and fabricate this sedimentation tank insert using 3-D printing. 
 
 ### Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters. (These calculations are in the process of being integrated into the aguaclara_research repository as revised as well as added functions.)
