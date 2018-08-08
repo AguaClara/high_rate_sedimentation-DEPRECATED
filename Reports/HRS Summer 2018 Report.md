@@ -176,6 +176,9 @@ Note: All subsequent experiments were run using Tank A. See section [Sedimentati
 |[14](#experiment-14)|4|4.5 <br/> with higher pump speed|Yes|~30 NTU|Gelling still observed; 4 mm/s may be too high|
 |[15](#experiment-15)|3|4.5|Yes|27 NTU (at 1 hr)| With inserted, flat surfaced sedimentation tank bottom to observe floc buildup|
 |[16](#experiment-16)|3|4.5|Yes|22 NTU|With conical sedimentation tank bottom, flocs are still building up|
+|[17](#experiment-17)|3|4.5|N/A|27 NTU|Worse floc buildup. Grew 4 cm high in 45 minutes|
+|[18](#experiment-18)|3|4.5|N/A|33 NTU|Rapid floc buildup. Stopped after 20 minutes.|
+|[19](#experiment-19)|3|4.5|N/A|N/A|No floc buildup occurred throughout the entire experiment (~1 hour)|
 
 #### Experiment 1
 
@@ -447,6 +450,7 @@ Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
   <a href="https://www.youtube.com/watch?v=LxI37fVqLKA&feature=youtu.be">
     <img src="/Images/Summer 2018 Experiments/Experiment17.png" width = 400> </a>
   </p>
+
   Figure 27. Click the image or [this link](https://www.youtube.com/watch?v=LxI37fVqLKA&feature=youtu.be) for a video of the sedimentation tank during Experiment 17.
 
   [Return to Summary of Experiments](#summary-of-experiments)
@@ -464,14 +468,16 @@ Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
 <p align = center>
   <a href="https://www.youtube.com/watch?v=EajLuP6eX9w&feature=youtu.be">
     <img src="/Images/Summer 2018 Experiments/TriSedTank.jpeg" width = 400> </a>
-  </p>
+      </p>
+
   Figure 28. Click the image or [this link](https://www.youtube.com/watch?v=EajLuP6eX9w&feature=youtu.be) for a video of the sedimentation tank during Experiment 19.
 
-  **Results**: As it can be seen in the video provided in Figure 28, there is a circular motion at the bottom of the sedimentation tank, which is assumed to be a result of its triangular geometry. Key aspects of this design for successful resuspension of flocs are the steep slope and the small hole that all the flocs are funneled to. Unlike experiments 15-18, this sedimentation tank did not observe a build-up of flocs anytime during the experiment. Inspired by these results, we hope to create an insert that mimics a similar geometry and thus successful resuspension of flocs.
+  **Results**: As it can be seen in the video provided in Figure 28, there is a circular motion at the bottom of the sedimentation tank, which is assumed to be a result of its triangular geometry. Key aspects of this design for successful resuspension of flocs are the steep slope and the small hole that all the flocs are funneled to. Unlike experiments 15-18, this sedimentation tank did not observe a build-up of flocs anytime during the experiment. Inspired by these results, we hope to create an insert that mimics a similar geometry and thus result in the successful resuspension of flocs.
 
 [Return to Summary of Experiments](#summary-of-experiments)
 
 ### Future Work
+<!--Need to revise this to include specific future direction in fabrication new sed tank bottom-->
 Coming into this project, the research question was to investigate the cause behind floc blanket decay. However, once experimentation began, this question changed to figuring out why a floc blanket does not form under theoretically optimal conditions. Our initial thoughts were that there was an insufficient level of coagulant in the system, but our results suggest that this is not the case. In fact, we have seen there is such a thing as too much coagulant in the system, which may also contribute to system failure.
 
 Therefore, future work will consist of investigating what happens the moment when flocs and water enter the sedimentation tank. This was done by elevating the bottom with a fabricated insert as depicted in Figures 22 and 24. Since the flat and conically-shaped tank inserts failed as flocs built up at the bottom, future work will consist of modifying the geometry further in order to induce optimal resuspension of flocs for floc blanket formation.
@@ -479,7 +485,6 @@ Therefore, future work will consist of investigating what happens the moment whe
 As briefly mentioned in the results section for Experiment 16, we hypothesize that there is a ring of flocs and coagulant larger than the drilled hole in the insert prevents the flocs from reaching the hole for resuspension, causing buildup and thus system failure. In order to combat floc buildup, we plan on drilling a larger hole a specific distance from the top in order to fulfill the 10:1 jet expansion ratio. That way, any build up that may form at the bottom of the sedimentation tank may not form.
 
 If this solution does not work, the next step will be to design and fabricate a completely new sedimentation tank that would more closely resemble a jet reverser that is currently in use at AguaClara plants.
-
 
 ### Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters. (These calculations are in the process of being integrated into the aguaclara_research repository as revised as well as added functions.)
