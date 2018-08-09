@@ -29,6 +29,8 @@ Figure 1 below shows the revised lab bench setup of the HRS team followed by a t
 
 
 ### Setup Procedures
+
+Note: the procedures included below have all been documented in a wiki page on our Github repository, titled [HRS Experimental Setup Procedures](https://github.com/AguaClara/high_rate_sedimentation/wiki/HRS-Experimental-Setup-Procedures).
 #### Original Configuration
 
 <p align=center>
@@ -482,7 +484,7 @@ Coming into this project, the research question was to investigate the cause beh
 
 Therefore, future work will consist of investigating what happens the moment when flocs and water enter the sedimentation tank. This was done by elevating the bottom with a fabricated insert as depicted in Figures 22 and 24. Since the flat and conically-shaped tank inserts failed as flocs built up at the bottom, future work will consist of modifying the geometry further in order to induce optimal resuspension of flocs for floc blanket formation.
 
-Currently, a fabrication manual for the new sedimentation tank insert is being developed and can be accessed **here at this link**. Using this manual, it is the hope for the Fall 2018 HRS Team to begin and refine fabricating this insert until there is successful floc resuspension and healthy floc blanket formation. If this solution does not work, the next step will be to design and fabricate this sedimentation tank insert using 3-D printing. 
+Currently, a fabrication manual for the new sedimentation tank insert is being developed and can be accessed **here at this link**. Using this manual, it is the hope for the Fall 2018 HRS Team to begin and refine fabricating this insert until there is successful floc resuspension and healthy floc blanket formation. If this solution does not work, the next step will be to design and fabricate this sedimentation tank insert using 3-D printing.
 
 ### Calculations
 We have written code in Python for calculating the system flow rate, water pump speed, coagulant concentration, and coagulant pump speed given an upflow velocity and other parameters. (These calculations are in the process of being integrated into the aguaclara_research repository as revised as well as added functions.)
