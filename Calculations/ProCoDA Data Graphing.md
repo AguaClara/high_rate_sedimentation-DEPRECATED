@@ -89,35 +89,5 @@ def plot_columns(directory, extension, start_datetime, end_datetime, x_column, y
   plt.show()
 
 #example usage
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-14-2018 12:20', '6-15-2018 10:50', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-25-2018 12:55', '6-26-2018 9:10', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-26-2018 13:06', '6-26-2018 21:00', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-27-2018 15:11', '6-28-2018 9:05', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-28-2018 12:05', '6-28-2018 21:34', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-9-2018 13:57', '7-9-2018 19:50', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-10-2018 10:53', '7-10-2018 12:45', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-10-2018 14:38', '7-10-2018 20:23', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-11-2018 11:47', '7-11-2018 23:40', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-12-2018 12:24', '7-13-2018 9:00', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-16-2018 11:15', '7-17-2018 9:35', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-17-2018 11:25', '7-18-2018 9:23', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-18-2018 12:14', '7-18-2018 20:42', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-19-2018 13:45', '7-19-2018 14:45', 0, 4)
-
-plot_columns('/Users/HannahSi/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '7-23-2018 11:35', '7-23-2018 23:55', 0, 4)
-
-
+plot_columns('/Users/user-name/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-14-2018 12:20', '6-15-2018 10:50', 0, 4)
 ```
