@@ -1,0 +1,3 @@
+# Files for Git to ignore when committing changes. #
+.DS_Store
+.DS_Store?

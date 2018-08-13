@@ -89,5 +89,5 @@ def plot_columns(directory, extension, start_datetime, end_datetime, x_column, y
   plt.show()
 
 #example usage
-plot_columns('/Users/user-name/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-14-2018 12:20', '6-15-2018 10:50', 0, 4)
+plot_columns('/Users/user_name/.../high_rate_sedimentation/Data/','.xls', '6-14-2018 12:20', '6-15-2018 10:50', 0, 4)
 ```
