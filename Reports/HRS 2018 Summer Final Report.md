@@ -405,7 +405,7 @@ Figure 21. Effluent turbidity vs. Time with a 4 mm/s Upflow Velocity at 4.5 mg/L
 
 Figure 22: Flat bottom insert of the sedimentation tank.
 
-**Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water+flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour.
+**Results**: Due to the flat geometry of the new insert, flocs built up from the beginning of the experiment, allowing only a small jetstream of water and flocs to flow through the very center of the recirculator. During the first hour of experimentation, the floc buildup at the bottom was growing at a rate of 1/2" every 10 minutes all around in the 1" diameter sedimentation tank. There were no initial signs of floc blanket formation so the experiment was stopped after 1 hour.
 
 <p align = center>
   <a href="https://www.youtube.com/watch?v=ayDQifTPa88&feature=youtu.be">
@@ -444,7 +444,7 @@ Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
 [Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 17
-**Description**: The next 3 experiments were primarily run to observe whether or not flocs were building up at the top of the sedimentation tank insert. Effluent turbidity and floc blanket formation were not specifically sought after during these experiments. Before running Experiment 17, the funneled sedimentation tank insert from Experiment 16 was modified to have a larger 1/2" diameter 1 cm below the bottom of the funnel. Experiment 17 was run at an upflow velocity of 3 mm/s and system coagulant dosage of 4.5 mg/L.
+**Description**: The next 3 experiments were primarily run to observe whether or not flocs were building up at the top of the sedimentation tank insert. Low effluent turbidity and floc blanket formation were not specifically sought after during these experiments. Before running Experiment 17, the funneled sedimentation tank insert from Experiment 16 was modified so that the top 1 cm of the narrow channel was widened from 3/16" in diameter to 1/2" in diameter. Experiment 17 was run at an upflow velocity of 3 mm/s and system coagulant dosage of 4.5 mg/L.
 
 **Results**: At first, the modified sedimentation tank geometry seemed to work as the flocs that built up on the surrounding sloped ring fell into the larger hole. However, floc build-up started to be observed when the hole with a larger diameter was full of flocs. Instead of improving the performance from last experiment, Experiment 17 built up flocs at a faster rate - 4cm of flocs after only 45 minutes.
 
@@ -458,7 +458,7 @@ Figure 26. Effluent turbidity vs. Time with a 3 mm/s Upflow Velocity at 4.5 mg/L
   [Return to Summary of Experiments](#summary-of-experiments)
 
 #### Experiment 18
-**Description**: Realizing that the geometry from Experiment 17 did not fulfill the 10:1 jet expansion ratio, the 1/2" diameter hole was drilled almost to the bottom of the sedimentation tank insert, leaving only a couple centimeters of the 3/16" diameter hole. Experiment 18 was run at an upflow velocity of 3 mm/s with a coagulant dosage of 4.5 mg/L.
+**Description**: Next,the 1/2" diameter hole in the sedimentation tank insert from Experiment 17 was drilled almost to the bottom, leaving only a couple centimeters of the 3/16" diameter hole. Experiment 18 was run at an upflow velocity of 3 mm/s with a coagulant dosage of 4.5 mg/L.
 
 **Results**: Results from this experiment did not significantly differ from that of Experiment 17. Floc build-up was first seen 7 minutes after the start of the experiment.
 
@@ -733,7 +733,7 @@ def plot_columns(directory, extension, start_datetime, end_datetime, x_column, y
   plt.show()
 
 #example usage
-plot_columns('/Users/Me/Documents/Atom/high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-14-2018 12:20', '6-15-2018 10:50', 0, 4)
+plot_columns('/Users/user_name/.../high_rate_sedimentation/ProCoDA Data Files/','.xls', '6-14-2018 12:20', '6-15-2018 10:50', 0, 4)
 ```
 
 ### Other Insights
