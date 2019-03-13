@@ -1,6 +1,6 @@
 ## PAC Dosing
 
-**Attention: The calculation for coagulant pump speed (RPM) is outdated. Please see [HRS Calculations.md]() in the Calculations folder of our Github repository for a corrected calculation.** 
+**Attention: The calculation for coagulant pump speed (RPM) is outdated. Please see [Pump Speed and Stock Calculations.md](https://github.com/AguaClara/high_rate_sedimentation/blob/master/Calculations/Pump%20Speed%20and%20Stock%20Calculations.md) in the Calculations folder of our Github repository for a corrected calculation.** 
 
 ```python
 from aide_design.play import*
